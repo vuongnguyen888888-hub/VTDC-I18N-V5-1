@@ -1,0 +1,3135 @@
+/* AUTO-EXPORTED FROM LIVE VIDC FIGMA VARIABLES. Alias resolved for each mode.
+ * Figma variable IDs preserved in vidc.figma.raw.json.
+ * Check usage of unitless FLOAT tokens manually; original numeric values are preserved.
+ */
+:root, [data-theme="light"] {
+  /* Colors/Base/white */
+  --vidc-colors-base-white: #FFFFFF;
+  /* Colors/Base/black */
+  --vidc-colors-base-black: #000000;
+  /* Colors/Gray (light mode)/25 */
+  --vidc-colors-gray-light-mode-25: #F9FAFB;
+  /* Colors/Gray blue/25 */
+  --vidc-colors-gray-blue-25: #FCFCFD;
+  /* Colors/Gray cool/25 */
+  --vidc-colors-gray-cool-25: #FCFCFD;
+  /* Colors/Gray modern/25 */
+  --vidc-colors-gray-modern-25: #FCFCFD;
+  /* Colors/Gray neutral/25 */
+  --vidc-colors-gray-neutral-25: #FCFCFD;
+  /* Colors/Gray (light mode)/50 */
+  --vidc-colors-gray-light-mode-50: #F2F4F7;
+  /* Colors/Gray neutral/50 */
+  --vidc-colors-gray-neutral-50: #F9FAFB;
+  /* Colors/Gray (light mode)/100 */
+  --vidc-colors-gray-light-mode-100: #F2F4F7;
+  /* Colors/Gray (light mode)/200 */
+  --vidc-colors-gray-light-mode-200: #EAECF0;
+  /* Colors/Gray (light mode)/300 */
+  --vidc-colors-gray-light-mode-300: #D0D5DD;
+  /* Colors/Gray (light mode)/400 */
+  --vidc-colors-gray-light-mode-400: #98A2B3;
+  /* Colors/Gray (light mode)/500 */
+  --vidc-colors-gray-light-mode-500: #667085;
+  /* Colors/Gray (light mode)/600 */
+  --vidc-colors-gray-light-mode-600: #475467;
+  /* Colors/Gray (light mode)/700 */
+  --vidc-colors-gray-light-mode-700: #344054;
+  /* Colors/Gray (light mode)/800 */
+  --vidc-colors-gray-light-mode-800: #1D2939;
+  /* Colors/Gray (light mode)/900 */
+  --vidc-colors-gray-light-mode-900: #101828;
+  /* Colors/Gray (light mode)/950 */
+  --vidc-colors-gray-light-mode-950: #0B0E17;
+  /* Colors/Brand/25 */
+  --vidc-colors-brand-25: #FFF9FA;
+  /* Colors/Brand/50 */
+  --vidc-colors-brand-50: #FFF1F4;
+  /* Colors/Brand/100 */
+  --vidc-colors-brand-100: #FFE4EA;
+  /* Colors/Brand/200 */
+  --vidc-colors-brand-200: #FFC9D5;
+  /* Colors/Brand/300 */
+  --vidc-colors-brand-300: #FF9CB3;
+  /* Colors/Brand/400 */
+  --vidc-colors-brand-400: #FF6482;
+  /* Colors/Brand/500 */
+  --vidc-colors-brand-500: #EE0033;
+  /* Colors/Brand/600 */
+  --vidc-colors-brand-600: #D6002E;
+  /* Colors/Brand/700 */
+  --vidc-colors-brand-700: #BE0029;
+  /* Colors/Brand/800 */
+  --vidc-colors-brand-800: #A60023;
+  /* Colors/Brand/900 */
+  --vidc-colors-brand-900: #80001B;
+  /* Colors/Brand/950 */
+  --vidc-colors-brand-950: #500011;
+  /* Colors/Error/25 */
+  --vidc-colors-error-25: #FFFBFA;
+  /* Colors/Error/50 */
+  --vidc-colors-error-50: #FEF3F2;
+  /* Colors/Error/100 */
+  --vidc-colors-error-100: #FEE4E2;
+  /* Colors/Error/200 */
+  --vidc-colors-error-200: #FECDCA;
+  /* Colors/Error/300 */
+  --vidc-colors-error-300: #FDA29B;
+  /* Colors/Error/400 */
+  --vidc-colors-error-400: #F97066;
+  /* Colors/Error/500 */
+  --vidc-colors-error-500: #F04438;
+  /* Colors/Error/600 */
+  --vidc-colors-error-600: #D92D20;
+  /* Colors/Error/700 */
+  --vidc-colors-error-700: #B42318;
+  /* Colors/Error/800 */
+  --vidc-colors-error-800: #912018;
+  /* Colors/Error/900 */
+  --vidc-colors-error-900: #7A271A;
+  /* Colors/Error/950 */
+  --vidc-colors-error-950: #55160C;
+  /* Colors/Warning/25 */
+  --vidc-colors-warning-25: #FFFCF5;
+  /* Colors/Warning/50 */
+  --vidc-colors-warning-50: #FFFAEB;
+  /* Colors/Warning/100 */
+  --vidc-colors-warning-100: #FEF0C7;
+  /* Colors/Warning/200 */
+  --vidc-colors-warning-200: #FEDF89;
+  /* Colors/Warning/300 */
+  --vidc-colors-warning-300: #FEC84B;
+  /* Colors/Warning/400 */
+  --vidc-colors-warning-400: #FDB022;
+  /* Colors/Warning/500 */
+  --vidc-colors-warning-500: #F79009;
+  /* Colors/Warning/600 */
+  --vidc-colors-warning-600: #DC6803;
+  /* Colors/Warning/700 */
+  --vidc-colors-warning-700: #B54708;
+  /* Colors/Warning/800 */
+  --vidc-colors-warning-800: #93370D;
+  /* Colors/Warning/900 */
+  --vidc-colors-warning-900: #7A2E0E;
+  /* Colors/Warning/950 */
+  --vidc-colors-warning-950: #4E1D09;
+  /* Colors/Success/25 */
+  --vidc-colors-success-25: #F6FEF9;
+  /* Colors/Green/25 */
+  --vidc-colors-green-25: #F6FEF9;
+  /* Colors/Success/50 */
+  --vidc-colors-success-50: #ECFDF3;
+  /* Colors/Success/100 */
+  --vidc-colors-success-100: #DCFAE6;
+  /* Colors/Success/200 */
+  --vidc-colors-success-200: #ABEFC6;
+  /* Colors/Success/300 */
+  --vidc-colors-success-300: #75E0A7;
+  /* Colors/Success/400 */
+  --vidc-colors-success-400: #47CD89;
+  /* Colors/Success/500 */
+  --vidc-colors-success-500: #17B26A;
+  /* Colors/Success/600 */
+  --vidc-colors-success-600: #079455;
+  /* Colors/Success/700 */
+  --vidc-colors-success-700: #067647;
+  /* Colors/Success/800 */
+  --vidc-colors-success-800: #085D3A;
+  /* Colors/Success/900 */
+  --vidc-colors-success-900: #074D31;
+  /* Colors/Success/950 */
+  --vidc-colors-success-950: #053321;
+  /* Colors/Gray blue/50 */
+  --vidc-colors-gray-blue-50: #F8F9FC;
+  /* Colors/Gray blue/100 */
+  --vidc-colors-gray-blue-100: #EAECF5;
+  /* Colors/Gray blue/200 */
+  --vidc-colors-gray-blue-200: #D5D9EB;
+  /* Colors/Gray blue/300 */
+  --vidc-colors-gray-blue-300: #B3B8DB;
+  /* Colors/Gray blue/400 */
+  --vidc-colors-gray-blue-400: #717BBC;
+  /* Colors/Gray blue/500 */
+  --vidc-colors-gray-blue-500: #4E5BA6;
+  /* Colors/Gray blue/600 */
+  --vidc-colors-gray-blue-600: #3E4784;
+  /* Colors/Gray blue/700 */
+  --vidc-colors-gray-blue-700: #363F72;
+  /* Colors/Gray blue/800 */
+  --vidc-colors-gray-blue-800: #293056;
+  /* Colors/Gray blue/900 */
+  --vidc-colors-gray-blue-900: #101323;
+  /* Colors/Gray blue/950 */
+  --vidc-colors-gray-blue-950: #0D0F1C;
+  /* Colors/Gray cool/50 */
+  --vidc-colors-gray-cool-50: #F9F9FB;
+  /* Colors/Gray cool/100 */
+  --vidc-colors-gray-cool-100: #EFF1F5;
+  /* Colors/Gray cool/200 */
+  --vidc-colors-gray-cool-200: #DCDFEA;
+  /* Colors/Gray cool/300 */
+  --vidc-colors-gray-cool-300: #B9C0D4;
+  /* Colors/Gray cool/400 */
+  --vidc-colors-gray-cool-400: #7D89B0;
+  /* Colors/Gray cool/500 */
+  --vidc-colors-gray-cool-500: #5D6B98;
+  /* Colors/Gray cool/600 */
+  --vidc-colors-gray-cool-600: #4A5578;
+  /* Colors/Gray cool/700 */
+  --vidc-colors-gray-cool-700: #404968;
+  /* Colors/Gray cool/800 */
+  --vidc-colors-gray-cool-800: #30374F;
+  /* Colors/Gray cool/900 */
+  --vidc-colors-gray-cool-900: #111322;
+  /* Colors/Gray modern/50 */
+  --vidc-colors-gray-modern-50: #F8FAFC;
+  /* Colors/Gray modern/100 */
+  --vidc-colors-gray-modern-100: #EEF2F6;
+  /* Colors/Gray modern/200 */
+  --vidc-colors-gray-modern-200: #E3E8EF;
+  /* Colors/Gray modern/300 */
+  --vidc-colors-gray-modern-300: #CDD5DF;
+  /* Colors/Gray modern/400 */
+  --vidc-colors-gray-modern-400: #9AA4B2;
+  /* Colors/Gray modern/500 */
+  --vidc-colors-gray-modern-500: #697586;
+  /* Colors/Gray modern/600 */
+  --vidc-colors-gray-modern-600: #4B5565;
+  /* Colors/Gray modern/700 */
+  --vidc-colors-gray-modern-700: #364152;
+  /* Colors/Gray modern/800 */
+  --vidc-colors-gray-modern-800: #202939;
+  /* Colors/Gray modern/900 */
+  --vidc-colors-gray-modern-900: #121926;
+  /* Colors/Gray neutral/100 */
+  --vidc-colors-gray-neutral-100: #F3F4F6;
+  /* Colors/Gray neutral/200 */
+  --vidc-colors-gray-neutral-200: #E5E7EB;
+  /* Colors/Gray neutral/300 */
+  --vidc-colors-gray-neutral-300: #D2D6DB;
+  /* Colors/Gray neutral/400 */
+  --vidc-colors-gray-neutral-400: #9DA4AE;
+  /* Colors/Gray neutral/500 */
+  --vidc-colors-gray-neutral-500: #6C737F;
+  /* Colors/Gray neutral/600 */
+  --vidc-colors-gray-neutral-600: #4D5761;
+  /* Colors/Gray neutral/700 */
+  --vidc-colors-gray-neutral-700: #384250;
+  /* Colors/Gray neutral/800 */
+  --vidc-colors-gray-neutral-800: #1F2A37;
+  /* Colors/Gray neutral/900 */
+  --vidc-colors-gray-neutral-900: #111927;
+  /* Colors/Gray iron/25 */
+  --vidc-colors-gray-iron-25: #FCFCFC;
+  /* Colors/Gray true/25 */
+  --vidc-colors-gray-true-25: #FCFCFC;
+  /* Colors/Gray iron/50 */
+  --vidc-colors-gray-iron-50: #FAFAFA;
+  /* Colors/Gray true/50 */
+  --vidc-colors-gray-true-50: #F7F7F7;
+  /* Colors/Gray iron/100 */
+  --vidc-colors-gray-iron-100: #F4F4F5;
+  /* Colors/Gray iron/200 */
+  --vidc-colors-gray-iron-200: #E4E4E7;
+  /* Colors/Gray iron/300 */
+  --vidc-colors-gray-iron-300: #D1D1D6;
+  /* Colors/Gray iron/400 */
+  --vidc-colors-gray-iron-400: #A0A0AB;
+  /* Colors/Gray iron/500 */
+  --vidc-colors-gray-iron-500: #70707B;
+  /* Colors/Gray iron/600 */
+  --vidc-colors-gray-iron-600: #51525C;
+  /* Colors/Gray iron/700 */
+  --vidc-colors-gray-iron-700: #3F3F46;
+  /* Colors/Gray iron/800 */
+  --vidc-colors-gray-iron-800: #26272B;
+  /* Colors/Gray iron/900 */
+  --vidc-colors-gray-iron-900: #1A1A1E;
+  /* Colors/Gray true/100 */
+  --vidc-colors-gray-true-100: #F5F5F5;
+  /* Colors/Gray true/200 */
+  --vidc-colors-gray-true-200: #E5E5E5;
+  /* Colors/Gray true/300 */
+  --vidc-colors-gray-true-300: #D6D6D6;
+  /* Colors/Gray true/400 */
+  --vidc-colors-gray-true-400: #A3A3A3;
+  /* Colors/Gray true/500 */
+  --vidc-colors-gray-true-500: #737373;
+  /* Colors/Gray true/600 */
+  --vidc-colors-gray-true-600: #525252;
+  /* Colors/Gray true/700 */
+  --vidc-colors-gray-true-700: #424242;
+  /* Colors/Gray warm/25 */
+  --vidc-colors-gray-warm-25: #FDFDFC;
+  /* Colors/Gray warm/50 */
+  --vidc-colors-gray-warm-50: #FAFAF9;
+  /* Colors/Gray warm/100 */
+  --vidc-colors-gray-warm-100: #F5F5F4;
+  /* Colors/Gray warm/200 */
+  --vidc-colors-gray-warm-200: #E7E5E4;
+  /* Colors/Gray warm/300 */
+  --vidc-colors-gray-warm-300: #D7D3D0;
+  /* Colors/Gray warm/400 */
+  --vidc-colors-gray-warm-400: #A9A29D;
+  /* Colors/Gray warm/500 */
+  --vidc-colors-gray-warm-500: #79716B;
+  /* Colors/Gray warm/600 */
+  --vidc-colors-gray-warm-600: #57534E;
+  /* Colors/Gray warm/700 */
+  --vidc-colors-gray-warm-700: #44403C;
+  /* Colors/Gray warm/800 */
+  --vidc-colors-gray-warm-800: #292524;
+  /* Colors/Gray warm/900 */
+  --vidc-colors-gray-warm-900: #1C1917;
+  /* Colors/Gray warm/950 */
+  --vidc-colors-gray-warm-950: #171412;
+  /* Colors/Moss/25 */
+  --vidc-colors-moss-25: #FAFDF7;
+  /* Colors/Moss/50 */
+  --vidc-colors-moss-50: #F5FBEE;
+  /* Colors/Moss/100 */
+  --vidc-colors-moss-100: #E6F4D7;
+  /* Colors/Moss/200 */
+  --vidc-colors-moss-200: #CEEAB0;
+  /* Colors/Moss/300 */
+  --vidc-colors-moss-300: #ACDC79;
+  /* Colors/Moss/400 */
+  --vidc-colors-moss-400: #86CB3C;
+  /* Colors/Moss/500 */
+  --vidc-colors-moss-500: #669F2A;
+  /* Colors/Moss/600 */
+  --vidc-colors-moss-600: #4F7A21;
+  /* Colors/Moss/700 */
+  --vidc-colors-moss-700: #3F621A;
+  /* Colors/Moss/800 */
+  --vidc-colors-moss-800: #335015;
+  /* Colors/Moss/900 */
+  --vidc-colors-moss-900: #2B4212;
+  /* Colors/Green light/25 */
+  --vidc-colors-green-light-25: #FAFEF5;
+  /* Colors/Green light/50 */
+  --vidc-colors-green-light-50: #F3FEE7;
+  /* Colors/Green light/100 */
+  --vidc-colors-green-light-100: #E3FBCC;
+  /* Colors/Green light/200 */
+  --vidc-colors-green-light-200: #D0F8AB;
+  /* Colors/Green light/300 */
+  --vidc-colors-green-light-300: #A6EF67;
+  /* Colors/Green light/400 */
+  --vidc-colors-green-light-400: #85E13A;
+  /* Colors/Green light/500 */
+  --vidc-colors-green-light-500: #66C61C;
+  /* Colors/Green light/600 */
+  --vidc-colors-green-light-600: #4CA30D;
+  /* Colors/Green light/700 */
+  --vidc-colors-green-light-700: #3B7C0F;
+  /* Colors/Green light/800 */
+  --vidc-colors-green-light-800: #326212;
+  /* Colors/Green light/900 */
+  --vidc-colors-green-light-900: #2B5314;
+  /* Colors/Green/50 */
+  --vidc-colors-green-50: #EDFCF2;
+  /* Colors/Green/100 */
+  --vidc-colors-green-100: #D3F8DF;
+  /* Colors/Green/200 */
+  --vidc-colors-green-200: #AAF0C4;
+  /* Colors/Green/300 */
+  --vidc-colors-green-300: #73E2A3;
+  /* Colors/Green/400 */
+  --vidc-colors-green-400: #3CCB7F;
+  /* Colors/Green/500 */
+  --vidc-colors-green-500: #16B364;
+  /* Colors/Green/600 */
+  --vidc-colors-green-600: #099250;
+  /* Colors/Green/700 */
+  --vidc-colors-green-700: #087443;
+  /* Colors/Green/800 */
+  --vidc-colors-green-800: #095C37;
+  /* Colors/Green/900 */
+  --vidc-colors-green-900: #084C2E;
+  /* Colors/Teal/50 */
+  --vidc-colors-teal-50: #F0FDF9;
+  /* Colors/Teal/100 */
+  --vidc-colors-teal-100: #CCFBEF;
+  /* Colors/Teal/200 */
+  --vidc-colors-teal-200: #99F6E0;
+  /* Colors/Teal/300 */
+  --vidc-colors-teal-300: #5FE9D0;
+  /* Colors/Teal/400 */
+  --vidc-colors-teal-400: #2ED3B7;
+  /* Colors/Teal/500 */
+  --vidc-colors-teal-500: #15B79E;
+  /* Colors/Teal/600 */
+  --vidc-colors-teal-600: #0E9384;
+  /* Colors/Teal/700 */
+  --vidc-colors-teal-700: #107569;
+  /* Colors/Teal/800 */
+  --vidc-colors-teal-800: #125D56;
+  /* Colors/Teal/900 */
+  --vidc-colors-teal-900: #134E48;
+  /* Colors/Cyan/50 */
+  --vidc-colors-cyan-50: #ECFDFF;
+  /* Colors/Cyan/100 */
+  --vidc-colors-cyan-100: #CFF9FE;
+  /* Colors/Cyan/200 */
+  --vidc-colors-cyan-200: #A5F0FC;
+  /* Colors/Cyan/300 */
+  --vidc-colors-cyan-300: #67E3F9;
+  /* Colors/Cyan/400 */
+  --vidc-colors-cyan-400: #22CCEE;
+  /* Colors/Cyan/500 */
+  --vidc-colors-cyan-500: #06AED4;
+  /* Colors/Cyan/600 */
+  --vidc-colors-cyan-600: #088AB2;
+  /* Colors/Cyan/700 */
+  --vidc-colors-cyan-700: #0E7090;
+  /* Colors/Cyan/800 */
+  --vidc-colors-cyan-800: #155B75;
+  /* Colors/Cyan/900 */
+  --vidc-colors-cyan-900: #164C63;
+  /* Colors/Cyan/950 */
+  --vidc-colors-cyan-950: #0D2D3A;
+  /* Colors/Blue light/25 */
+  --vidc-colors-blue-light-25: #F5FBFF;
+  /* Colors/Blue light/50 */
+  --vidc-colors-blue-light-50: #F0F9FF;
+  /* Colors/Blue light/100 */
+  --vidc-colors-blue-light-100: #E0F2FE;
+  /* Colors/Blue light/200 */
+  --vidc-colors-blue-light-200: #B9E6FE;
+  /* Colors/Blue light/300 */
+  --vidc-colors-blue-light-300: #7CD4FD;
+  /* Colors/Blue light/400 */
+  --vidc-colors-blue-light-400: #36BFFA;
+  /* Colors/Blue light/500 */
+  --vidc-colors-blue-light-500: #0BA5EC;
+  /* Colors/Blue light/600 */
+  --vidc-colors-blue-light-600: #0086C9;
+  /* Colors/Blue light/700 */
+  --vidc-colors-blue-light-700: #026AA2;
+  /* Colors/Blue light/800 */
+  --vidc-colors-blue-light-800: #065986;
+  /* Colors/Blue light/900 */
+  --vidc-colors-blue-light-900: #0B4A6F;
+  /* Colors/Blue light/950 */
+  --vidc-colors-blue-light-950: #062C41;
+  /* Colors/Blue/25 */
+  --vidc-colors-blue-25: #F5FAFF;
+  /* Colors/Blue/50 */
+  --vidc-colors-blue-50: #EFF8FF;
+  /* Colors/Blue/100 */
+  --vidc-colors-blue-100: #D1E9FF;
+  /* Colors/Blue/200 */
+  --vidc-colors-blue-200: #B2DDFF;
+  /* Colors/Blue/300 */
+  --vidc-colors-blue-300: #84CAFF;
+  /* Colors/Blue/400 */
+  --vidc-colors-blue-400: #53B1FD;
+  /* Colors/Blue/500 */
+  --vidc-colors-blue-500: #2E90FA;
+  /* Colors/Blue/600 */
+  --vidc-colors-blue-600: #1570EF;
+  /* Colors/Blue/700 */
+  --vidc-colors-blue-700: #175CD3;
+  /* Colors/Blue/800 */
+  --vidc-colors-blue-800: #1849A9;
+  /* Colors/Blue/900 */
+  --vidc-colors-blue-900: #194185;
+  /* Colors/Blue/950 */
+  --vidc-colors-blue-950: #102A56;
+  /* Colors/Blue dark/25 */
+  --vidc-colors-blue-dark-25: #F5F8FF;
+  /* Colors/Indigo/25 */
+  --vidc-colors-indigo-25: #F5F8FF;
+  /* Colors/Blue dark/50 */
+  --vidc-colors-blue-dark-50: #EFF4FF;
+  /* Colors/Blue dark/100 */
+  --vidc-colors-blue-dark-100: #D1E0FF;
+  /* Colors/Blue dark/200 */
+  --vidc-colors-blue-dark-200: #B2CCFF;
+  /* Colors/Blue dark/300 */
+  --vidc-colors-blue-dark-300: #84ADFF;
+  /* Colors/Blue dark/400 */
+  --vidc-colors-blue-dark-400: #528BFF;
+  /* Colors/Blue dark/500 */
+  --vidc-colors-blue-dark-500: #2970FF;
+  /* Colors/Blue dark/600 */
+  --vidc-colors-blue-dark-600: #155EEF;
+  /* Colors/Blue dark/700 */
+  --vidc-colors-blue-dark-700: #004EEB;
+  /* Colors/Blue dark/800 */
+  --vidc-colors-blue-dark-800: #0040C1;
+  /* Colors/Blue dark/900 */
+  --vidc-colors-blue-dark-900: #00359E;
+  /* Colors/Indigo/50 */
+  --vidc-colors-indigo-50: #EEF4FF;
+  /* Colors/Indigo/100 */
+  --vidc-colors-indigo-100: #E0EAFF;
+  /* Colors/Indigo/200 */
+  --vidc-colors-indigo-200: #C7D7FE;
+  /* Colors/Indigo/300 */
+  --vidc-colors-indigo-300: #A4BCFD;
+  /* Colors/Indigo/400 */
+  --vidc-colors-indigo-400: #8098F9;
+  /* Colors/Indigo/500 */
+  --vidc-colors-indigo-500: #6172F3;
+  /* Colors/Indigo/600 */
+  --vidc-colors-indigo-600: #444CE7;
+  /* Colors/Indigo/700 */
+  --vidc-colors-indigo-700: #3538CD;
+  /* Colors/Indigo/800 */
+  --vidc-colors-indigo-800: #2D31A6;
+  /* Colors/Indigo/900 */
+  --vidc-colors-indigo-900: #2D3282;
+  /* Colors/Indigo/950 */
+  --vidc-colors-indigo-950: #1F235B;
+  /* Colors/Violet/25 */
+  --vidc-colors-violet-25: #FBFAFF;
+  /* Colors/Violet/50 */
+  --vidc-colors-violet-50: #F5F3FF;
+  /* Colors/Violet/100 */
+  --vidc-colors-violet-100: #ECE9FE;
+  /* Colors/Violet/200 */
+  --vidc-colors-violet-200: #DDD6FE;
+  /* Colors/Violet/300 */
+  --vidc-colors-violet-300: #C3B5FD;
+  /* Colors/Violet/400 */
+  --vidc-colors-violet-400: #A48AFB;
+  /* Colors/Violet/500 */
+  --vidc-colors-violet-500: #875BF7;
+  /* Colors/Violet/600 */
+  --vidc-colors-violet-600: #7839EE;
+  /* Colors/Violet/700 */
+  --vidc-colors-violet-700: #6927DA;
+  /* Colors/Violet/800 */
+  --vidc-colors-violet-800: #5720B7;
+  /* Colors/Violet/900 */
+  --vidc-colors-violet-900: #491C96;
+  /* Colors/Purple/25 */
+  --vidc-colors-purple-25: #FAFAFF;
+  /* Colors/Purple/50 */
+  --vidc-colors-purple-50: #F4F3FF;
+  /* Colors/Purple/100 */
+  --vidc-colors-purple-100: #EBE9FE;
+  /* Colors/Purple/200 */
+  --vidc-colors-purple-200: #D9D6FE;
+  /* Colors/Purple/300 */
+  --vidc-colors-purple-300: #BDB4FE;
+  /* Colors/Purple/400 */
+  --vidc-colors-purple-400: #9B8AFB;
+  /* Colors/Purple/500 */
+  --vidc-colors-purple-500: #7A5AF8;
+  /* Colors/Purple/600 */
+  --vidc-colors-purple-600: #6938EF;
+  /* Colors/Purple/700 */
+  --vidc-colors-purple-700: #5925DC;
+  /* Colors/Purple/800 */
+  --vidc-colors-purple-800: #4A1FB8;
+  /* Colors/Purple/900 */
+  --vidc-colors-purple-900: #3E1C96;
+  /* Colors/Purple/950 */
+  --vidc-colors-purple-950: #27115F;
+  /* Colors/Fuchsia/25 */
+  --vidc-colors-fuchsia-25: #FEFAFF;
+  /* Colors/Fuchsia/50 */
+  --vidc-colors-fuchsia-50: #FDF4FF;
+  /* Colors/Fuchsia/100 */
+  --vidc-colors-fuchsia-100: #FBE8FF;
+  /* Colors/Fuchsia/200 */
+  --vidc-colors-fuchsia-200: #F6D0FE;
+  /* Colors/Fuchsia/300 */
+  --vidc-colors-fuchsia-300: #EEAAFD;
+  /* Colors/Fuchsia/400 */
+  --vidc-colors-fuchsia-400: #E478FA;
+  /* Colors/Fuchsia/500 */
+  --vidc-colors-fuchsia-500: #D444F1;
+  /* Colors/Fuchsia/600 */
+  --vidc-colors-fuchsia-600: #BA24D5;
+  /* Colors/Fuchsia/700 */
+  --vidc-colors-fuchsia-700: #9F1AB1;
+  /* Colors/Fuchsia/800 */
+  --vidc-colors-fuchsia-800: #821890;
+  /* Colors/Fuchsia/900 */
+  --vidc-colors-fuchsia-900: #6F1877;
+  /* Colors/Pink/25 */
+  --vidc-colors-pink-25: #FEF6FB;
+  /* Colors/Pink/50 */
+  --vidc-colors-pink-50: #FDF2FA;
+  /* Colors/Pink/100 */
+  --vidc-colors-pink-100: #FCE7F6;
+  /* Colors/Pink/200 */
+  --vidc-colors-pink-200: #FCCEEE;
+  /* Colors/Pink/300 */
+  --vidc-colors-pink-300: #FAA7E0;
+  /* Colors/Pink/400 */
+  --vidc-colors-pink-400: #F670C7;
+  /* Colors/Pink/500 */
+  --vidc-colors-pink-500: #EE46BC;
+  /* Colors/Pink/600 */
+  --vidc-colors-pink-600: #DD2590;
+  /* Colors/Pink/700 */
+  --vidc-colors-pink-700: #C11574;
+  /* Colors/Pink/800 */
+  --vidc-colors-pink-800: #9E165F;
+  /* Colors/Pink/900 */
+  --vidc-colors-pink-900: #851651;
+  /* Colors/Pink/950 */
+  --vidc-colors-pink-950: #4E0D30;
+  /* Colors/Rosé/25 */
+  --vidc-colors-rose-25: #FFF5F6;
+  /* Colors/Rosé/50 */
+  --vidc-colors-rose-50: #FFF1F3;
+  /* Colors/Rosé/100 */
+  --vidc-colors-rose-100: #FFE4E8;
+  /* Colors/Rosé/200 */
+  --vidc-colors-rose-200: #FECDD6;
+  /* Colors/Rosé/300 */
+  --vidc-colors-rose-300: #FEA3B4;
+  /* Colors/Rosé/400 */
+  --vidc-colors-rose-400: #FD6F8E;
+  /* Colors/Rosé/500 */
+  --vidc-colors-rose-500: #F63D68;
+  /* Colors/Rosé/600 */
+  --vidc-colors-rose-600: #E31B54;
+  /* Colors/Rosé/700 */
+  --vidc-colors-rose-700: #C01048;
+  /* Colors/Rosé/800 */
+  --vidc-colors-rose-800: #A11043;
+  /* Colors/Rosé/900 */
+  --vidc-colors-rose-900: #89123E;
+  /* Colors/Rosé/950 */
+  --vidc-colors-rose-950: #510B24;
+  /* Colors/Orange dark/25 */
+  --vidc-colors-orange-dark-25: #FFF9F5;
+  /* Colors/Orange dark/50 */
+  --vidc-colors-orange-dark-50: #FFF4ED;
+  /* Colors/Orange dark/100 */
+  --vidc-colors-orange-dark-100: #FFE6D5;
+  /* Colors/Orange dark/200 */
+  --vidc-colors-orange-dark-200: #FFD6AE;
+  /* Colors/Orange dark/300 */
+  --vidc-colors-orange-dark-300: #FF9C66;
+  /* Colors/Orange dark/400 */
+  --vidc-colors-orange-dark-400: #FF692E;
+  /* Colors/Orange dark/500 */
+  --vidc-colors-orange-dark-500: #FF4405;
+  /* Colors/Orange dark/600 */
+  --vidc-colors-orange-dark-600: #E62E05;
+  /* Colors/Orange dark/700 */
+  --vidc-colors-orange-dark-700: #BC1B06;
+  /* Colors/Orange dark/800 */
+  --vidc-colors-orange-dark-800: #97180C;
+  /* Colors/Orange dark/900 */
+  --vidc-colors-orange-dark-900: #771A0D;
+  /* Colors/Orange dark/950 */
+  --vidc-colors-orange-dark-950: #57130A;
+  /* Colors/Orange/25 */
+  --vidc-colors-orange-25: #FEFAF5;
+  /* Colors/Orange/50 */
+  --vidc-colors-orange-50: #FEF6EE;
+  /* Colors/Orange/100 */
+  --vidc-colors-orange-100: #FDEAD7;
+  /* Colors/Orange/200 */
+  --vidc-colors-orange-200: #F9DBAF;
+  /* Colors/Orange/300 */
+  --vidc-colors-orange-300: #F7B27A;
+  /* Colors/Orange/400 */
+  --vidc-colors-orange-400: #F38744;
+  /* Colors/Orange/500 */
+  --vidc-colors-orange-500: #EF6820;
+  /* Colors/Orange/600 */
+  --vidc-colors-orange-600: #E04F16;
+  /* Colors/Orange/700 */
+  --vidc-colors-orange-700: #B93815;
+  /* Colors/Orange/800 */
+  --vidc-colors-orange-800: #932F19;
+  /* Colors/Orange/900 */
+  --vidc-colors-orange-900: #772917;
+  /* Colors/Orange/950 */
+  --vidc-colors-orange-950: #511C10;
+  /* Colors/Yellow/25 */
+  --vidc-colors-yellow-25: #FEFDF0;
+  /* Colors/Yellow/50 */
+  --vidc-colors-yellow-50: #FEFBE8;
+  /* Colors/Yellow/100 */
+  --vidc-colors-yellow-100: #FEF7C3;
+  /* Colors/Yellow/400 */
+  --vidc-colors-yellow-400: #FAC515;
+  /* Colors/Yellow/500 */
+  --vidc-colors-yellow-500: #EAAA08;
+  /* Colors/Yellow/600 */
+  --vidc-colors-yellow-600: #CA8504;
+  /* Colors/Yellow/700 */
+  --vidc-colors-yellow-700: #A15C07;
+  /* Colors/Yellow/800 */
+  --vidc-colors-yellow-800: #854A0E;
+  /* Colors/Yellow/900 */
+  --vidc-colors-yellow-900: #713B12;
+  /* Colors/Gray cool/950 */
+  --vidc-colors-gray-cool-950: #0E101B;
+  /* Colors/Gray modern/950 */
+  --vidc-colors-gray-modern-950: #0D121C;
+  /* Colors/Gray neutral/950 */
+  --vidc-colors-gray-neutral-950: #0D121C;
+  /* Colors/Gray iron/950 */
+  --vidc-colors-gray-iron-950: #131316;
+  /* Colors/Gray true/800 */
+  --vidc-colors-gray-true-800: #292929;
+  /* Colors/Gray true/900 */
+  --vidc-colors-gray-true-900: #141414;
+  /* Colors/Gray true/950 */
+  --vidc-colors-gray-true-950: #0F0F0F;
+  /* Colors/Moss/950 */
+  --vidc-colors-moss-950: #1A280B;
+  /* Colors/Green light/950 */
+  --vidc-colors-green-light-950: #15290A;
+  /* Colors/Green/950 */
+  --vidc-colors-green-950: #052E1C;
+  /* Colors/Teal/25 */
+  --vidc-colors-teal-25: #F6FEFC;
+  /* Colors/Teal/950 */
+  --vidc-colors-teal-950: #0A2926;
+  /* Colors/Cyan/25 */
+  --vidc-colors-cyan-25: #F5FEFF;
+  /* Colors/Blue dark/950 */
+  --vidc-colors-blue-dark-950: #002266;
+  /* Colors/Violet/950 */
+  --vidc-colors-violet-950: #2E125E;
+  /* Colors/Fuchsia/950 */
+  --vidc-colors-fuchsia-950: #47104C;
+  /* Colors/Yellow/950 */
+  --vidc-colors-yellow-950: #542C0D;
+  /* Colors/Yellow/200 */
+  --vidc-colors-yellow-200: #FEEE95;
+  /* Colors/Yellow/300 */
+  --vidc-colors-yellow-300: #FDE272;
+  /* Spacing/0 (0px) */
+  --vidc-spacing-0-0px: 0px;
+  /* Spacing/0․5 (2px) */
+  --vidc-spacing-0-5-2px: 2px;
+  /* Spacing/1 (4px) */
+  --vidc-spacing-1-4px: 4px;
+  /* Spacing/2 (8px) */
+  --vidc-spacing-2-8px: 8px;
+  /* Spacing/3 (12px) */
+  --vidc-spacing-3-12px: 12px;
+  /* Spacing/4 (16px) */
+  --vidc-spacing-4-16px: 16px;
+  /* Spacing/5 (20px) */
+  --vidc-spacing-5-20px: 20px;
+  /* Spacing/6 (24px) */
+  --vidc-spacing-6-24px: 24px;
+  /* Spacing/8 (32px) */
+  --vidc-spacing-8-32px: 32px;
+  /* Spacing/10 (40px) */
+  --vidc-spacing-10-40px: 40px;
+  /* Spacing/12 (48px) */
+  --vidc-spacing-12-48px: 48px;
+  /* Spacing/16 (64px) */
+  --vidc-spacing-16-64px: 64px;
+  /* Spacing/20 (80px) */
+  --vidc-spacing-20-80px: 80px;
+  /* Spacing/24 (96px) */
+  --vidc-spacing-24-96px: 96px;
+  /* Spacing/32 (128px) */
+  --vidc-spacing-32-128px: 128px;
+  /* Spacing/40 (160px) */
+  --vidc-spacing-40-160px: 160px;
+  /* Spacing/48 (192px) */
+  --vidc-spacing-48-192px: 192px;
+  /* Spacing/56 (224px) */
+  --vidc-spacing-56-224px: 224px;
+  /* Spacing/64 (256px) */
+  --vidc-spacing-64-256px: 256px;
+  /* Spacing/96 (384px) */
+  --vidc-spacing-96-384px: 384px;
+  /* Spacing/80 (320px) */
+  --vidc-spacing-80-320px: 320px;
+  /* Spacing/120 (480px) */
+  --vidc-spacing-120-480px: 480px;
+  /* Spacing/160 (640px) */
+  --vidc-spacing-160-640px: 640px;
+  /* Spacing/192 (768px) */
+  --vidc-spacing-192-768px: 768px;
+  /* Spacing/256 (1,024px) */
+  --vidc-spacing-256-1-024px: 1024px;
+  /* Spacing/320 (1,280px) */
+  --vidc-spacing-320-1-280px: 1280px;
+  /* Spacing/360 (1,440px) */
+  --vidc-spacing-360-1-440px: 1440px;
+  /* Spacing/400 (1,600px) */
+  --vidc-spacing-400-1-600px: 1600px;
+  /* Spacing/480 (1,920px) */
+  --vidc-spacing-480-1-920px: 1920px;
+  /* Spacing/1․5 (6px) */
+  --vidc-spacing-1-5-6px: 6px;
+  /* Colors/Text/text-primary (900) */
+  --vidc-colors-text-text-primary-900: #101828;
+  /* Colors/Text/text-tertiary (600) */
+  --vidc-colors-text-text-tertiary-600: #667085;
+  /* Colors/Border/border-secondary */
+  --vidc-colors-border-border-secondary: #D0D5DD;
+  /* Colors/Text/text-error-primary (600) */
+  --vidc-colors-text-text-error-primary-600: #D92D20;
+  /* Colors/Border/border-error_subtle */
+  --vidc-colors-border-border-error-subtle: #FDA29B;
+  /* Colors/Background/bg-primary */
+  --vidc-colors-background-bg-primary: #FFFFFF;
+  /* Colors/Background/bg-tertiary */
+  --vidc-colors-background-bg-tertiary: #F2F4F7;
+  /* Colors/Foreground/fg-secondary (700) */
+  --vidc-colors-foreground-fg-secondary-700: #344054;
+  /* Colors/Background/bg-brand-primary */
+  --vidc-colors-background-bg-brand-primary: #FFF1F4;
+  /* Colors/Background/bg-error-secondary */
+  --vidc-colors-background-bg-error-secondary: #FEE4E2;
+  /* Colors/Background/bg-warning-primary */
+  --vidc-colors-background-bg-warning-primary: #FFFAEB;
+  /* Colors/Background/bg-warning-secondary */
+  --vidc-colors-background-bg-warning-secondary: #FEF0C7;
+  /* Colors/Background/bg-success-primary */
+  --vidc-colors-background-bg-success-primary: #ECFDF3;
+  /* Colors/Background/bg-success-secondary */
+  --vidc-colors-background-bg-success-secondary: #DCFAE6;
+  /* Colors/Foreground/fg-warning-primary */
+  --vidc-colors-foreground-fg-warning-primary: #DC6803;
+  /* Colors/Foreground/fg-success-primary */
+  --vidc-colors-foreground-fg-success-primary: #079455;
+  /* Colors/Border/border-primary */
+  --vidc-colors-border-border-primary: #EAECF0;
+  /* Colors/Text/text-warning-primary (600) */
+  --vidc-colors-text-text-warning-primary-600: #DC6803;
+  /* Colors/Text/text-success-primary (600) */
+  --vidc-colors-text-text-success-primary-600: #079455;
+  /* Colors/Foreground/fg-white */
+  --vidc-colors-foreground-fg-white: #FFFFFF;
+  /* Colors/Text/text-white */
+  --vidc-colors-text-text-white: #FFFFFF;
+  /* Colors/Background/bg-brand-solid */
+  --vidc-colors-background-bg-brand-solid: #EE0033;
+  /* Colors/Background/bg-secondary-solid */
+  --vidc-colors-background-bg-secondary-solid: #475467;
+  /* Colors/Background/bg-error-solid */
+  --vidc-colors-background-bg-error-solid: #D92D20;
+  /* Colors/Background/bg-warning-solid */
+  --vidc-colors-background-bg-warning-solid: #DC6803;
+  /* Colors/Background/bg-success-solid */
+  --vidc-colors-background-bg-success-solid: #079455;
+  /* Colors/Foreground/fg-success-secondary */
+  --vidc-colors-foreground-fg-success-secondary: #17B26A;
+  /* Colors/Text/text-secondary (700) */
+  --vidc-colors-text-text-secondary-700: #344054;
+  /* Colors/Background/bg-secondary_hover */
+  --vidc-colors-background-bg-secondary-hover: #F2F4F7;
+  /* Colors/Foreground/fg-secondary_hover */
+  --vidc-colors-foreground-fg-secondary-hover: #1D2939;
+  /* Colors/Background/bg-primary_hover */
+  --vidc-colors-background-bg-primary-hover: #F2F4F7;
+  /* Colors/Background/bg-disabled */
+  --vidc-colors-background-bg-disabled: #F2F4F7;
+  /* Colors/Foreground/fg-primary (900) */
+  --vidc-colors-foreground-fg-primary-900: #101828;
+  /* Colors/Foreground/fg-disabled */
+  --vidc-colors-foreground-fg-disabled: #98A2B3;
+  /* Colors/Text/text-disabled */
+  --vidc-colors-text-text-disabled: #667085;
+  /* Colors/Text/text-secondary_hover */
+  --vidc-colors-text-text-secondary-hover: #1D2939;
+  /* Colors/Text/text-tertiary_hover */
+  --vidc-colors-text-text-tertiary-hover: #344054;
+  /* Colors/Base/transparent */
+  --vidc-colors-base-transparent: #FFFFFF00;
+  /* Colors/Background/bg-active */
+  --vidc-colors-background-bg-active: #F2F4F7;
+  /* Colors/Background/bg-brand-solid_hover */
+  --vidc-colors-background-bg-brand-solid-hover: #D6002E;
+  /* Colors/Border/border-brand */
+  --vidc-colors-border-border-brand: #C5002A;
+  /* Colors/Border/border-disabled */
+  --vidc-colors-border-border-disabled: #D0D5DD;
+  /* Colors/Border/border-error */
+  --vidc-colors-border-border-error: #F04438;
+  /* Colors/Background/bg-error-primary */
+  --vidc-colors-background-bg-error-primary: #FEF3F2;
+  /* Colors/Foreground/fg-quaternary (500) */
+  --vidc-colors-foreground-fg-quaternary-500: #667085;
+  /* Colors/Foreground/fg-quaternary_hover */
+  --vidc-colors-foreground-fg-quaternary-hover: #475467;
+  /* Colors/Foreground/fg-brand-secondary (500) */
+  --vidc-colors-foreground-fg-brand-secondary-500: #C5002A;
+  /* Colors/Background/bg-brand-secondary */
+  --vidc-colors-background-bg-brand-secondary: #FFF1F4;
+  /* Colors/Foreground/fg-brand-primary (600) */
+  --vidc-colors-foreground-fg-brand-primary-600: #C5002A;
+  /* Colors/Foreground/fg-quinary (400) */
+  --vidc-colors-foreground-fg-quinary-400: #98A2B3;
+  /* Colors/Foreground/fg-quinary_hover */
+  --vidc-colors-foreground-fg-quinary-hover: #667085;
+  /* Colors/Foreground/fg-error-primary */
+  --vidc-colors-foreground-fg-error-primary: #D92D20;
+  /* Colors/Background/bg-secondary */
+  --vidc-colors-background-bg-secondary: #F9FAFB;
+  /* Colors/Background/bg-disabled_subtle */
+  --vidc-colors-background-bg-disabled-subtle: #F2F4F7;
+  /* Colors/Text/text-brand-secondary (700) */
+  --vidc-colors-text-text-brand-secondary-700: #C5002A;
+  /* Component colors/Utility/Blue/utility-blue-600 */
+  --vidc-component-colors-utility-blue-utility-blue-600: #1570EF;
+  /* Component colors/Components/Tooltips/tooltip-supporting-text */
+  --vidc-component-colors-components-tooltips-tooltip-supporting-text: #D0D5DD;
+  /* Colors/Background/bg-quaternary */
+  --vidc-colors-background-bg-quaternary: #EAECF0;
+  /* Component colors/Components/Buttons/Primary/button-primary-bg */
+  --vidc-component-colors-components-buttons-primary-button-primary-bg: #EE0033;
+  /* Component colors/Components/Buttons/Primary/button-primary-bg_hover */
+  --vidc-component-colors-components-buttons-primary-button-primary-bg-hover: #D6002E;
+  /* Component colors/Components/Buttons/Secondary/button-secondary-bg */
+  --vidc-component-colors-components-buttons-secondary-button-secondary-bg: #FFFFFF;
+  /* Component colors/Components/Buttons/Secondary/button-secondary-bg_hover */
+  --vidc-component-colors-components-buttons-secondary-button-secondary-bg-hover: #F2F4F7;
+  /* Component colors/Components/Buttons/Secondary color/button-secondary-color-bg */
+  --vidc-component-colors-components-buttons-secondary-color-button-secondary-color-bg: #FFFFFF;
+  /* Component colors/Components/Buttons/Secondary color/button-secondary-color-bg_hover */
+  --vidc-component-colors-components-buttons-secondary-color-button-secondary-color-bg-hover: #FFF1F4;
+  /* Component colors/Components/Buttons/Primary/button-primary-fg */
+  --vidc-component-colors-components-buttons-primary-button-primary-fg: #FFFFFF;
+  /* Component colors/Components/Buttons/Secondary color/button-secondary-color-border_hover */
+  --vidc-component-colors-components-buttons-secondary-color-button-secondary-color-border-hover: #FF9CB3;
+  /* Component colors/Components/Buttons/Secondary color/button-secondary-color-border */
+  --vidc-component-colors-components-buttons-secondary-color-button-secondary-color-border: #FF9CB3;
+  /* Component colors/Components/Buttons/Secondary/button-secondary-fg */
+  --vidc-component-colors-components-buttons-secondary-button-secondary-fg: #344054;
+  /* Component colors/Components/Buttons/Secondary/button-secondary-fg_hover */
+  --vidc-component-colors-components-buttons-secondary-button-secondary-fg-hover: #1D2939;
+  /* Component colors/Components/Buttons/Secondary color/button-secondary-color-fg */
+  --vidc-component-colors-components-buttons-secondary-color-button-secondary-color-fg: #BE0029;
+  /* Component colors/Components/Buttons/Secondary color/button-secondary-color-fg_hover */
+  --vidc-component-colors-components-buttons-secondary-color-button-secondary-color-fg-hover: #A60023;
+  /* Component colors/Components/Buttons/Secondary/button-secondary-border */
+  --vidc-component-colors-components-buttons-secondary-button-secondary-border: #D0D5DD;
+  /* Component colors/Components/Buttons/Secondary/button-secondary-border_hover */
+  --vidc-component-colors-components-buttons-secondary-button-secondary-border-hover: #D0D5DD;
+  /* Component colors/Components/Buttons/Primary/button-primary-fg_hover */
+  --vidc-component-colors-components-buttons-primary-button-primary-fg-hover: #FFFFFF;
+  /* Colors/Foreground/fg-disabled_subtle */
+  --vidc-colors-foreground-fg-disabled-subtle: #D0D5DD;
+  /* Component colors/Utility/Brand/utility-brand-600 */
+  --vidc-component-colors-utility-brand-utility-brand-600: #D6002E;
+  /* Component colors/Utility/Gray/utility-gray-700 */
+  --vidc-component-colors-utility-gray-utility-gray-700: #344054;
+  /* Component colors/Utility/Error/utility-error-600 */
+  --vidc-component-colors-utility-error-utility-error-600: #D92D20;
+  /* Component colors/Utility/Warning/utility-warning-600 */
+  --vidc-component-colors-utility-warning-utility-warning-600: #DC6803;
+  /* Component colors/Utility/Success/utility-success-600 */
+  --vidc-component-colors-utility-success-utility-success-600: #079455;
+  /* Component colors/Utility/Orange/utility-orange-600 */
+  --vidc-component-colors-utility-orange-utility-orange-600: #E04F16;
+  /* Component colors/Utility/Blue dark/utility-blue-dark-600 */
+  --vidc-component-colors-utility-blue-dark-utility-blue-dark-600: #155EEF;
+  /* Component colors/Utility/Indigo/utility-indigo-600 */
+  --vidc-component-colors-utility-indigo-utility-indigo-600: #444CE7;
+  /* Component colors/Utility/Fuchsia/utility-fuchsia-600 */
+  --vidc-component-colors-utility-fuchsia-utility-fuchsia-600: #BA24D5;
+  /* Component colors/Utility/Pink/utility-pink-600 */
+  --vidc-component-colors-utility-pink-utility-pink-600: #DD2590;
+  /* Component colors/Utility/Purple/utility-purple-600 */
+  --vidc-component-colors-utility-purple-utility-purple-600: #6938EF;
+  /* Component colors/Utility/Orange dark/utility-orange-dark-600 */
+  --vidc-component-colors-utility-orange-dark-utility-orange-dark-600: #E62E05;
+  /* Component colors/Utility/Blue light/utility-blue-light-600 */
+  --vidc-component-colors-utility-blue-light-utility-blue-light-600: #0086C9;
+  /* Component colors/Utility/Gray/utility-gray-600 */
+  --vidc-component-colors-utility-gray-utility-gray-600: #475467;
+  /* Component colors/Utility/Brand/utility-brand-700 */
+  --vidc-component-colors-utility-brand-utility-brand-700: #BE0029;
+  /* Component colors/Utility/Error/utility-error-700 */
+  --vidc-component-colors-utility-error-utility-error-700: #B42318;
+  /* Component colors/Utility/Warning/utility-warning-700 */
+  --vidc-component-colors-utility-warning-utility-warning-700: #B54708;
+  /* Component colors/Utility/Success/utility-success-700 */
+  --vidc-component-colors-utility-success-utility-success-700: #067647;
+  /* Component colors/Utility/Blue dark/utility-blue-dark-700 */
+  --vidc-component-colors-utility-blue-dark-utility-blue-dark-700: #004EEB;
+  /* Component colors/Utility/Indigo/utility-indigo-700 */
+  --vidc-component-colors-utility-indigo-utility-indigo-700: #3538CD;
+  /* Component colors/Utility/Purple/utility-purple-700 */
+  --vidc-component-colors-utility-purple-utility-purple-700: #5925DC;
+  /* Component colors/Utility/Fuchsia/utility-fuchsia-700 */
+  --vidc-component-colors-utility-fuchsia-utility-fuchsia-700: #9F1AB1;
+  /* Component colors/Utility/Pink/utility-pink-700 */
+  --vidc-component-colors-utility-pink-utility-pink-700: #C11574;
+  /* Component colors/Utility/Orange dark/utility-orange-dark-700 */
+  --vidc-component-colors-utility-orange-dark-utility-orange-dark-700: #BC1B06;
+  /* Component colors/Utility/Orange/utility-orange-700 */
+  --vidc-component-colors-utility-orange-utility-orange-700: #B93815;
+  /* Component colors/Utility/Blue/utility-blue-700 */
+  --vidc-component-colors-utility-blue-utility-blue-700: #175CD3;
+  /* Component colors/Utility/Blue light/utility-blue-light-700 */
+  --vidc-component-colors-utility-blue-light-utility-blue-light-700: #026AA2;
+  /* Component colors/Utility/Gray blue/utility-gray-blue-600 */
+  --vidc-component-colors-utility-gray-blue-utility-gray-blue-600: #3E4784;
+  /* Component colors/Utility/Gray blue/utility-gray-blue-700 */
+  --vidc-component-colors-utility-gray-blue-utility-gray-blue-700: #363F72;
+  /* Component colors/Utility/Gray/utility-gray-500 */
+  --vidc-component-colors-utility-gray-utility-gray-500: #667085;
+  /* Component colors/Utility/Brand/utility-brand-500 */
+  --vidc-component-colors-utility-brand-utility-brand-500: #EE0033;
+  /* Component colors/Utility/Error/utility-error-500 */
+  --vidc-component-colors-utility-error-utility-error-500: #F04438;
+  /* Component colors/Utility/Warning/utility-warning-500 */
+  --vidc-component-colors-utility-warning-utility-warning-500: #F79009;
+  /* Component colors/Utility/Success/utility-success-500 */
+  --vidc-component-colors-utility-success-utility-success-500: #17B26A;
+  /* Component colors/Utility/Gray blue/utility-gray-blue-500 */
+  --vidc-component-colors-utility-gray-blue-utility-gray-blue-500: #4E5BA6;
+  /* Component colors/Utility/Blue light/utility-blue-light-500 */
+  --vidc-component-colors-utility-blue-light-utility-blue-light-500: #0BA5EC;
+  /* Component colors/Utility/Blue/utility-blue-500 */
+  --vidc-component-colors-utility-blue-utility-blue-500: #2E90FA;
+  /* Component colors/Utility/Blue dark/utility-blue-dark-500 */
+  --vidc-component-colors-utility-blue-dark-utility-blue-dark-500: #2970FF;
+  /* Component colors/Utility/Indigo/utility-indigo-500 */
+  --vidc-component-colors-utility-indigo-utility-indigo-500: #6172F3;
+  /* Component colors/Utility/Purple/utility-purple-500 */
+  --vidc-component-colors-utility-purple-utility-purple-500: #7A5AF8;
+  /* Component colors/Utility/Fuchsia/utility-fuchsia-500 */
+  --vidc-component-colors-utility-fuchsia-utility-fuchsia-500: #D444F1;
+  /* Component colors/Utility/Pink/utility-pink-500 */
+  --vidc-component-colors-utility-pink-utility-pink-500: #EE46BC;
+  /* Component colors/Utility/Orange dark/utility-orange-dark-500 */
+  --vidc-component-colors-utility-orange-dark-utility-orange-dark-500: #FF4405;
+  /* Component colors/Utility/Orange/utility-orange-500 */
+  --vidc-component-colors-utility-orange-utility-orange-500: #EF6820;
+  /* Component colors/Utility/Gray/utility-gray-200 */
+  --vidc-component-colors-utility-gray-utility-gray-200: #EAECF0;
+  /* Component colors/Utility/Brand/utility-brand-200 */
+  --vidc-component-colors-utility-brand-utility-brand-200: #FFC9D5;
+  /* Component colors/Utility/Error/utility-error-200 */
+  --vidc-component-colors-utility-error-utility-error-200: #FECDCA;
+  /* Component colors/Utility/Warning/utility-warning-200 */
+  --vidc-component-colors-utility-warning-utility-warning-200: #FEDF89;
+  /* Component colors/Utility/Success/utility-success-200 */
+  --vidc-component-colors-utility-success-utility-success-200: #ABEFC6;
+  /* Component colors/Utility/Gray blue/utility-gray-blue-200 */
+  --vidc-component-colors-utility-gray-blue-utility-gray-blue-200: #D5D9EB;
+  /* Component colors/Utility/Blue light/utility-blue-light-200 */
+  --vidc-component-colors-utility-blue-light-utility-blue-light-200: #B9E6FE;
+  /* Component colors/Utility/Blue/utility-blue-200 */
+  --vidc-component-colors-utility-blue-utility-blue-200: #B2DDFF;
+  /* Component colors/Utility/Blue dark/utility-blue-dark-200 */
+  --vidc-component-colors-utility-blue-dark-utility-blue-dark-200: #B2CCFF;
+  /* Component colors/Utility/Indigo/utility-indigo-200 */
+  --vidc-component-colors-utility-indigo-utility-indigo-200: #C7D7FE;
+  /* Component colors/Utility/Purple/utility-purple-200 */
+  --vidc-component-colors-utility-purple-utility-purple-200: #D9D6FE;
+  /* Component colors/Utility/Fuchsia/utility-fuchsia-200 */
+  --vidc-component-colors-utility-fuchsia-utility-fuchsia-200: #F6D0FE;
+  /* Component colors/Utility/Pink/utility-pink-200 */
+  --vidc-component-colors-utility-pink-utility-pink-200: #FCCEEE;
+  /* Component colors/Utility/Orange dark/utility-orange-dark-200 */
+  --vidc-component-colors-utility-orange-dark-utility-orange-dark-200: #FFD6AE;
+  /* Component colors/Utility/Orange/utility-orange-200 */
+  --vidc-component-colors-utility-orange-utility-orange-200: #F9DBAF;
+  /* Component colors/Utility/Gray/utility-gray-50 */
+  --vidc-component-colors-utility-gray-utility-gray-50: #F2F4F7;
+  /* Component colors/Utility/Brand/utility-brand-50 */
+  --vidc-component-colors-utility-brand-utility-brand-50: #FFF1F4;
+  /* Component colors/Utility/Error/utility-error-50 */
+  --vidc-component-colors-utility-error-utility-error-50: #FEF3F2;
+  /* Component colors/Utility/Warning/utility-warning-50 */
+  --vidc-component-colors-utility-warning-utility-warning-50: #FFFAEB;
+  /* Component colors/Utility/Success/utility-success-50 */
+  --vidc-component-colors-utility-success-utility-success-50: #ECFDF3;
+  /* Component colors/Utility/Gray blue/utility-gray-blue-50 */
+  --vidc-component-colors-utility-gray-blue-utility-gray-blue-50: #F8F9FC;
+  /* Component colors/Utility/Blue light/utility-blue-light-50 */
+  --vidc-component-colors-utility-blue-light-utility-blue-light-50: #F0F9FF;
+  /* Component colors/Utility/Blue/utility-blue-50 */
+  --vidc-component-colors-utility-blue-utility-blue-50: #EFF8FF;
+  /* Component colors/Utility/Blue dark/utility-blue-dark-50 */
+  --vidc-component-colors-utility-blue-dark-utility-blue-dark-50: #EFF4FF;
+  /* Component colors/Utility/Indigo/utility-indigo-50 */
+  --vidc-component-colors-utility-indigo-utility-indigo-50: #EEF4FF;
+  /* Component colors/Utility/Purple/utility-purple-50 */
+  --vidc-component-colors-utility-purple-utility-purple-50: #F4F3FF;
+  /* Component colors/Utility/Fuchsia/utility-fuchsia-50 */
+  --vidc-component-colors-utility-fuchsia-utility-fuchsia-50: #FDF4FF;
+  /* Component colors/Utility/Pink/utility-pink-50 */
+  --vidc-component-colors-utility-pink-utility-pink-50: #FDF2FA;
+  /* Component colors/Utility/Orange dark/utility-orange-dark-50 */
+  --vidc-component-colors-utility-orange-dark-utility-orange-dark-50: #FFF4ED;
+  /* Component colors/Utility/Orange/utility-orange-50 */
+  --vidc-component-colors-utility-orange-utility-orange-50: #FEF6EE;
+  /* Component colors/Utility/Gray/utility-gray-100 */
+  --vidc-component-colors-utility-gray-utility-gray-100: #F2F4F7;
+  /* Component colors/Utility/Brand/utility-brand-100 */
+  --vidc-component-colors-utility-brand-utility-brand-100: #FFE4EA;
+  /* Component colors/Utility/Error/utility-error-100 */
+  --vidc-component-colors-utility-error-utility-error-100: #FEE4E2;
+  /* Component colors/Utility/Warning/utility-warning-100 */
+  --vidc-component-colors-utility-warning-utility-warning-100: #FEF0C7;
+  /* Component colors/Utility/Success/utility-success-100 */
+  --vidc-component-colors-utility-success-utility-success-100: #DCFAE6;
+  /* Component colors/Utility/Gray blue/utility-gray-blue-100 */
+  --vidc-component-colors-utility-gray-blue-utility-gray-blue-100: #EAECF5;
+  /* Component colors/Utility/Blue light/utility-blue-light-100 */
+  --vidc-component-colors-utility-blue-light-utility-blue-light-100: #E0F2FE;
+  /* Component colors/Utility/Blue/utility-blue-100 */
+  --vidc-component-colors-utility-blue-utility-blue-100: #D1E9FF;
+  /* Component colors/Utility/Blue dark/utility-blue-dark-100 */
+  --vidc-component-colors-utility-blue-dark-utility-blue-dark-100: #D1E0FF;
+  /* Component colors/Utility/Indigo/utility-indigo-100 */
+  --vidc-component-colors-utility-indigo-utility-indigo-100: #E0EAFF;
+  /* Component colors/Utility/Purple/utility-purple-100 */
+  --vidc-component-colors-utility-purple-utility-purple-100: #EBE9FE;
+  /* Component colors/Utility/Fuchsia/utility-fuchsia-100 */
+  --vidc-component-colors-utility-fuchsia-utility-fuchsia-100: #FBE8FF;
+  /* Component colors/Utility/Pink/utility-pink-100 */
+  --vidc-component-colors-utility-pink-utility-pink-100: #FCE7F6;
+  /* Component colors/Utility/Orange dark/utility-orange-dark-100 */
+  --vidc-component-colors-utility-orange-dark-utility-orange-dark-100: #FFE6D5;
+  /* Component colors/Utility/Orange/utility-orange-100 */
+  --vidc-component-colors-utility-orange-utility-orange-100: #FDEAD7;
+  /* Component colors/Utility/Gray/utility-gray-400 */
+  --vidc-component-colors-utility-gray-utility-gray-400: #98A2B3;
+  /* Component colors/Utility/Brand/utility-brand-400 */
+  --vidc-component-colors-utility-brand-utility-brand-400: #FF6482;
+  /* Component colors/Utility/Error/utility-error-400 */
+  --vidc-component-colors-utility-error-utility-error-400: #F97066;
+  /* Component colors/Utility/Warning/utility-warning-400 */
+  --vidc-component-colors-utility-warning-utility-warning-400: #FDB022;
+  /* Component colors/Utility/Success/utility-success-400 */
+  --vidc-component-colors-utility-success-utility-success-400: #47CD89;
+  /* Component colors/Utility/Gray blue/utility-gray-blue-400 */
+  --vidc-component-colors-utility-gray-blue-utility-gray-blue-400: #717BBC;
+  /* Component colors/Utility/Blue light/utility-blue-light-400 */
+  --vidc-component-colors-utility-blue-light-utility-blue-light-400: #36BFFA;
+  /* Component colors/Utility/Blue/utility-blue-400 */
+  --vidc-component-colors-utility-blue-utility-blue-400: #53B1FD;
+  /* Component colors/Utility/Blue dark/utility-blue-dark-400 */
+  --vidc-component-colors-utility-blue-dark-utility-blue-dark-400: #528BFF;
+  /* Component colors/Utility/Indigo/utility-indigo-400 */
+  --vidc-component-colors-utility-indigo-utility-indigo-400: #8098F9;
+  /* Component colors/Utility/Purple/utility-purple-400 */
+  --vidc-component-colors-utility-purple-utility-purple-400: #9B8AFB;
+  /* Component colors/Utility/Fuchsia/utility-fuchsia-400 */
+  --vidc-component-colors-utility-fuchsia-utility-fuchsia-400: #E478FA;
+  /* Component colors/Utility/Pink/utility-pink-400 */
+  --vidc-component-colors-utility-pink-utility-pink-400: #F670C7;
+  /* Component colors/Utility/Orange dark/utility-orange-dark-400 */
+  --vidc-component-colors-utility-orange-dark-utility-orange-dark-400: #FF692E;
+  /* Component colors/Utility/Orange/utility-orange-400 */
+  --vidc-component-colors-utility-orange-utility-orange-400: #F38744;
+  /* Colors/Foreground/fg-warning-secondary */
+  --vidc-colors-foreground-fg-warning-secondary: #F79009;
+  /* Colors/Foreground/fg-error-secondary */
+  --vidc-colors-foreground-fg-error-secondary: #F04438;
+  /* Colors/Border/border-disabled_subtle */
+  --vidc-colors-border-border-disabled-subtle: #EAECF0;
+  /* Colors/Text/text-placeholder */
+  --vidc-colors-text-text-placeholder: #667085;
+  /* Colors/Text/text-placeholder_subtle */
+  --vidc-colors-text-text-placeholder-subtle: #D0D5DD;
+  /* Colors/Text/text-brand-tertiary (600) */
+  --vidc-colors-text-text-brand-tertiary-600: #C5002A;
+  /* Component colors/Components/Buttons/Primary error/button-primary-error-fg */
+  --vidc-component-colors-components-buttons-primary-error-button-primary-error-fg: #FFFFFF;
+  /* Component colors/Components/Buttons/Primary error/button-primary-error-fg_hover */
+  --vidc-component-colors-components-buttons-primary-error-button-primary-error-fg-hover: #FFFFFF;
+  /* Component colors/Components/Buttons/Primary error/button-primary-error-bg */
+  --vidc-component-colors-components-buttons-primary-error-button-primary-error-bg: #FEDF89;
+  /* Component colors/Components/Buttons/Primary error/button-primary-error-bg_hover */
+  --vidc-component-colors-components-buttons-primary-error-button-primary-error-bg-hover: #FEC84B;
+  /* Component colors/Components/Buttons/Secondary error/button-secondary-error-fg */
+  --vidc-component-colors-components-buttons-secondary-error-button-secondary-error-fg: #B42318;
+  /* Component colors/Components/Buttons/Secondary error/button-secondary-error-fg_hover */
+  --vidc-component-colors-components-buttons-secondary-error-button-secondary-error-fg-hover: #912018;
+  /* Component colors/Components/Buttons/Secondary error/button-secondary-error-bg */
+  --vidc-component-colors-components-buttons-secondary-error-button-secondary-error-bg: #FFFFFF;
+  /* Component colors/Components/Buttons/Secondary error/button-secondary-error-bg_hover */
+  --vidc-component-colors-components-buttons-secondary-error-button-secondary-error-bg-hover: #FEF3F2;
+  /* Component colors/Components/Buttons/Secondary error/button-secondary-error-border */
+  --vidc-component-colors-components-buttons-secondary-error-button-secondary-error-border: #FDA29B;
+  /* Component colors/Components/Buttons/Secondary error/button-secondary-error-border_hover */
+  --vidc-component-colors-components-buttons-secondary-error-button-secondary-error-border-hover: #FDA29B;
+  /* Component colors/Components/WYSIWYG editor/wysiwyg-editor-icon-fg */
+  --vidc-component-colors-components-wysiwyg-editor-wysiwyg-editor-icon-fg: #98A2B3;
+  /* Component colors/Components/WYSIWYG editor/wysiwyg-editor-icon-fg_active */
+  --vidc-component-colors-components-wysiwyg-editor-wysiwyg-editor-icon-fg-active: #667085;
+  /* Component colors/Components/Avatars/avatar-contrast-border */
+  --vidc-component-colors-components-avatars-avatar-contrast-border: #00000014;
+  /* Component colors/Components/Avatars/avatar-profile-photo-border */
+  --vidc-component-colors-components-avatars-avatar-profile-photo-border: #FFFFFF;
+  /* Component colors/Components/Avatars/avatar-bg */
+  --vidc-component-colors-components-avatars-avatar-bg: #F2F4F7;
+  /* Component colors/Components/Breadcrumbs/breadcrumb-fg */
+  --vidc-component-colors-components-breadcrumbs-breadcrumb-fg: #475467;
+  /* Component colors/Components/Breadcrumbs/breadcrumb-fg_hover */
+  --vidc-component-colors-components-breadcrumbs-breadcrumb-fg-hover: #344054;
+  /* Component colors/Components/Breadcrumbs/breadcrumb-bg_hover */
+  --vidc-component-colors-components-breadcrumbs-breadcrumb-bg-hover: #F2F4F7;
+  /* Component colors/Components/Breadcrumbs/breadcrumb-brand-bg_hover */
+  --vidc-component-colors-components-breadcrumbs-breadcrumb-brand-bg-hover: #FFF1F4;
+  /* Component colors/Components/Breadcrumbs/breadcrumb-brand-fg_hover */
+  --vidc-component-colors-components-breadcrumbs-breadcrumb-brand-fg-hover: #BE0029;
+  /* Component colors/Components/Breadcrumbs/breadcrumb-icon-fg */
+  --vidc-component-colors-components-breadcrumbs-breadcrumb-icon-fg: #667085;
+  /* Component colors/Components/Breadcrumbs/breadcrumb-icon-fg_hover */
+  --vidc-component-colors-components-breadcrumbs-breadcrumb-icon-fg-hover: #344054;
+  /* Component colors/Components/Breadcrumbs/breadcrumb-brand-icon-fg_hover */
+  --vidc-component-colors-components-breadcrumbs-breadcrumb-brand-icon-fg-hover: #BE0029;
+  /* Colors/Foreground/fg-senary (300) */
+  --vidc-colors-foreground-fg-senary-300: #D0D5DD;
+  /* Colors/Background/bg-primary_alt */
+  --vidc-colors-background-bg-primary-alt: #FFFFFF;
+  /* Colors/Foreground/fg-tertiary (600) */
+  --vidc-colors-foreground-fg-tertiary-600: #475467;
+  /* Colors/Foreground/fg-tertiary_hover */
+  --vidc-colors-foreground-fg-tertiary-hover: #344054;
+  /* Component colors/Components/Buttons/Tertiary/button-tertiary-fg */
+  --vidc-component-colors-components-buttons-tertiary-button-tertiary-fg: #475467;
+  /* Component colors/Components/Buttons/Tertiary/button-tertiary-fg_hover */
+  --vidc-component-colors-components-buttons-tertiary-button-tertiary-fg-hover: #344054;
+  /* Component colors/Components/Buttons/Tertiary color/button-tertiary-color-fg */
+  --vidc-component-colors-components-buttons-tertiary-color-button-tertiary-color-fg: #BE0029;
+  /* Component colors/Components/Buttons/Tertiary color/button-tertiary-color-fg_hover */
+  --vidc-component-colors-components-buttons-tertiary-color-button-tertiary-color-fg-hover: #A60023;
+  /* Component colors/Components/Buttons/Tertiary/button-tertiary-bg_hover */
+  --vidc-component-colors-components-buttons-tertiary-button-tertiary-bg-hover: #F2F4F7;
+  /* Component colors/Components/Buttons/Tertiary color/button-tertiary-color-bg_hover */
+  --vidc-component-colors-components-buttons-tertiary-color-button-tertiary-color-bg-hover: #FFF1F4;
+  /* Component colors/Components/Buttons/Tertiary error/button-tertiary-error-fg */
+  --vidc-component-colors-components-buttons-tertiary-error-button-tertiary-error-fg: #B42318;
+  /* Component colors/Components/Buttons/Tertiary error/button-tertiary-error-fg_hover */
+  --vidc-component-colors-components-buttons-tertiary-error-button-tertiary-error-fg-hover: #912018;
+  /* Component colors/Components/Buttons/Tertiary error/button-tertiary-error-bg_hover */
+  --vidc-component-colors-components-buttons-tertiary-error-button-tertiary-error-bg-hover: #FEF3F2;
+  /* Colors/Background/bg-brand-primary_alt */
+  --vidc-colors-background-bg-brand-primary-alt: #FFF1F4;
+  /* Colors/Foreground/fg-brand-primary_alt */
+  --vidc-colors-foreground-fg-brand-primary-alt: #D6002E;
+  /* Colors/Background/bg-secondary_alt */
+  --vidc-colors-background-bg-secondary-alt: #F2F4F7;
+  /* Component colors/Alpha/alpha-white-90 */
+  --vidc-component-colors-alpha-alpha-white-90: #FFFFFFE5;
+  /* Component colors/Alpha/alpha-white-80 */
+  --vidc-component-colors-alpha-alpha-white-80: #FFFFFFCC;
+  /* Component colors/Alpha/alpha-white-70 */
+  --vidc-component-colors-alpha-alpha-white-70: #FFFFFFB2;
+  /* Component colors/Alpha/alpha-white-60 */
+  --vidc-component-colors-alpha-alpha-white-60: #FFFFFF99;
+  /* Component colors/Alpha/alpha-white-50 */
+  --vidc-component-colors-alpha-alpha-white-50: #FFFFFF80;
+  /* Component colors/Alpha/alpha-white-40 */
+  --vidc-component-colors-alpha-alpha-white-40: #FFFFFF66;
+  /* Component colors/Alpha/alpha-white-30 */
+  --vidc-component-colors-alpha-alpha-white-30: #FFFFFF4D;
+  /* Component colors/Alpha/alpha-white-20 */
+  --vidc-component-colors-alpha-alpha-white-20: #FFFFFF33;
+  /* Component colors/Alpha/alpha-white-10 */
+  --vidc-component-colors-alpha-alpha-white-10: #FFFFFF1A;
+  /* Component colors/Alpha/alpha-black-10 */
+  --vidc-component-colors-alpha-alpha-black-10: #0000001A;
+  /* Component colors/Alpha/alpha-black-20 */
+  --vidc-component-colors-alpha-alpha-black-20: #00000033;
+  /* Component colors/Alpha/alpha-black-30 */
+  --vidc-component-colors-alpha-alpha-black-30: #0000004D;
+  /* Component colors/Alpha/alpha-black-40 */
+  --vidc-component-colors-alpha-alpha-black-40: #00000066;
+  /* Component colors/Alpha/alpha-black-50 */
+  --vidc-component-colors-alpha-alpha-black-50: #00000080;
+  /* Component colors/Alpha/alpha-black-60 */
+  --vidc-component-colors-alpha-alpha-black-60: #00000099;
+  /* Component colors/Alpha/alpha-black-70 */
+  --vidc-component-colors-alpha-alpha-black-70: #000000B2;
+  /* Component colors/Alpha/alpha-black-80 */
+  --vidc-component-colors-alpha-alpha-black-80: #000000CC;
+  /* Component colors/Alpha/alpha-black-90 */
+  --vidc-component-colors-alpha-alpha-black-90: #000000E5;
+  /* Colors/Text/text-quaternary (500) */
+  --vidc-colors-text-text-quaternary-500: #667085;
+  /* Component colors/Components/Icons/Featured icons/Modern/featured-icon-modern-border */
+  --vidc-component-colors-components-icons-featured-icons-modern-featured-icon-modern-border: #EAECF0;
+  /* Component colors/Components/Icons/Featured icons/Light/featured-icon-light-fg-brand */
+  --vidc-component-colors-components-icons-featured-icons-light-featured-icon-light-fg-brand: #D6002E;
+  /* Component colors/Components/Icons/Featured icons/Light/featured-icon-light-fg-gray */
+  --vidc-component-colors-components-icons-featured-icons-light-featured-icon-light-fg-gray: #667085;
+  /* Component colors/Components/Icons/Featured icons/Light/featured-icon-light-fg-error */
+  --vidc-component-colors-components-icons-featured-icons-light-featured-icon-light-fg-error: #D92D20;
+  /* Component colors/Components/Icons/Featured icons/Light/featured-icon-light-fg-warning */
+  --vidc-component-colors-components-icons-featured-icons-light-featured-icon-light-fg-warning: #DC6803;
+  /* Component colors/Components/Icons/Featured icons/Light/featured-icon-light-fg-success */
+  --vidc-component-colors-components-icons-featured-icons-light-featured-icon-light-fg-success: #079455;
+  /* Component colors/Components/Icons/Featured icons/Dark/featured-icon-dark-fg-brand */
+  --vidc-component-colors-components-icons-featured-icons-dark-featured-icon-dark-fg-brand: #FFFFFF;
+  /* Component colors/Components/Icons/Featured icons/Dark/featured-icon-dark-fg-gray */
+  --vidc-component-colors-components-icons-featured-icons-dark-featured-icon-dark-fg-gray: #FFFFFF;
+  /* Component colors/Components/Icons/Featured icons/Dark/featured-icon-dark-fg-error */
+  --vidc-component-colors-components-icons-featured-icons-dark-featured-icon-dark-fg-error: #FFFFFF;
+  /* Component colors/Components/Icons/Featured icons/Dark/featured-icon-dark-fg-warning */
+  --vidc-component-colors-components-icons-featured-icons-dark-featured-icon-dark-fg-warning: #FFFFFF;
+  /* Component colors/Components/Icons/Featured icons/Dark/featured-icon-dark-fg-success */
+  --vidc-component-colors-components-icons-featured-icons-dark-featured-icon-dark-fg-success: #FFFFFF;
+  /* Component colors/Components/Application navigation/nav-item-icon-fg */
+  --vidc-component-colors-components-application-navigation-nav-item-icon-fg: #667085;
+  /* Component colors/Components/Application navigation/nav-item-icon-fg_active */
+  --vidc-component-colors-components-application-navigation-nav-item-icon-fg-active: #667085;
+  /* Component colors/Components/Application navigation/nav-item-button-icon-fg */
+  --vidc-component-colors-components-application-navigation-nav-item-button-icon-fg: #667085;
+  /* Component colors/Components/Application navigation/nav-item-button-icon-fg_active */
+  --vidc-component-colors-components-application-navigation-nav-item-button-icon-fg-active: #344054;
+  /* Colors/Background/bg-overlay */
+  --vidc-colors-background-bg-overlay: #0B0E17;
+  /* Component colors/Utility/Brand/utility-brand-50_alt */
+  --vidc-component-colors-utility-brand-utility-brand-50-alt: #FFF1F4;
+  /* Component colors/Utility/Brand/utility-brand-100_alt */
+  --vidc-component-colors-utility-brand-utility-brand-100-alt: #FFE4EA;
+  /* Component colors/Utility/Brand/utility-brand-200_alt */
+  --vidc-component-colors-utility-brand-utility-brand-200-alt: #FFC9D5;
+  /* Component colors/Utility/Brand/utility-brand-400_alt */
+  --vidc-component-colors-utility-brand-utility-brand-400-alt: #FF6482;
+  /* Component colors/Utility/Brand/utility-brand-500_alt */
+  --vidc-component-colors-utility-brand-utility-brand-500-alt: #EE0033;
+  /* Component colors/Utility/Brand/utility-brand-600_alt */
+  --vidc-component-colors-utility-brand-utility-brand-600-alt: #D6002E;
+  /* Component colors/Utility/Brand/utility-brand-700_alt */
+  --vidc-component-colors-utility-brand-utility-brand-700-alt: #BE0029;
+  /* Component colors/Components/Sliders/slider-handle-border */
+  --vidc-component-colors-components-sliders-slider-handle-border: #D6002E;
+  /* Component colors/Components/Sliders/slider-handle-bg */
+  --vidc-component-colors-components-sliders-slider-handle-bg: #FFFFFF;
+  /* Component colors/Utility/Brand/utility-brand-300 */
+  --vidc-component-colors-utility-brand-utility-brand-300: #FF9CB3;
+  /* Colors/Background/bg-secondary_subtle */
+  --vidc-colors-background-bg-secondary-subtle: #F9FAFB;
+  /* Component colors/Utility/Gray/utility-gray-300 */
+  --vidc-component-colors-utility-gray-utility-gray-300: #D0D5DD;
+  /* Component colors/Alpha/alpha-black-100 */
+  --vidc-component-colors-alpha-alpha-black-100: #000000;
+  /* Component colors/Alpha/alpha-white-100 */
+  --vidc-component-colors-alpha-alpha-white-100: #FFFFFF;
+  /* Component colors/Utility/Brand/utility-brand-900 */
+  --vidc-component-colors-utility-brand-utility-brand-900: #80001B;
+  /* Component colors/Utility/Gray/utility-gray-900 */
+  --vidc-component-colors-utility-gray-utility-gray-900: #101828;
+  /* Component colors/Components/Header sections/header-abstract-50-bg */
+  --vidc-component-colors-components-header-sections-header-abstract-50-bg: #FFF1F4;
+  /* Component colors/Components/Header sections/header-abstract-100-bg */
+  --vidc-component-colors-components-header-sections-header-abstract-100-bg: #FFE4EA;
+  /* Component colors/Components/Header sections/header-abstract-200-bg */
+  --vidc-component-colors-components-header-sections-header-abstract-200-bg: #FFC9D5;
+  /* Component colors/Components/Header sections/header-abstract-300-bg */
+  --vidc-component-colors-components-header-sections-header-abstract-300-bg: #FF9CB3;
+  /* Component colors/Utility/Brand/utility-brand-800 */
+  --vidc-component-colors-utility-brand-utility-brand-800: #A60023;
+  /* Component colors/Utility/Gray/utility-gray-800 */
+  --vidc-component-colors-utility-gray-utility-gray-800: #1D2939;
+  /* Colors/Border/border-tertiary */
+  --vidc-colors-border-border-tertiary: #EAECF0;
+  /* Component colors/Components/Mockups/screen-mockup-border */
+  --vidc-component-colors-components-mockups-screen-mockup-border: #101828;
+  /* Colors/Text/text-brand-primary (900) */
+  --vidc-colors-text-text-brand-primary-900: #C5002A;
+  /* Colors/Background/bg-brand-section */
+  --vidc-colors-background-bg-brand-section: #A60023;
+  /* Colors/Text/text-primary_on-brand */
+  --vidc-colors-text-text-primary-on-brand: #FFFFFF;
+  /* Colors/Text/text-secondary_on-brand */
+  --vidc-colors-text-text-secondary-on-brand: #FFC9D5;
+  /* Colors/Text/text-tertiary_on-brand */
+  --vidc-colors-text-text-tertiary-on-brand: #FFC9D5;
+  /* Component colors/Components/Icons/Icons/icon-fg-brand */
+  --vidc-component-colors-components-icons-icons-icon-fg-brand: #D6002E;
+  /* Component colors/Components/Icons/Icons/icon-fg-brand_on-brand */
+  --vidc-component-colors-components-icons-icons-icon-fg-brand-on-brand: #FFC9D5;
+  /* Colors/Background/bg-brand-section_subtle */
+  --vidc-colors-background-bg-brand-section-subtle: #BE0029;
+  /* Component colors/Components/Footers/footer-button-fg */
+  --vidc-component-colors-components-footers-footer-button-fg: #FFC9D5;
+  /* Component colors/Components/Footers/footer-button-fg_hover */
+  --vidc-component-colors-components-footers-footer-button-fg-hover: #FFFFFF;
+  /* Component colors/Components/App store badges/app-store-badge-border */
+  --vidc-component-colors-components-app-store-badges-app-store-badge-border: #A6A6A6;
+  /* Colors/Text/text-quaternary_on-brand */
+  --vidc-colors-text-text-quaternary-on-brand: #FF9CB3;
+  /* Component colors/Components/Footers/footer-badge-fg */
+  --vidc-component-colors-components-footers-footer-badge-fg: #067647;
+  /* Component colors/Components/Footers/footer-badge-border */
+  --vidc-component-colors-components-footers-footer-badge-border: #ABEFC6;
+  /* Component colors/Components/Footers/footer-badge-bg */
+  --vidc-component-colors-components-footers-footer-badge-bg: #ECFDF3;
+  /* Component colors/Components/Icons/Social icons/social-icon-fg-x */
+  --vidc-component-colors-components-icons-social-icons-social-icon-fg-x: #242E36;
+  /* Component colors/Components/Icons/Social icons/social-icon-fg-apple */
+  --vidc-component-colors-components-icons-social-icons-social-icon-fg-apple: #000000;
+  /* Component colors/Components/Icons/Social icons/social-icon-fg-github */
+  --vidc-component-colors-components-icons-social-icons-social-icon-fg-github: #000000;
+  /* Component colors/Components/Icons/Social icons/social-icon-fg-angellist */
+  --vidc-component-colors-components-icons-social-icons-social-icon-fg-angellist: #000000;
+  /* Component colors/Components/Icons/Social icons/social-icon-fg-tumblr */
+  --vidc-component-colors-components-icons-social-icons-social-icon-fg-tumblr: #001935;
+  /* Component colors/Components/Icons/Social icons/social-icon-fg-instagram */
+  --vidc-component-colors-components-icons-social-icons-social-icon-fg-instagram: #000100;
+  /* Colors/Text/text-brand-tertiary_alt */
+  --vidc-colors-text-text-brand-tertiary-alt: #D6002E;
+  /* Colors/Background/bg-primary-solid */
+  --vidc-colors-background-bg-primary-solid: #0B0E17;
+  /* container-max-width-desktop */
+  --vidc-container-max-width-desktop: 1600px;
+  /* container-padding-desktop */
+  --vidc-container-padding-desktop: 80px;
+  /* container-padding-mobile */
+  --vidc-container-padding-mobile: 16px;
+  /* Component colors/Components/Thumbnail/thumbnail-badge-brand-fg */
+  --vidc-component-colors-components-thumbnail-thumbnail-badge-brand-fg: #BE0029;
+  /* Component colors/Components/Thumbnail/thumbnail-badge-success-fg */
+  --vidc-component-colors-components-thumbnail-thumbnail-badge-success-fg: #067647;
+  /* width-xxs */
+  --vidc-width-xxs: 320px;
+  /* width-sm */
+  --vidc-width-sm: 480px;
+  /* width-lg */
+  --vidc-width-lg: 640px;
+  /* width-xl */
+  --vidc-width-xl: 768px;
+  /* width-2xl */
+  --vidc-width-2xl: 1024px;
+  /* width-3xl */
+  --vidc-width-3xl: 1280px;
+  /* width-4xl */
+  --vidc-width-4xl: 1440px;
+  /* width-5xl */
+  --vidc-width-5xl: 1600px;
+  /* width-6xl */
+  --vidc-width-6xl: 1920px;
+  /* spacing-none */
+  --vidc-spacing-none: 0px;
+  /* spacing-xxs */
+  --vidc-spacing-xxs: 2px;
+  /* spacing-xs */
+  --vidc-spacing-xs: 4px;
+  /* spacing-md */
+  --vidc-spacing-md: 8px;
+  /* spacing-lg */
+  --vidc-spacing-lg: 12px;
+  /* spacing-xl */
+  --vidc-spacing-xl: 16px;
+  /* spacing-2xl */
+  --vidc-spacing-2xl: 20px;
+  /* spacing-3xl */
+  --vidc-spacing-3xl: 24px;
+  /* spacing-4xl */
+  --vidc-spacing-4xl: 32px;
+  /* spacing-6xl */
+  --vidc-spacing-6xl: 48px;
+  /* spacing-7xl */
+  --vidc-spacing-7xl: 64px;
+  /* spacing-8xl */
+  --vidc-spacing-8xl: 80px;
+  /* spacing-9xl */
+  --vidc-spacing-9xl: 96px;
+  /* spacing-10xl */
+  --vidc-spacing-10xl: 128px;
+  /* spacing-11xl */
+  --vidc-spacing-11xl: 160px;
+  /* radius-none */
+  --vidc-radius-none: 0px;
+  /* radius-xxs */
+  --vidc-radius-xxs: 2px;
+  /* radius-xs */
+  --vidc-radius-xs: 4px;
+  /* radius-sm */
+  --vidc-radius-sm: 6px;
+  /* radius-md */
+  --vidc-radius-md: 8px;
+  /* radius-xl */
+  --vidc-radius-xl: 20px;
+  /* radius-2xl */
+  --vidc-radius-2xl: 24px;
+  /* radius-4xl */
+  --vidc-radius-4xl: 24px;
+  /* radius-full */
+  --vidc-radius-full: 9999px;
+  /* radius-lg */
+  --vidc-radius-lg: 12px;
+  /* Component colors/Components/Toggles/toggle-button-fg_disabled */
+  --vidc-component-colors-components-toggles-toggle-button-fg-disabled: #F2F4F7;
+  /* radius-3xl */
+  --vidc-radius-3xl: 20px;
+  /* Spacing/140 (560px) */
+  --vidc-spacing-140-560px: 560px;
+  /* width-md */
+  --vidc-width-md: 560px;
+  /* paragraph-max-width */
+  --vidc-paragraph-max-width: 720px;
+  /* Spacing/180 (720px) */
+  --vidc-spacing-180-720px: 720px;
+  /* spacing-sm */
+  --vidc-spacing-sm: 6px;
+  /* width-xs */
+  --vidc-width-xs: 384px;
+  /* spacing-5xl */
+  --vidc-spacing-5xl: 40px;
+  /* Component colors/Utility/Brand/utility-brand-300_alt */
+  --vidc-component-colors-utility-brand-utility-brand-300-alt: #FF9CB3;
+  /* Component colors/Utility/Brand/utility-brand-800_alt */
+  --vidc-component-colors-utility-brand-utility-brand-800-alt: #A60023;
+  /* Component colors/Utility/Brand/utility-brand-900_alt */
+  --vidc-component-colors-utility-brand-utility-brand-900-alt: #80001B;
+  /* Component colors/Utility/Error/utility-error-300 */
+  --vidc-component-colors-utility-error-utility-error-300: #FDA29B;
+  /* Component colors/Utility/Warning/utility-warning-300 */
+  --vidc-component-colors-utility-warning-utility-warning-300: #FEC84B;
+  /* Component colors/Utility/Success/utility-success-300 */
+  --vidc-component-colors-utility-success-utility-success-300: #75E0A7;
+  /* Component colors/Utility/Gray blue/utility-gray-blue-300 */
+  --vidc-component-colors-utility-gray-blue-utility-gray-blue-300: #B3B8DB;
+  /* Component colors/Utility/Blue light/utility-blue-light-300 */
+  --vidc-component-colors-utility-blue-light-utility-blue-light-300: #7CD4FD;
+  /* Component colors/Utility/Blue/utility-blue-300 */
+  --vidc-component-colors-utility-blue-utility-blue-300: #84CAFF;
+  /* Component colors/Utility/Blue dark/utility-blue-dark-300 */
+  --vidc-component-colors-utility-blue-dark-utility-blue-dark-300: #84ADFF;
+  /* Component colors/Utility/Indigo/utility-indigo-300 */
+  --vidc-component-colors-utility-indigo-utility-indigo-300: #A4BCFD;
+  /* Component colors/Utility/Purple/utility-purple-300 */
+  --vidc-component-colors-utility-purple-utility-purple-300: #BDB4FE;
+  /* Component colors/Utility/Fuchsia/utility-fuchsia-300 */
+  --vidc-component-colors-utility-fuchsia-utility-fuchsia-300: #EEAAFD;
+  /* Component colors/Utility/Pink/utility-pink-300 */
+  --vidc-component-colors-utility-pink-utility-pink-300: #FAA7E0;
+  /* Component colors/Utility/Orange dark/utility-orange-dark-300 */
+  --vidc-component-colors-utility-orange-dark-utility-orange-dark-300: #FF9C66;
+  /* Component colors/Utility/Orange/utility-orange-300 */
+  --vidc-component-colors-utility-orange-utility-orange-300: #F7B27A;
+  /* Colors/Gray (dark mode alpha)/25 */
+  --vidc-colors-gray-dark-mode-alpha-25: #FFFFFFFA;
+  /* Colors/Gray (dark mode alpha)/50 */
+  --vidc-colors-gray-dark-mode-alpha-50: #FFFFFFF5;
+  /* Colors/Gray (dark mode alpha)/100 */
+  --vidc-colors-gray-dark-mode-alpha-100: #FFFFFFF0;
+  /* Colors/Gray (dark mode alpha)/200 */
+  --vidc-colors-gray-dark-mode-alpha-200: #FFFFFFEB;
+  /* Colors/Gray (dark mode alpha)/300 */
+  --vidc-colors-gray-dark-mode-alpha-300: #FFFFFFCC;
+  /* Colors/Gray (dark mode alpha)/400 */
+  --vidc-colors-gray-dark-mode-alpha-400: #FFFFFF8F;
+  /* Colors/Gray (dark mode alpha)/500 */
+  --vidc-colors-gray-dark-mode-alpha-500: #FFFFFF80;
+  /* Colors/Gray (dark mode alpha)/600 */
+  --vidc-colors-gray-dark-mode-alpha-600: #FFFFFF59;
+  /* Colors/Gray (dark mode alpha)/700 */
+  --vidc-colors-gray-dark-mode-alpha-700: #FFFFFF29;
+  /* Colors/Gray (dark mode alpha)/800 */
+  --vidc-colors-gray-dark-mode-alpha-800: #FFFFFF14;
+  /* Colors/Gray (dark mode alpha)/900 */
+  --vidc-colors-gray-dark-mode-alpha-900: #FFFFFF0A;
+  /* Colors/Gray (dark mode alpha)/950 */
+  --vidc-colors-gray-dark-mode-alpha-950: #FFFFFF00;
+  /* Colors/Gray (dark mode)/25 */
+  --vidc-colors-gray-dark-mode-25: #F9FAFB;
+  /* Colors/Gray (dark mode)/50 */
+  --vidc-colors-gray-dark-mode-50: #F9FAFB;
+  /* Colors/Gray (dark mode)/100 */
+  --vidc-colors-gray-dark-mode-100: #F2F4F7;
+  /* Colors/Gray (dark mode)/200 */
+  --vidc-colors-gray-dark-mode-200: #EAECF0;
+  /* Colors/Gray (dark mode)/300 */
+  --vidc-colors-gray-dark-mode-300: #D0D5DD;
+  /* Colors/Gray (dark mode)/400 */
+  --vidc-colors-gray-dark-mode-400: #98A2B3;
+  /* Colors/Gray (dark mode)/500 */
+  --vidc-colors-gray-dark-mode-500: #98A2B3;
+  /* Colors/Gray (dark mode)/600 */
+  --vidc-colors-gray-dark-mode-600: #667085;
+  /* Colors/Gray (dark mode)/700 */
+  --vidc-colors-gray-dark-mode-700: #242B34;
+  /* Colors/Gray (dark mode)/800 */
+  --vidc-colors-gray-dark-mode-800: #1E2329;
+  /* Colors/Gray (dark mode)/900 */
+  --vidc-colors-gray-dark-mode-900: #141820;
+  /* Colors/Gray (dark mode)/950 */
+  --vidc-colors-gray-dark-mode-950: #0B0E17;
+  /* Colors/Effects/Shadows/shadow-xs */
+  --vidc-colors-effects-shadows-shadow-xs: #1018280D;
+  /* Colors/Effects/Shadows/shadow-sm_02 */
+  --vidc-colors-effects-shadows-shadow-sm-02: #1018280F;
+  /* Colors/Effects/Shadows/shadow-lg_01 */
+  --vidc-colors-effects-shadows-shadow-lg-01: #10182814;
+  /* Colors/Effects/Shadows/shadow-lg_02 */
+  --vidc-colors-effects-shadows-shadow-lg-02: #10182808;
+  /* Colors/Effects/Shadows/shadow-sm_01 */
+  --vidc-colors-effects-shadows-shadow-sm-01: #1018281A;
+  /* Colors/Effects/Shadows/shadow-3xl */
+  --vidc-colors-effects-shadows-shadow-3xl: #10182824;
+  /* Colors/Effects/Shadows/shadow-2xl */
+  --vidc-colors-effects-shadows-shadow-2xl: #1018282E;
+  /* Component colors/Components/Avatars/avatar-styles-bg-neutral */
+  --vidc-component-colors-components-avatars-avatar-styles-bg-neutral: #E0E0E0;
+  /* Colors/Effects/Shadows/shadow-md_01 */
+  --vidc-colors-effects-shadows-shadow-md-01: #1018281A;
+  /* Colors/Effects/Shadows/shadow-md_02 */
+  --vidc-colors-effects-shadows-shadow-md-02: #1018280F;
+  /* Colors/Effects/Shadows/shadow-xl_01 */
+  --vidc-colors-effects-shadows-shadow-xl-01: #10182814;
+  /* Colors/Effects/Shadows/shadow-xl_02 */
+  --vidc-colors-effects-shadows-shadow-xl-02: #10182808;
+  /* Colors/Effects/Portfolio mockups/shadow-main-centre-md */
+  --vidc-colors-effects-portfolio-mockups-shadow-main-centre-md: #10182824;
+  /* Colors/Effects/Portfolio mockups/shadow-main-centre-lg */
+  --vidc-colors-effects-portfolio-mockups-shadow-main-centre-lg: #1018282E;
+  /* Colors/Effects/Portfolio mockups/shadow-overlay-lg */
+  --vidc-colors-effects-portfolio-mockups-shadow-overlay-lg: #1018281F;
+  /* Colors/Effects/Portfolio mockups/shadow-grid-md */
+  --vidc-colors-effects-portfolio-mockups-shadow-grid-md: #10182814;
+  /* Colors/Effects/Focus rings/focus-ring */
+  --vidc-colors-effects-focus-rings-focus-ring: #EE0033;
+  /* Colors/Effects/Focus rings/focus-ring-error */
+  --vidc-colors-effects-focus-rings-focus-ring-error: #F04438;
+  /* Colors/Effects/Shadows/shadow-skeumorphic-inner */
+  --vidc-colors-effects-shadows-shadow-skeumorphic-inner: #1018280D;
+  /* Colors/Effects/Shadows/shadow-skeumorphic-inner-border */
+  --vidc-colors-effects-shadows-shadow-skeumorphic-inner-border: #1018282E;
+  /* Colors/Border/border-brand_alt */
+  --vidc-colors-border-border-brand-alt: #D6002E;
+  /* Font family/font-family-display */
+  --vidc-font-family-font-family-display: Roboto;
+  /* Font family/font-family-body */
+  --vidc-font-family-font-family-body: Roboto;
+  /* Font weight/regular */
+  --vidc-font-weight-regular: Regular;
+  /* Font weight/regular-italic */
+  --vidc-font-weight-regular-italic: Italic;
+  /* Font weight/medium */
+  --vidc-font-weight-medium: Medium;
+  /* Font weight/medium-italic */
+  --vidc-font-weight-medium-italic: Medium Italic;
+  /* Font weight/semibold */
+  --vidc-font-weight-semibold: SemiBold;
+  /* Font weight/semibold-italic */
+  --vidc-font-weight-semibold-italic: SemiBold Italic;
+  /* Font weight/bold */
+  --vidc-font-weight-bold: Bold;
+  /* Font weight/bold-italic */
+  --vidc-font-weight-bold-italic: Bold Italic;
+  /* Font size/text-xs */
+  --vidc-font-size-text-xs: 12px;
+  /* Font size/text-sm */
+  --vidc-font-size-text-sm: 14px;
+  /* Font size/text-md */
+  --vidc-font-size-text-md: 16px;
+  /* Font size/text-lg */
+  --vidc-font-size-text-lg: 18px;
+  /* Font size/text-xl */
+  --vidc-font-size-text-xl: 20px;
+  /* Font size/display-xs */
+  --vidc-font-size-display-xs: 24px;
+  /* Font size/display-sm */
+  --vidc-font-size-display-sm: 30px;
+  /* Font size/display-md */
+  --vidc-font-size-display-md: 36px;
+  /* Font size/display-lg */
+  --vidc-font-size-display-lg: 48px;
+  /* Font size/display-xl */
+  --vidc-font-size-display-xl: 60px;
+  /* Font size/display-2xl */
+  --vidc-font-size-display-2xl: 72px;
+  /* Line height/text-xs */
+  --vidc-line-height-text-xs: 16px;
+  /* Line height/text-sm */
+  --vidc-line-height-text-sm: 20px;
+  /* Line height/text-md */
+  --vidc-line-height-text-md: 24px;
+  /* Line height/text-lg */
+  --vidc-line-height-text-lg: 28px;
+  /* Line height/text-xl */
+  --vidc-line-height-text-xl: 30px;
+  /* Line height/display-xs */
+  --vidc-line-height-display-xs: 32px;
+  /* Line height/display-sm */
+  --vidc-line-height-display-sm: 38px;
+  /* Line height/display-md */
+  --vidc-line-height-display-md: 44px;
+  /* Line height/display-lg */
+  --vidc-line-height-display-lg: 56px;
+  /* Line height/display-xl */
+  --vidc-line-height-display-xl: 72px;
+  /* Line height/display-2xl */
+  --vidc-line-height-display-2xl: 90px;
+  /* VIDC/Brand/ContrastTextLight */
+  --vidc-vidc-brand-contrast-text-light: #C5002A;
+  /* VIDC/Brand/ContrastTextDark */
+  --vidc-vidc-brand-contrast-text-dark: #FF6482;
+  /* VIDC/Border/DarkDefault */
+  --vidc-vidc-border-dark-default: #37404C;
+  /* VIDC/Border/DarkStrong */
+  --vidc-vidc-border-dark-strong: #475467;
+  /* VIDC/Display/MD/FontFamily */
+  --vidc-vidc-display-md-font-family: FS PF BeauSans Pro;
+  /* VIDC/Display/MD/FontWeight */
+  --vidc-vidc-display-md-font-weight: 600;
+  /* VIDC/Display/MD/FontSize */
+  --vidc-vidc-display-md-font-size: 48px;
+  /* VIDC/Display/MD/LineHeight */
+  --vidc-vidc-display-md-line-height: 56px;
+  /* VIDC/Heading/H1/FontFamily */
+  --vidc-vidc-heading-h1-font-family: FS PF BeauSans Pro;
+  /* VIDC/Heading/H1/FontWeight */
+  --vidc-vidc-heading-h1-font-weight: 600;
+  /* VIDC/Heading/H1/FontSize */
+  --vidc-vidc-heading-h1-font-size: 48px;
+  /* VIDC/Heading/H1/LineHeight */
+  --vidc-vidc-heading-h1-line-height: 56px;
+  /* VIDC/Heading/H2/FontFamily */
+  --vidc-vidc-heading-h2-font-family: FS PF BeauSans Pro;
+  /* VIDC/Heading/H2/FontWeight */
+  --vidc-vidc-heading-h2-font-weight: 600;
+  /* VIDC/Heading/H2/FontSize */
+  --vidc-vidc-heading-h2-font-size: 36px;
+  /* VIDC/Heading/H2/LineHeight */
+  --vidc-vidc-heading-h2-line-height: 44px;
+  /* VIDC/Heading/H3/FontFamily */
+  --vidc-vidc-heading-h3-font-family: FS PF BeauSans Pro;
+  /* VIDC/Heading/H3/FontWeight */
+  --vidc-vidc-heading-h3-font-weight: 600;
+  /* VIDC/Heading/H3/FontSize */
+  --vidc-vidc-heading-h3-font-size: 24px;
+  /* VIDC/Heading/H3/LineHeight */
+  --vidc-vidc-heading-h3-line-height: 32px;
+  /* VIDC/Heading/H4/FontFamily */
+  --vidc-vidc-heading-h4-font-family: Roboto;
+  /* VIDC/Heading/H4/FontWeight */
+  --vidc-vidc-heading-h4-font-weight: 600;
+  /* VIDC/Heading/H4/FontSize */
+  --vidc-vidc-heading-h4-font-size: 20px;
+  /* VIDC/Heading/H4/LineHeight */
+  --vidc-vidc-heading-h4-line-height: 28px;
+  /* VIDC/Heading/H5/FontFamily */
+  --vidc-vidc-heading-h5-font-family: Roboto;
+  /* VIDC/Heading/H5/FontWeight */
+  --vidc-vidc-heading-h5-font-weight: 600;
+  /* VIDC/Heading/H5/FontSize */
+  --vidc-vidc-heading-h5-font-size: 16px;
+  /* VIDC/Heading/H5/LineHeight */
+  --vidc-vidc-heading-h5-line-height: 24px;
+  /* VIDC/Body/LG/FontFamily */
+  --vidc-vidc-body-lg-font-family: Roboto;
+  /* VIDC/Body/LG/FontWeight */
+  --vidc-vidc-body-lg-font-weight: 400;
+  /* VIDC/Body/LG/FontSize */
+  --vidc-vidc-body-lg-font-size: 18px;
+  /* VIDC/Body/LG/LineHeight */
+  --vidc-vidc-body-lg-line-height: 28px;
+  /* VIDC/Body/MD/FontFamily */
+  --vidc-vidc-body-md-font-family: Roboto;
+  /* VIDC/Body/MD/FontWeight */
+  --vidc-vidc-body-md-font-weight: 400;
+  /* VIDC/Body/MD/FontSize */
+  --vidc-vidc-body-md-font-size: 16px;
+  /* VIDC/Body/MD/LineHeight */
+  --vidc-vidc-body-md-line-height: 24px;
+  /* VIDC/Body/SM/FontFamily */
+  --vidc-vidc-body-sm-font-family: Roboto;
+  /* VIDC/Body/SM/FontWeight */
+  --vidc-vidc-body-sm-font-weight: 400;
+  /* VIDC/Body/SM/FontSize */
+  --vidc-vidc-body-sm-font-size: 14px;
+  /* VIDC/Body/SM/LineHeight */
+  --vidc-vidc-body-sm-line-height: 20px;
+  /* VIDC/Caption/FontFamily */
+  --vidc-vidc-caption-font-family: Roboto;
+  /* VIDC/Caption/FontWeight */
+  --vidc-vidc-caption-font-weight: 400;
+  /* VIDC/Caption/FontSize */
+  --vidc-vidc-caption-font-size: 12px;
+  /* VIDC/Caption/LineHeight */
+  --vidc-vidc-caption-line-height: 16px;
+  /* VIDC/Overline/FontFamily */
+  --vidc-vidc-overline-font-family: Roboto;
+  /* VIDC/Overline/FontWeight */
+  --vidc-vidc-overline-font-weight: 600;
+  /* VIDC/Overline/FontSize */
+  --vidc-vidc-overline-font-size: 12px;
+  /* VIDC/Overline/LineHeight */
+  --vidc-vidc-overline-line-height: 16px;
+  /* VIDC/Overline/LetterSpacing */
+  --vidc-vidc-overline-letter-spacing: 0.9599999785423279px;
+  /* VIDC/Reference/Feedback/Success/Text/Light */
+  --vidc-vidc-reference-feedback-success-text-light: #067647;
+  /* VIDC/Reference/Feedback/Success/Text/Dark */
+  --vidc-vidc-reference-feedback-success-text-dark: #32D583;
+  /* VIDC/Reference/Feedback/Success/Surface/Light */
+  --vidc-vidc-reference-feedback-success-surface-light: #ECFDF3;
+  /* VIDC/Reference/Feedback/Success/Surface/Dark */
+  --vidc-vidc-reference-feedback-success-surface-dark: #052E1A;
+  /* VIDC/Reference/Feedback/Success/Border/Light */
+  --vidc-vidc-reference-feedback-success-border-light: #ABEFC6;
+  /* VIDC/Reference/Feedback/Success/Border/Dark */
+  --vidc-vidc-reference-feedback-success-border-dark: #087443;
+  /* VIDC/Reference/Feedback/Warning/Text/Light */
+  --vidc-vidc-reference-feedback-warning-text-light: #B54708;
+  /* VIDC/Reference/Feedback/Warning/Text/Dark */
+  --vidc-vidc-reference-feedback-warning-text-dark: #FEC84B;
+  /* VIDC/Reference/Feedback/Warning/Surface/Light */
+  --vidc-vidc-reference-feedback-warning-surface-light: #FFFAEB;
+  /* VIDC/Reference/Feedback/Warning/Surface/Dark */
+  --vidc-vidc-reference-feedback-warning-surface-dark: #3B2505;
+  /* VIDC/Reference/Feedback/Warning/Border/Light */
+  --vidc-vidc-reference-feedback-warning-border-light: #FEDF89;
+  /* VIDC/Reference/Feedback/Warning/Border/Dark */
+  --vidc-vidc-reference-feedback-warning-border-dark: #93370D;
+  /* VIDC/Reference/Feedback/Error/Text/Light */
+  --vidc-vidc-reference-feedback-error-text-light: #B42318;
+  /* VIDC/Reference/Feedback/Error/Text/Dark */
+  --vidc-vidc-reference-feedback-error-text-dark: #FDA29B;
+  /* VIDC/Reference/Feedback/Error/Surface/Light */
+  --vidc-vidc-reference-feedback-error-surface-light: #FEF3F2;
+  /* VIDC/Reference/Feedback/Error/Surface/Dark */
+  --vidc-vidc-reference-feedback-error-surface-dark: #3B0D0B;
+  /* VIDC/Reference/Feedback/Error/Border/Light */
+  --vidc-vidc-reference-feedback-error-border-light: #FECDCA;
+  /* VIDC/Reference/Feedback/Error/Border/Dark */
+  --vidc-vidc-reference-feedback-error-border-dark: #912018;
+  /* VIDC/Reference/Feedback/Info/Text/Light */
+  --vidc-vidc-reference-feedback-info-text-light: #175CD3;
+  /* VIDC/Reference/Feedback/Info/Text/Dark */
+  --vidc-vidc-reference-feedback-info-text-dark: #84CAFF;
+  /* VIDC/Reference/Feedback/Info/Surface/Light */
+  --vidc-vidc-reference-feedback-info-surface-light: #EFF8FF;
+  /* VIDC/Reference/Feedback/Info/Surface/Dark */
+  --vidc-vidc-reference-feedback-info-surface-dark: #0B2F4F;
+  /* VIDC/Reference/Feedback/Info/Border/Light */
+  --vidc-vidc-reference-feedback-info-border-light: #B2DDFF;
+  /* VIDC/Reference/Feedback/Info/Border/Dark */
+  --vidc-vidc-reference-feedback-info-border-dark: #175CD3;
+  /* VIDC/Text/Primary */
+  --vidc-vidc-text-primary: #101828;
+  /* VIDC/Text/Secondary */
+  --vidc-vidc-text-secondary: #344054;
+  /* VIDC/Text/Muted */
+  --vidc-vidc-text-muted: #667085;
+  /* VIDC/Text/Tertiary */
+  --vidc-vidc-text-tertiary: #667085;
+  /* VIDC/Text/Brand */
+  --vidc-vidc-text-brand: #C5002A;
+  /* VIDC/Surface/Canvas */
+  --vidc-vidc-surface-canvas: #FFFFFF;
+  /* VIDC/Surface/Default */
+  --vidc-vidc-surface-default: #FFFFFF;
+  /* VIDC/Surface/Elevated */
+  --vidc-vidc-surface-elevated: #F9FAFB;
+  /* VIDC/Surface/Subtle */
+  --vidc-vidc-surface-subtle: #F2F4F7;
+  /* VIDC/Border/Default */
+  --vidc-vidc-border-default: #EAECF0;
+  /* VIDC/Border/Strong */
+  --vidc-vidc-border-strong: #D0D5DD;
+  /* VIDC/Border/Brand */
+  --vidc-vidc-border-brand: #C5002A;
+  /* VIDC/Action/Primary/Default */
+  --vidc-vidc-action-primary-default: #EE0033;
+  /* VIDC/Action/Primary/Hover */
+  --vidc-vidc-action-primary-hover: #D6002E;
+  /* VIDC/Action/Primary/Active */
+  --vidc-vidc-action-primary-active: #BE0029;
+  /* VIDC/Action/Disabled/Background */
+  --vidc-vidc-action-disabled-background: #F2F4F7;
+  /* VIDC/Action/Disabled/Foreground */
+  --vidc-vidc-action-disabled-foreground: #98A2B3;
+  /* VIDC/Action/Disabled/Border */
+  --vidc-vidc-action-disabled-border: #EAECF0;
+  /* VIDC/Feedback/Success/Text */
+  --vidc-vidc-feedback-success-text: #067647;
+  /* VIDC/Feedback/Success/Surface */
+  --vidc-vidc-feedback-success-surface: #ECFDF3;
+  /* VIDC/Feedback/Success/Border */
+  --vidc-vidc-feedback-success-border: #ABEFC6;
+  /* VIDC/Feedback/Warning/Text */
+  --vidc-vidc-feedback-warning-text: #B54708;
+  /* VIDC/Feedback/Warning/Surface */
+  --vidc-vidc-feedback-warning-surface: #FFFAEB;
+  /* VIDC/Feedback/Warning/Border */
+  --vidc-vidc-feedback-warning-border: #FEDF89;
+  /* VIDC/Feedback/Error/Text */
+  --vidc-vidc-feedback-error-text: #B42318;
+  /* VIDC/Feedback/Error/Surface */
+  --vidc-vidc-feedback-error-surface: #FEF3F2;
+  /* VIDC/Feedback/Error/Border */
+  --vidc-vidc-feedback-error-border: #FECDCA;
+  /* VIDC/Feedback/Info/Text */
+  --vidc-vidc-feedback-info-text: #175CD3;
+  /* VIDC/Feedback/Info/Surface */
+  --vidc-vidc-feedback-info-surface: #EFF8FF;
+  /* VIDC/Feedback/Info/Border */
+  --vidc-vidc-feedback-info-border: #B2DDFF;
+  /* VIDC/Focus/Inner/Color */
+  --vidc-vidc-focus-inner-color: #FFFFFF;
+  /* VIDC/Focus/Outer/Color */
+  --vidc-vidc-focus-outer-color: #C5002A;
+  /* VIDC/Space/1 */
+  --vidc-vidc-space-1: 4px;
+  /* VIDC/Space/2 */
+  --vidc-vidc-space-2: 8px;
+  /* VIDC/Space/3 */
+  --vidc-vidc-space-3: 12px;
+  /* VIDC/Space/4 */
+  --vidc-vidc-space-4: 16px;
+  /* VIDC/Space/5 */
+  --vidc-vidc-space-5: 20px;
+  /* VIDC/Space/6 */
+  --vidc-vidc-space-6: 24px;
+  /* VIDC/Space/8 */
+  --vidc-vidc-space-8: 32px;
+  /* VIDC/Space/12 */
+  --vidc-vidc-space-12: 48px;
+  /* VIDC/Space/16 */
+  --vidc-vidc-space-16: 64px;
+  /* VIDC/Space/20 */
+  --vidc-vidc-space-20: 80px;
+  /* VIDC/Space/Optical/Half */
+  --vidc-vidc-space-optical-half: 2px;
+  /* VIDC/Density/Compact/ControlHeight */
+  --vidc-vidc-density-compact-control-height: 32px;
+  /* VIDC/Density/Default/ControlHeight */
+  --vidc-vidc-density-default-control-height: 40px;
+  /* VIDC/Density/Comfortable/ControlHeight */
+  --vidc-vidc-density-comfortable-control-height: 48px;
+  /* VIDC/Radius/XS */
+  --vidc-vidc-radius-xs: 4px;
+  /* VIDC/Radius/SM */
+  --vidc-vidc-radius-sm: 6px;
+  /* VIDC/Radius/MD */
+  --vidc-vidc-radius-md: 8px;
+  /* VIDC/Radius/LG */
+  --vidc-vidc-radius-lg: 12px;
+  /* VIDC/Radius/XL */
+  --vidc-vidc-radius-xl: 20px;
+  /* VIDC/Radius/2XL */
+  --vidc-vidc-radius-2-xl: 24px;
+  /* VIDC/Radius/Full */
+  --vidc-vidc-radius-full: 9999px;
+  /* VIDC/Radius/Checkbox */
+  --vidc-vidc-radius-checkbox: 4px;
+  /* VIDC/Radius/CompactControl */
+  --vidc-vidc-radius-compact-control: 6px;
+  /* VIDC/Radius/Control */
+  --vidc-vidc-radius-control: 8px;
+  /* VIDC/Radius/Input */
+  --vidc-vidc-radius-input: 12px;
+  /* VIDC/Radius/Card */
+  --vidc-vidc-radius-card: 12px;
+  /* VIDC/Radius/FeatureCard */
+  --vidc-vidc-radius-feature-card: 20px;
+  /* VIDC/Radius/Dialog */
+  --vidc-vidc-radius-dialog: 20px;
+  /* VIDC/Radius/LargeDialog */
+  --vidc-vidc-radius-large-dialog: 24px;
+  /* VIDC/Radius/Pill */
+  --vidc-vidc-radius-pill: 9999px;
+  /* VIDC/Grid/Mobile/Columns */
+  --vidc-vidc-grid-mobile-columns: 4;
+  /* VIDC/Grid/Mobile/Margin */
+  --vidc-vidc-grid-mobile-margin: 16px;
+  /* VIDC/Grid/Mobile/Gutter */
+  --vidc-vidc-grid-mobile-gutter: 12px;
+  /* VIDC/Grid/Tablet/Columns */
+  --vidc-vidc-grid-tablet-columns: 8;
+  /* VIDC/Grid/Tablet/Margin */
+  --vidc-vidc-grid-tablet-margin: 40px;
+  /* VIDC/Grid/Tablet/Gutter */
+  --vidc-vidc-grid-tablet-gutter: 16px;
+  /* VIDC/Grid/Desktop/Columns */
+  --vidc-vidc-grid-desktop-columns: 12;
+  /* VIDC/Grid/Desktop/Margin */
+  --vidc-vidc-grid-desktop-margin: 80px;
+  /* VIDC/Grid/Desktop/Gutter */
+  --vidc-vidc-grid-desktop-gutter: 24px;
+  /* VIDC/Breakpoint/XS */
+  --vidc-vidc-breakpoint-xs: 0;
+  /* VIDC/Breakpoint/SM */
+  --vidc-vidc-breakpoint-sm: 480;
+  /* VIDC/Breakpoint/MD */
+  --vidc-vidc-breakpoint-md: 768;
+  /* VIDC/Breakpoint/LG */
+  --vidc-vidc-breakpoint-lg: 1024;
+  /* VIDC/Breakpoint/XL */
+  --vidc-vidc-breakpoint-xl: 1280;
+  /* VIDC/Breakpoint/2XL */
+  --vidc-vidc-breakpoint-2-xl: 1600;
+  /* VIDC/Container/Article */
+  --vidc-vidc-container-article: 900px;
+  /* VIDC/Container/Reading */
+  --vidc-vidc-container-reading: 760px;
+  /* VIDC/Container/Max */
+  --vidc-vidc-container-max: 1600px;
+  /* VIDC/Motion/Duration/Instant */
+  --vidc-vidc-motion-duration-instant: 0;
+  /* VIDC/Motion/Duration/Fast */
+  --vidc-vidc-motion-duration-fast: 0.11999999731779099;
+  /* VIDC/Motion/Duration/Default */
+  --vidc-vidc-motion-duration-default: 0.20000000298023224;
+  /* VIDC/Motion/Duration/Slow */
+  --vidc-vidc-motion-duration-slow: 0.30000001192092896;
+  /* VIDC/Motion/Duration/Deliberate */
+  --vidc-vidc-motion-duration-deliberate: 0.5;
+  /* VIDC/Motion/Duration/Ambient */
+  --vidc-vidc-motion-duration-ambient: 0.800000011920929;
+  /* VIDC/Motion/Button/Duration */
+  --vidc-vidc-motion-button-duration: 0.11999999731779099;
+  /* VIDC/Motion/Dropdown/Duration */
+  --vidc-vidc-motion-dropdown-duration: 0.20000000298023224;
+  /* VIDC/Motion/Modal/Duration */
+  --vidc-vidc-motion-modal-duration: 0.20000000298023224;
+  /* VIDC/Motion/Drawer/Open/Duration */
+  --vidc-vidc-motion-drawer-open-duration: 0.30000001192092896;
+  /* VIDC/Motion/Drawer/Close/Duration */
+  --vidc-vidc-motion-drawer-close-duration: 0.20000000298023224;
+  /* VIDC/Motion/Accordion/Duration */
+  --vidc-vidc-motion-accordion-duration: 0.30000001192092896;
+  /* VIDC/Motion/Spinner/Duration */
+  --vidc-vidc-motion-spinner-duration: 0.800000011920929;
+  /* VIDC/Layer/Base */
+  --vidc-vidc-layer-base: 0;
+  /* VIDC/Layer/Raised */
+  --vidc-vidc-layer-raised: 10;
+  /* VIDC/Layer/Dropdown */
+  --vidc-vidc-layer-dropdown: 1000;
+  /* VIDC/Layer/Sticky */
+  --vidc-vidc-layer-sticky: 1020;
+  /* VIDC/Layer/Overlay */
+  --vidc-vidc-layer-overlay: 1040;
+  /* VIDC/Layer/Modal */
+  --vidc-vidc-layer-modal: 1050;
+  /* VIDC/Layer/Popover */
+  --vidc-vidc-layer-popover: 1060;
+  /* VIDC/Layer/Tooltip */
+  --vidc-vidc-layer-tooltip: 1070;
+  /* VIDC/Layer/Toast */
+  --vidc-vidc-layer-toast: 1080;
+  /* VIDC/A11y/Focus/InnerWidth */
+  --vidc-vidc-a11y-focus-inner-width: 2px;
+  /* VIDC/A11y/Focus/OuterWidth */
+  --vidc-vidc-a11y-focus-outer-width: 2px;
+  /* VIDC/A11y/Touch/Minimum */
+  --vidc-vidc-a11y-touch-minimum: 44;
+  /* VIDC/A11y/Touch/Preferred */
+  --vidc-vidc-a11y-touch-preferred: 48;
+  /* VIDC/A11y/Contrast/NormalText */
+  --vidc-vidc-a11y-contrast-normal-text: 4.5;
+  /* VIDC/A11y/Contrast/LargeText */
+  --vidc-vidc-a11y-contrast-large-text: 3;
+  /* VIDC/A11y/Contrast/UI */
+  --vidc-vidc-a11y-contrast-ui: 3;
+  /* VIDC/Reference/Brand/ActionPrimaryAA */
+  --vidc-vidc-reference-brand-action-primary-aa: #E80032;
+  /* VIDC/Action/Destructive/Default */
+  --vidc-vidc-action-destructive-default: #FEDF89;
+  /* VIDC/Action/Destructive/Hover */
+  --vidc-vidc-action-destructive-hover: #FEC84B;
+  /* VIDC/Action/Destructive/Active */
+  --vidc-vidc-action-destructive-active: #FDB022;
+  /* VIDC/Action/Neutral/Pressed/Surface */
+  --vidc-vidc-action-neutral-pressed-surface: #EAECF0;
+  /* VIDC/Action/BrandSubtle/Pressed/Surface */
+  --vidc-vidc-action-brand-subtle-pressed-surface: #FFE4EA;
+  /* VIDC/Action/DestructiveSubtle/Pressed/Surface */
+  --vidc-vidc-action-destructive-subtle-pressed-surface: #FEE4E2;
+  /* VIDC/Reference/WarningButton/Default */
+  --vidc-vidc-reference-warning-button-default: #FEDF89;
+  /* VIDC/Reference/WarningButton/Hover */
+  --vidc-vidc-reference-warning-button-hover: #FEC84B;
+  /* VIDC/Reference/WarningButton/Active */
+  --vidc-vidc-reference-warning-button-active: #FDB022;
+  /* VIDC/Reference/WarningButton/Foreground */
+  --vidc-vidc-reference-warning-button-foreground: #B54708;
+  /* VIDC/Reference/WarningButton/ForegroundDark */
+  --vidc-vidc-reference-warning-button-foreground-dark: #FEC84B;
+  /* VIDC/Reference/WarningButton/SubtleHover */
+  --vidc-vidc-reference-warning-button-subtle-hover: #FFFAEB;
+  /* VIDC/Reference/WarningButton/SubtlePressed */
+  --vidc-vidc-reference-warning-button-subtle-pressed: #FEF0C7;
+  /* VIDC/Reference/WarningButton/Border */
+  --vidc-vidc-reference-warning-button-border: #DC6803;
+  /* VIDC/Reference/WarningButton/SubtleHoverDark */
+  --vidc-vidc-reference-warning-button-subtle-hover-dark: #4E1D09;
+  /* VIDC/Reference/WarningButton/SubtlePressedDark */
+  --vidc-vidc-reference-warning-button-subtle-pressed-dark: #7A2E0E;
+  /* VIDC/Reference/WarningButton/BorderDark */
+  --vidc-vidc-reference-warning-button-border-dark: #FEC84B;
+  /* VIDC/Action/Destructive/Foreground */
+  --vidc-vidc-action-destructive-foreground: #B54708;
+  /* VIDC/Action/Destructive/ForegroundHover */
+  --vidc-vidc-action-destructive-foreground-hover: #B54708;
+  /* VIDC/Action/Destructive/SubtleHover */
+  --vidc-vidc-action-destructive-subtle-hover: #FFFAEB;
+  /* VIDC/Action/Destructive/SubtlePressed */
+  --vidc-vidc-action-destructive-subtle-pressed: #FEF0C7;
+  /* VIDC/Action/Destructive/Border */
+  --vidc-vidc-action-destructive-border: #DC6803;
+  /* VIDC/Action/Warning/OnBright */
+  --vidc-vidc-action-warning-on-bright: #101828;
+  /* VIDC/Focus/Warning/Color */
+  --vidc-vidc-focus-warning-color: #DC6803;
+  /* VIDC/Button/SM/FontFamily */
+  --vidc-vidc-button-sm-font-family: Roboto;
+  /* VIDC/Button/SM/FontWeight */
+  --vidc-vidc-button-sm-font-weight: 600;
+  /* VIDC/Button/SM/FontSize */
+  --vidc-vidc-button-sm-font-size: 12px;
+  /* VIDC/Button/SM/LineHeight */
+  --vidc-vidc-button-sm-line-height: 16px;
+  /* VIDC/Button/MD/FontFamily */
+  --vidc-vidc-button-md-font-family: Roboto;
+  /* VIDC/Button/MD/FontWeight */
+  --vidc-vidc-button-md-font-weight: 600;
+  /* VIDC/Button/MD/FontSize */
+  --vidc-vidc-button-md-font-size: 14px;
+  /* VIDC/Button/MD/LineHeight */
+  --vidc-vidc-button-md-line-height: 20px;
+  /* VIDC/Button/LG/FontFamily */
+  --vidc-vidc-button-lg-font-family: Roboto;
+  /* VIDC/Button/LG/FontWeight */
+  --vidc-vidc-button-lg-font-weight: 600;
+  /* VIDC/Button/LG/FontSize */
+  --vidc-vidc-button-lg-font-size: 16px;
+  /* VIDC/Button/LG/LineHeight */
+  --vidc-vidc-button-lg-line-height: 24px;
+  /* VIDC/Action/Warning/Default */
+  --vidc-vidc-action-warning-default: #FEDF89;
+  /* VIDC/Action/Warning/Hover */
+  --vidc-vidc-action-warning-hover: #FEC84B;
+  /* VIDC/Action/Warning/Pressed */
+  --vidc-vidc-action-warning-pressed: #FDB022;
+  /* VIDC/Border/Control */
+  --vidc-vidc-border-control: #667085;
+  /* VIDC/Feedback/Warning/Indicator */
+  --vidc-vidc-feedback-warning-indicator: #B54708;
+  /* VIDC/Feedback/Error/Indicator */
+  --vidc-vidc-feedback-error-indicator: #B42318;
+  /* VIDC/Feedback/Success/Indicator */
+  --vidc-vidc-feedback-success-indicator: #067647;
+  /* VIDC/Feedback/Info/Indicator */
+  --vidc-vidc-feedback-info-indicator: #175CD3;
+  /* VIDC/Radius/Button/Outer/6 */
+  --vidc-vidc-radius-button-outer-6: 6px;
+  /* VIDC/Radius/Button/Outer/7 */
+  --vidc-vidc-radius-button-outer-7: 7px;
+  /* VIDC/Radius/Button/Outer/8 */
+  --vidc-vidc-radius-button-outer-8: 8px;
+  /* VIDC/Radius/Button/Outer/8_75 */
+  --vidc-vidc-radius-button-outer-8-75: 8.75px;
+  /* VIDC/Radius/Button/Outer/9 */
+  --vidc-vidc-radius-button-outer-9: 9px;
+  /* VIDC/Radius/Button/Outer/9_25 */
+  --vidc-vidc-radius-button-outer-9-25: 9.25px;
+  /* VIDC/Radius/Button/Outer/10 */
+  --vidc-vidc-radius-button-outer-10: 10px;
+  /* VIDC/Radius/Button/Outer/14 */
+  --vidc-vidc-radius-button-outer-14: 14px;
+  /* radius-button-7 */
+  --vidc-radius-button-7: 7px;
+  /* radius-button-8-75 */
+  --vidc-radius-button-8-75: 8.75px;
+  /* radius-button-9 */
+  --vidc-radius-button-9: 9px;
+  /* radius-button-9-25 */
+  --vidc-radius-button-9-25: 9.25px;
+  /* radius-button-10 */
+  --vidc-radius-button-10: 10px;
+  /* radius-button-14 */
+  --vidc-radius-button-14: 14px;
+  /* VIDC/Radius/Button/BottomLeft */
+  --vidc-vidc-radius-button-bottom-left: 2px;
+}
+
+[data-theme="dark"] {
+  /* Colors/Text/text-primary (900) */
+  --vidc-colors-text-text-primary-900: #F9FAFB;
+  /* Colors/Text/text-tertiary (600) */
+  --vidc-colors-text-text-tertiary-600: #98A2B3;
+  /* Colors/Border/border-secondary */
+  --vidc-colors-border-border-secondary: #475467;
+  /* Colors/Text/text-error-primary (600) */
+  --vidc-colors-text-text-error-primary-600: #F97066;
+  /* Colors/Border/border-error_subtle */
+  --vidc-colors-border-border-error-subtle: #F97066;
+  /* Colors/Background/bg-primary */
+  --vidc-colors-background-bg-primary: #141820;
+  /* Colors/Background/bg-tertiary */
+  --vidc-colors-background-bg-tertiary: #242B34;
+  /* Colors/Foreground/fg-secondary (700) */
+  --vidc-colors-foreground-fg-secondary-700: #D0D5DD;
+  /* Colors/Background/bg-brand-primary */
+  --vidc-colors-background-bg-brand-primary: #141820;
+  /* Colors/Background/bg-error-secondary */
+  --vidc-colors-background-bg-error-secondary: #D92D20;
+  /* Colors/Background/bg-warning-primary */
+  --vidc-colors-background-bg-warning-primary: #F79009;
+  /* Colors/Background/bg-warning-secondary */
+  --vidc-colors-background-bg-warning-secondary: #DC6803;
+  /* Colors/Background/bg-success-primary */
+  --vidc-colors-background-bg-success-primary: #17B26A;
+  /* Colors/Background/bg-success-secondary */
+  --vidc-colors-background-bg-success-secondary: #079455;
+  /* Colors/Foreground/fg-warning-primary */
+  --vidc-colors-foreground-fg-warning-primary: #F79009;
+  /* Colors/Foreground/fg-success-primary */
+  --vidc-colors-foreground-fg-success-primary: #17B26A;
+  /* Colors/Border/border-primary */
+  --vidc-colors-border-border-primary: #37404C;
+  /* Colors/Text/text-warning-primary (600) */
+  --vidc-colors-text-text-warning-primary-600: #FDB022;
+  /* Colors/Text/text-success-primary (600) */
+  --vidc-colors-text-text-success-primary-600: #47CD89;
+  /* Colors/Background/bg-secondary-solid */
+  --vidc-colors-background-bg-secondary-solid: #667085;
+  /* Colors/Foreground/fg-success-secondary */
+  --vidc-colors-foreground-fg-success-secondary: #47CD89;
+  /* Colors/Text/text-secondary (700) */
+  --vidc-colors-text-text-secondary-700: #D0D5DD;
+  /* Colors/Background/bg-secondary_hover */
+  --vidc-colors-background-bg-secondary-hover: #1E2329;
+  /* Colors/Foreground/fg-secondary_hover */
+  --vidc-colors-foreground-fg-secondary-hover: #EAECF0;
+  /* Colors/Background/bg-primary_hover */
+  --vidc-colors-background-bg-primary-hover: #1E2329;
+  /* Colors/Background/bg-disabled */
+  --vidc-colors-background-bg-disabled: #1E2329;
+  /* Colors/Foreground/fg-primary (900) */
+  --vidc-colors-foreground-fg-primary-900: #FFFFFF;
+  /* Colors/Text/text-disabled */
+  --vidc-colors-text-text-disabled: #98A2B3;
+  /* Colors/Text/text-secondary_hover */
+  --vidc-colors-text-text-secondary-hover: #EAECF0;
+  /* Colors/Text/text-tertiary_hover */
+  --vidc-colors-text-text-tertiary-hover: #D0D5DD;
+  /* Colors/Background/bg-active */
+  --vidc-colors-background-bg-active: #1E2329;
+  /* Colors/Border/border-brand */
+  --vidc-colors-border-border-brand: #FF6482;
+  /* Colors/Border/border-disabled */
+  --vidc-colors-border-border-disabled: #242B34;
+  /* Colors/Border/border-error */
+  --vidc-colors-border-border-error: #F97066;
+  /* Colors/Background/bg-error-primary */
+  --vidc-colors-background-bg-error-primary: #F04438;
+  /* Colors/Foreground/fg-quaternary (500) */
+  --vidc-colors-foreground-fg-quaternary-500: #98A2B3;
+  /* Colors/Foreground/fg-quaternary_hover */
+  --vidc-colors-foreground-fg-quaternary-hover: #D0D5DD;
+  /* Colors/Foreground/fg-brand-secondary (500) */
+  --vidc-colors-foreground-fg-brand-secondary-500: #FF6482;
+  /* Colors/Background/bg-brand-secondary */
+  --vidc-colors-background-bg-brand-secondary: #1E2329;
+  /* Colors/Foreground/fg-brand-primary (600) */
+  --vidc-colors-foreground-fg-brand-primary-600: #FF6482;
+  /* Colors/Foreground/fg-quinary_hover */
+  --vidc-colors-foreground-fg-quinary-hover: #98A2B3;
+  /* Colors/Foreground/fg-error-primary */
+  --vidc-colors-foreground-fg-error-primary: #F04438;
+  /* Colors/Background/bg-secondary */
+  --vidc-colors-background-bg-secondary: #1E2329;
+  /* Colors/Background/bg-disabled_subtle */
+  --vidc-colors-background-bg-disabled-subtle: #141820;
+  /* Colors/Text/text-brand-secondary (700) */
+  --vidc-colors-text-text-brand-secondary-700: #FF6482;
+  /* Component colors/Utility/Blue/utility-blue-600 */
+  --vidc-component-colors-utility-blue-utility-blue-600: #53B1FD;
+  /* Colors/Background/bg-quaternary */
+  --vidc-colors-background-bg-quaternary: #242B34;
+  /* Component colors/Components/Buttons/Secondary/button-secondary-bg */
+  --vidc-component-colors-components-buttons-secondary-button-secondary-bg: #141820;
+  /* Component colors/Components/Buttons/Secondary/button-secondary-bg_hover */
+  --vidc-component-colors-components-buttons-secondary-button-secondary-bg-hover: #1E2329;
+  /* Component colors/Components/Buttons/Secondary color/button-secondary-color-bg */
+  --vidc-component-colors-components-buttons-secondary-color-button-secondary-color-bg: #141820;
+  /* Component colors/Components/Buttons/Secondary color/button-secondary-color-bg_hover */
+  --vidc-component-colors-components-buttons-secondary-color-button-secondary-color-bg-hover: #1E2329;
+  /* Component colors/Components/Buttons/Secondary color/button-secondary-color-border_hover */
+  --vidc-component-colors-components-buttons-secondary-color-button-secondary-color-border-hover: #242B34;
+  /* Component colors/Components/Buttons/Secondary color/button-secondary-color-border */
+  --vidc-component-colors-components-buttons-secondary-color-button-secondary-color-border: #242B34;
+  /* Component colors/Components/Buttons/Secondary/button-secondary-fg */
+  --vidc-component-colors-components-buttons-secondary-button-secondary-fg: #D0D5DD;
+  /* Component colors/Components/Buttons/Secondary/button-secondary-fg_hover */
+  --vidc-component-colors-components-buttons-secondary-button-secondary-fg-hover: #F2F4F7;
+  /* Component colors/Components/Buttons/Secondary color/button-secondary-color-fg */
+  --vidc-component-colors-components-buttons-secondary-color-button-secondary-color-fg: #D0D5DD;
+  /* Component colors/Components/Buttons/Secondary color/button-secondary-color-fg_hover */
+  --vidc-component-colors-components-buttons-secondary-color-button-secondary-color-fg-hover: #F2F4F7;
+  /* Component colors/Components/Buttons/Secondary/button-secondary-border */
+  --vidc-component-colors-components-buttons-secondary-button-secondary-border: #242B34;
+  /* Component colors/Components/Buttons/Secondary/button-secondary-border_hover */
+  --vidc-component-colors-components-buttons-secondary-button-secondary-border-hover: #242B34;
+  /* Colors/Foreground/fg-disabled_subtle */
+  --vidc-colors-foreground-fg-disabled-subtle: #667085;
+  /* Component colors/Utility/Brand/utility-brand-600 */
+  --vidc-component-colors-utility-brand-utility-brand-600: #FF6482;
+  /* Component colors/Utility/Gray/utility-gray-700 */
+  --vidc-component-colors-utility-gray-utility-gray-700: #D0D5DD;
+  /* Component colors/Utility/Error/utility-error-600 */
+  --vidc-component-colors-utility-error-utility-error-600: #F97066;
+  /* Component colors/Utility/Warning/utility-warning-600 */
+  --vidc-component-colors-utility-warning-utility-warning-600: #FDB022;
+  /* Component colors/Utility/Success/utility-success-600 */
+  --vidc-component-colors-utility-success-utility-success-600: #47CD89;
+  /* Component colors/Utility/Orange/utility-orange-600 */
+  --vidc-component-colors-utility-orange-utility-orange-600: #F38744;
+  /* Component colors/Utility/Blue dark/utility-blue-dark-600 */
+  --vidc-component-colors-utility-blue-dark-utility-blue-dark-600: #528BFF;
+  /* Component colors/Utility/Indigo/utility-indigo-600 */
+  --vidc-component-colors-utility-indigo-utility-indigo-600: #8098F9;
+  /* Component colors/Utility/Fuchsia/utility-fuchsia-600 */
+  --vidc-component-colors-utility-fuchsia-utility-fuchsia-600: #E478FA;
+  /* Component colors/Utility/Pink/utility-pink-600 */
+  --vidc-component-colors-utility-pink-utility-pink-600: #F670C7;
+  /* Component colors/Utility/Purple/utility-purple-600 */
+  --vidc-component-colors-utility-purple-utility-purple-600: #9B8AFB;
+  /* Component colors/Utility/Orange dark/utility-orange-dark-600 */
+  --vidc-component-colors-utility-orange-dark-utility-orange-dark-600: #FF692E;
+  /* Component colors/Utility/Blue light/utility-blue-light-600 */
+  --vidc-component-colors-utility-blue-light-utility-blue-light-600: #36BFFA;
+  /* Component colors/Utility/Gray/utility-gray-600 */
+  --vidc-component-colors-utility-gray-utility-gray-600: #98A2B3;
+  /* Component colors/Utility/Brand/utility-brand-700 */
+  --vidc-component-colors-utility-brand-utility-brand-700: #FF9CB3;
+  /* Component colors/Utility/Error/utility-error-700 */
+  --vidc-component-colors-utility-error-utility-error-700: #FDA29B;
+  /* Component colors/Utility/Warning/utility-warning-700 */
+  --vidc-component-colors-utility-warning-utility-warning-700: #FEC84B;
+  /* Component colors/Utility/Success/utility-success-700 */
+  --vidc-component-colors-utility-success-utility-success-700: #75E0A7;
+  /* Component colors/Utility/Blue dark/utility-blue-dark-700 */
+  --vidc-component-colors-utility-blue-dark-utility-blue-dark-700: #84ADFF;
+  /* Component colors/Utility/Indigo/utility-indigo-700 */
+  --vidc-component-colors-utility-indigo-utility-indigo-700: #A4BCFD;
+  /* Component colors/Utility/Purple/utility-purple-700 */
+  --vidc-component-colors-utility-purple-utility-purple-700: #BDB4FE;
+  /* Component colors/Utility/Fuchsia/utility-fuchsia-700 */
+  --vidc-component-colors-utility-fuchsia-utility-fuchsia-700: #EEAAFD;
+  /* Component colors/Utility/Pink/utility-pink-700 */
+  --vidc-component-colors-utility-pink-utility-pink-700: #FAA7E0;
+  /* Component colors/Utility/Orange dark/utility-orange-dark-700 */
+  --vidc-component-colors-utility-orange-dark-utility-orange-dark-700: #FF9C66;
+  /* Component colors/Utility/Orange/utility-orange-700 */
+  --vidc-component-colors-utility-orange-utility-orange-700: #F7B27A;
+  /* Component colors/Utility/Blue/utility-blue-700 */
+  --vidc-component-colors-utility-blue-utility-blue-700: #84CAFF;
+  /* Component colors/Utility/Blue light/utility-blue-light-700 */
+  --vidc-component-colors-utility-blue-light-utility-blue-light-700: #7CD4FD;
+  /* Component colors/Utility/Gray blue/utility-gray-blue-600 */
+  --vidc-component-colors-utility-gray-blue-utility-gray-blue-600: #717BBC;
+  /* Component colors/Utility/Gray blue/utility-gray-blue-700 */
+  --vidc-component-colors-utility-gray-blue-utility-gray-blue-700: #B3B8DB;
+  /* Component colors/Utility/Gray/utility-gray-500 */
+  --vidc-component-colors-utility-gray-utility-gray-500: #98A2B3;
+  /* Component colors/Utility/Gray/utility-gray-200 */
+  --vidc-component-colors-utility-gray-utility-gray-200: #242B34;
+  /* Component colors/Utility/Brand/utility-brand-200 */
+  --vidc-component-colors-utility-brand-utility-brand-200: #A60023;
+  /* Component colors/Utility/Error/utility-error-200 */
+  --vidc-component-colors-utility-error-utility-error-200: #912018;
+  /* Component colors/Utility/Warning/utility-warning-200 */
+  --vidc-component-colors-utility-warning-utility-warning-200: #93370D;
+  /* Component colors/Utility/Success/utility-success-200 */
+  --vidc-component-colors-utility-success-utility-success-200: #085D3A;
+  /* Component colors/Utility/Gray blue/utility-gray-blue-200 */
+  --vidc-component-colors-utility-gray-blue-utility-gray-blue-200: #293056;
+  /* Component colors/Utility/Blue light/utility-blue-light-200 */
+  --vidc-component-colors-utility-blue-light-utility-blue-light-200: #065986;
+  /* Component colors/Utility/Blue/utility-blue-200 */
+  --vidc-component-colors-utility-blue-utility-blue-200: #1849A9;
+  /* Component colors/Utility/Blue dark/utility-blue-dark-200 */
+  --vidc-component-colors-utility-blue-dark-utility-blue-dark-200: #0040C1;
+  /* Component colors/Utility/Indigo/utility-indigo-200 */
+  --vidc-component-colors-utility-indigo-utility-indigo-200: #2D31A6;
+  /* Component colors/Utility/Purple/utility-purple-200 */
+  --vidc-component-colors-utility-purple-utility-purple-200: #4A1FB8;
+  /* Component colors/Utility/Fuchsia/utility-fuchsia-200 */
+  --vidc-component-colors-utility-fuchsia-utility-fuchsia-200: #821890;
+  /* Component colors/Utility/Pink/utility-pink-200 */
+  --vidc-component-colors-utility-pink-utility-pink-200: #9E165F;
+  /* Component colors/Utility/Orange dark/utility-orange-dark-200 */
+  --vidc-component-colors-utility-orange-dark-utility-orange-dark-200: #97180C;
+  /* Component colors/Utility/Orange/utility-orange-200 */
+  --vidc-component-colors-utility-orange-utility-orange-200: #932F19;
+  /* Component colors/Utility/Gray/utility-gray-50 */
+  --vidc-component-colors-utility-gray-utility-gray-50: #141820;
+  /* Component colors/Utility/Brand/utility-brand-50 */
+  --vidc-component-colors-utility-brand-utility-brand-50: #500011;
+  /* Component colors/Utility/Error/utility-error-50 */
+  --vidc-component-colors-utility-error-utility-error-50: #55160C;
+  /* Component colors/Utility/Warning/utility-warning-50 */
+  --vidc-component-colors-utility-warning-utility-warning-50: #4E1D09;
+  /* Component colors/Utility/Success/utility-success-50 */
+  --vidc-component-colors-utility-success-utility-success-50: #053321;
+  /* Component colors/Utility/Gray blue/utility-gray-blue-50 */
+  --vidc-component-colors-utility-gray-blue-utility-gray-blue-50: #101323;
+  /* Component colors/Utility/Blue light/utility-blue-light-50 */
+  --vidc-component-colors-utility-blue-light-utility-blue-light-50: #062C41;
+  /* Component colors/Utility/Blue/utility-blue-50 */
+  --vidc-component-colors-utility-blue-utility-blue-50: #102A56;
+  /* Component colors/Utility/Blue dark/utility-blue-dark-50 */
+  --vidc-component-colors-utility-blue-dark-utility-blue-dark-50: #002266;
+  /* Component colors/Utility/Indigo/utility-indigo-50 */
+  --vidc-component-colors-utility-indigo-utility-indigo-50: #1F235B;
+  /* Component colors/Utility/Purple/utility-purple-50 */
+  --vidc-component-colors-utility-purple-utility-purple-50: #27115F;
+  /* Component colors/Utility/Fuchsia/utility-fuchsia-50 */
+  --vidc-component-colors-utility-fuchsia-utility-fuchsia-50: #47104C;
+  /* Component colors/Utility/Pink/utility-pink-50 */
+  --vidc-component-colors-utility-pink-utility-pink-50: #4E0D30;
+  /* Component colors/Utility/Orange dark/utility-orange-dark-50 */
+  --vidc-component-colors-utility-orange-dark-utility-orange-dark-50: #57130A;
+  /* Component colors/Utility/Orange/utility-orange-50 */
+  --vidc-component-colors-utility-orange-utility-orange-50: #511C10;
+  /* Component colors/Utility/Gray/utility-gray-100 */
+  --vidc-component-colors-utility-gray-utility-gray-100: #1E2329;
+  /* Component colors/Utility/Brand/utility-brand-100 */
+  --vidc-component-colors-utility-brand-utility-brand-100: #80001B;
+  /* Component colors/Utility/Error/utility-error-100 */
+  --vidc-component-colors-utility-error-utility-error-100: #7A271A;
+  /* Component colors/Utility/Warning/utility-warning-100 */
+  --vidc-component-colors-utility-warning-utility-warning-100: #7A2E0E;
+  /* Component colors/Utility/Success/utility-success-100 */
+  --vidc-component-colors-utility-success-utility-success-100: #074D31;
+  /* Component colors/Utility/Gray blue/utility-gray-blue-100 */
+  --vidc-component-colors-utility-gray-blue-utility-gray-blue-100: #101323;
+  /* Component colors/Utility/Blue light/utility-blue-light-100 */
+  --vidc-component-colors-utility-blue-light-utility-blue-light-100: #0B4A6F;
+  /* Component colors/Utility/Blue/utility-blue-100 */
+  --vidc-component-colors-utility-blue-utility-blue-100: #194185;
+  /* Component colors/Utility/Blue dark/utility-blue-dark-100 */
+  --vidc-component-colors-utility-blue-dark-utility-blue-dark-100: #00359E;
+  /* Component colors/Utility/Indigo/utility-indigo-100 */
+  --vidc-component-colors-utility-indigo-utility-indigo-100: #2D3282;
+  /* Component colors/Utility/Purple/utility-purple-100 */
+  --vidc-component-colors-utility-purple-utility-purple-100: #3E1C96;
+  /* Component colors/Utility/Fuchsia/utility-fuchsia-100 */
+  --vidc-component-colors-utility-fuchsia-utility-fuchsia-100: #6F1877;
+  /* Component colors/Utility/Pink/utility-pink-100 */
+  --vidc-component-colors-utility-pink-utility-pink-100: #851651;
+  /* Component colors/Utility/Orange dark/utility-orange-dark-100 */
+  --vidc-component-colors-utility-orange-dark-utility-orange-dark-100: #771A0D;
+  /* Component colors/Utility/Orange/utility-orange-100 */
+  --vidc-component-colors-utility-orange-utility-orange-100: #772917;
+  /* Component colors/Utility/Gray/utility-gray-400 */
+  --vidc-component-colors-utility-gray-utility-gray-400: #667085;
+  /* Component colors/Utility/Brand/utility-brand-400 */
+  --vidc-component-colors-utility-brand-utility-brand-400: #D6002E;
+  /* Component colors/Utility/Error/utility-error-400 */
+  --vidc-component-colors-utility-error-utility-error-400: #D92D20;
+  /* Component colors/Utility/Warning/utility-warning-400 */
+  --vidc-component-colors-utility-warning-utility-warning-400: #DC6803;
+  /* Component colors/Utility/Success/utility-success-400 */
+  --vidc-component-colors-utility-success-utility-success-400: #079455;
+  /* Component colors/Utility/Gray blue/utility-gray-blue-400 */
+  --vidc-component-colors-utility-gray-blue-utility-gray-blue-400: #3E4784;
+  /* Component colors/Utility/Blue light/utility-blue-light-400 */
+  --vidc-component-colors-utility-blue-light-utility-blue-light-400: #0086C9;
+  /* Component colors/Utility/Blue/utility-blue-400 */
+  --vidc-component-colors-utility-blue-utility-blue-400: #1570EF;
+  /* Component colors/Utility/Blue dark/utility-blue-dark-400 */
+  --vidc-component-colors-utility-blue-dark-utility-blue-dark-400: #155EEF;
+  /* Component colors/Utility/Indigo/utility-indigo-400 */
+  --vidc-component-colors-utility-indigo-utility-indigo-400: #444CE7;
+  /* Component colors/Utility/Purple/utility-purple-400 */
+  --vidc-component-colors-utility-purple-utility-purple-400: #6938EF;
+  /* Component colors/Utility/Fuchsia/utility-fuchsia-400 */
+  --vidc-component-colors-utility-fuchsia-utility-fuchsia-400: #BA24D5;
+  /* Component colors/Utility/Pink/utility-pink-400 */
+  --vidc-component-colors-utility-pink-utility-pink-400: #DD2590;
+  /* Component colors/Utility/Orange dark/utility-orange-dark-400 */
+  --vidc-component-colors-utility-orange-dark-utility-orange-dark-400: #E62E05;
+  /* Component colors/Utility/Orange/utility-orange-400 */
+  --vidc-component-colors-utility-orange-utility-orange-400: #E04F16;
+  /* Colors/Foreground/fg-warning-secondary */
+  --vidc-colors-foreground-fg-warning-secondary: #FDB022;
+  /* Colors/Foreground/fg-error-secondary */
+  --vidc-colors-foreground-fg-error-secondary: #F97066;
+  /* Colors/Border/border-disabled_subtle */
+  --vidc-colors-border-border-disabled-subtle: #1E2329;
+  /* Colors/Text/text-placeholder */
+  --vidc-colors-text-text-placeholder: #98A2B3;
+  /* Colors/Text/text-placeholder_subtle */
+  --vidc-colors-text-text-placeholder-subtle: #242B34;
+  /* Colors/Text/text-brand-tertiary (600) */
+  --vidc-colors-text-text-brand-tertiary-600: #FF6482;
+  /* Component colors/Components/Buttons/Secondary error/button-secondary-error-fg */
+  --vidc-component-colors-components-buttons-secondary-error-button-secondary-error-fg: #FECDCA;
+  /* Component colors/Components/Buttons/Secondary error/button-secondary-error-fg_hover */
+  --vidc-component-colors-components-buttons-secondary-error-button-secondary-error-fg-hover: #FEE4E2;
+  /* Component colors/Components/Buttons/Secondary error/button-secondary-error-bg */
+  --vidc-component-colors-components-buttons-secondary-error-button-secondary-error-bg: #55160C;
+  /* Component colors/Components/Buttons/Secondary error/button-secondary-error-bg_hover */
+  --vidc-component-colors-components-buttons-secondary-error-button-secondary-error-bg-hover: #7A271A;
+  /* Component colors/Components/Buttons/Secondary error/button-secondary-error-border */
+  --vidc-component-colors-components-buttons-secondary-error-button-secondary-error-border: #912018;
+  /* Component colors/Components/Buttons/Secondary error/button-secondary-error-border_hover */
+  --vidc-component-colors-components-buttons-secondary-error-button-secondary-error-border-hover: #B42318;
+  /* Component colors/Components/WYSIWYG editor/wysiwyg-editor-icon-fg_active */
+  --vidc-component-colors-components-wysiwyg-editor-wysiwyg-editor-icon-fg-active: #FFFFFF;
+  /* Component colors/Components/Avatars/avatar-contrast-border */
+  --vidc-component-colors-components-avatars-avatar-contrast-border: #FFFFFF1F;
+  /* Component colors/Components/Avatars/avatar-profile-photo-border */
+  --vidc-component-colors-components-avatars-avatar-profile-photo-border: #0B0E17;
+  /* Component colors/Components/Avatars/avatar-bg */
+  --vidc-component-colors-components-avatars-avatar-bg: #1E2329;
+  /* Component colors/Components/Breadcrumbs/breadcrumb-fg */
+  --vidc-component-colors-components-breadcrumbs-breadcrumb-fg: #D0D5DD;
+  /* Component colors/Components/Breadcrumbs/breadcrumb-fg_hover */
+  --vidc-component-colors-components-breadcrumbs-breadcrumb-fg-hover: #FFFFFF;
+  /* Component colors/Components/Breadcrumbs/breadcrumb-bg_hover */
+  --vidc-component-colors-components-breadcrumbs-breadcrumb-bg-hover: #1E2329;
+  /* Component colors/Components/Breadcrumbs/breadcrumb-brand-bg_hover */
+  --vidc-component-colors-components-breadcrumbs-breadcrumb-brand-bg-hover: #1E2329;
+  /* Component colors/Components/Breadcrumbs/breadcrumb-brand-fg_hover */
+  --vidc-component-colors-components-breadcrumbs-breadcrumb-brand-fg-hover: #FFFFFF;
+  /* Component colors/Components/Breadcrumbs/breadcrumb-icon-fg */
+  --vidc-component-colors-components-breadcrumbs-breadcrumb-icon-fg: #98A2B3;
+  /* Component colors/Components/Breadcrumbs/breadcrumb-icon-fg_hover */
+  --vidc-component-colors-components-breadcrumbs-breadcrumb-icon-fg-hover: #FFFFFF;
+  /* Component colors/Components/Breadcrumbs/breadcrumb-brand-icon-fg_hover */
+  --vidc-component-colors-components-breadcrumbs-breadcrumb-brand-icon-fg-hover: #FFFFFF;
+  /* Colors/Foreground/fg-senary (300) */
+  --vidc-colors-foreground-fg-senary-300: #667085;
+  /* Colors/Background/bg-primary_alt */
+  --vidc-colors-background-bg-primary-alt: #0B0E17;
+  /* Colors/Foreground/fg-tertiary (600) */
+  --vidc-colors-foreground-fg-tertiary-600: #98A2B3;
+  /* Colors/Foreground/fg-tertiary_hover */
+  --vidc-colors-foreground-fg-tertiary-hover: #D0D5DD;
+  /* Component colors/Components/Buttons/Tertiary/button-tertiary-fg */
+  --vidc-component-colors-components-buttons-tertiary-button-tertiary-fg: #98A2B3;
+  /* Component colors/Components/Buttons/Tertiary/button-tertiary-fg_hover */
+  --vidc-component-colors-components-buttons-tertiary-button-tertiary-fg-hover: #EAECF0;
+  /* Component colors/Components/Buttons/Tertiary color/button-tertiary-color-fg */
+  --vidc-component-colors-components-buttons-tertiary-color-button-tertiary-color-fg: #D0D5DD;
+  /* Component colors/Components/Buttons/Tertiary color/button-tertiary-color-fg_hover */
+  --vidc-component-colors-components-buttons-tertiary-color-button-tertiary-color-fg-hover: #F2F4F7;
+  /* Component colors/Components/Buttons/Tertiary/button-tertiary-bg_hover */
+  --vidc-component-colors-components-buttons-tertiary-button-tertiary-bg-hover: #1E2329;
+  /* Component colors/Components/Buttons/Tertiary color/button-tertiary-color-bg_hover */
+  --vidc-component-colors-components-buttons-tertiary-color-button-tertiary-color-bg-hover: #1E2329;
+  /* Component colors/Components/Buttons/Tertiary error/button-tertiary-error-fg */
+  --vidc-component-colors-components-buttons-tertiary-error-button-tertiary-error-fg: #FDA29B;
+  /* Component colors/Components/Buttons/Tertiary error/button-tertiary-error-fg_hover */
+  --vidc-component-colors-components-buttons-tertiary-error-button-tertiary-error-fg-hover: #FECDCA;
+  /* Component colors/Components/Buttons/Tertiary error/button-tertiary-error-bg_hover */
+  --vidc-component-colors-components-buttons-tertiary-error-button-tertiary-error-bg-hover: #7A271A;
+  /* Colors/Background/bg-brand-primary_alt */
+  --vidc-colors-background-bg-brand-primary-alt: #1E2329;
+  /* Colors/Foreground/fg-brand-primary_alt */
+  --vidc-colors-foreground-fg-brand-primary-alt: #D0D5DD;
+  /* Colors/Background/bg-secondary_alt */
+  --vidc-colors-background-bg-secondary-alt: #141820;
+  /* Component colors/Alpha/alpha-white-90 */
+  --vidc-component-colors-alpha-alpha-white-90: #0C111DE5;
+  /* Component colors/Alpha/alpha-white-80 */
+  --vidc-component-colors-alpha-alpha-white-80: #0C111DCC;
+  /* Component colors/Alpha/alpha-white-70 */
+  --vidc-component-colors-alpha-alpha-white-70: #0C111DB2;
+  /* Component colors/Alpha/alpha-white-60 */
+  --vidc-component-colors-alpha-alpha-white-60: #0C111D99;
+  /* Component colors/Alpha/alpha-white-50 */
+  --vidc-component-colors-alpha-alpha-white-50: #0C111D80;
+  /* Component colors/Alpha/alpha-white-40 */
+  --vidc-component-colors-alpha-alpha-white-40: #0C111D66;
+  /* Component colors/Alpha/alpha-white-30 */
+  --vidc-component-colors-alpha-alpha-white-30: #0C111D4D;
+  /* Component colors/Alpha/alpha-white-20 */
+  --vidc-component-colors-alpha-alpha-white-20: #0C111D33;
+  /* Component colors/Alpha/alpha-white-10 */
+  --vidc-component-colors-alpha-alpha-white-10: #0C111D1A;
+  /* Component colors/Alpha/alpha-black-10 */
+  --vidc-component-colors-alpha-alpha-black-10: #FFFFFF1A;
+  /* Component colors/Alpha/alpha-black-20 */
+  --vidc-component-colors-alpha-alpha-black-20: #FFFFFF33;
+  /* Component colors/Alpha/alpha-black-30 */
+  --vidc-component-colors-alpha-alpha-black-30: #FFFFFF4D;
+  /* Component colors/Alpha/alpha-black-40 */
+  --vidc-component-colors-alpha-alpha-black-40: #FFFFFF66;
+  /* Component colors/Alpha/alpha-black-50 */
+  --vidc-component-colors-alpha-alpha-black-50: #FFFFFF80;
+  /* Component colors/Alpha/alpha-black-60 */
+  --vidc-component-colors-alpha-alpha-black-60: #FFFFFF99;
+  /* Component colors/Alpha/alpha-black-70 */
+  --vidc-component-colors-alpha-alpha-black-70: #FFFFFFB2;
+  /* Component colors/Alpha/alpha-black-80 */
+  --vidc-component-colors-alpha-alpha-black-80: #FFFFFFCC;
+  /* Component colors/Alpha/alpha-black-90 */
+  --vidc-component-colors-alpha-alpha-black-90: #FFFFFFE5;
+  /* Colors/Text/text-quaternary (500) */
+  --vidc-colors-text-text-quaternary-500: #98A2B3;
+  /* Component colors/Components/Icons/Featured icons/Modern/featured-icon-modern-border */
+  --vidc-component-colors-components-icons-featured-icons-modern-featured-icon-modern-border: #242B34;
+  /* Component colors/Components/Icons/Featured icons/Light/featured-icon-light-fg-brand */
+  --vidc-component-colors-components-icons-featured-icons-light-featured-icon-light-fg-brand: #FFC9D5;
+  /* Component colors/Components/Icons/Featured icons/Light/featured-icon-light-fg-gray */
+  --vidc-component-colors-components-icons-featured-icons-light-featured-icon-light-fg-gray: #EAECF0;
+  /* Component colors/Components/Icons/Featured icons/Light/featured-icon-light-fg-error */
+  --vidc-component-colors-components-icons-featured-icons-light-featured-icon-light-fg-error: #FECDCA;
+  /* Component colors/Components/Icons/Featured icons/Light/featured-icon-light-fg-warning */
+  --vidc-component-colors-components-icons-featured-icons-light-featured-icon-light-fg-warning: #FEDF89;
+  /* Component colors/Components/Icons/Featured icons/Light/featured-icon-light-fg-success */
+  --vidc-component-colors-components-icons-featured-icons-light-featured-icon-light-fg-success: #ABEFC6;
+  /* Component colors/Components/Icons/Featured icons/Dark/featured-icon-dark-fg-brand */
+  --vidc-component-colors-components-icons-featured-icons-dark-featured-icon-dark-fg-brand: #FFC9D5;
+  /* Component colors/Components/Icons/Featured icons/Dark/featured-icon-dark-fg-gray */
+  --vidc-component-colors-components-icons-featured-icons-dark-featured-icon-dark-fg-gray: #EAECF0;
+  /* Component colors/Components/Icons/Featured icons/Dark/featured-icon-dark-fg-error */
+  --vidc-component-colors-components-icons-featured-icons-dark-featured-icon-dark-fg-error: #FECDCA;
+  /* Component colors/Components/Icons/Featured icons/Dark/featured-icon-dark-fg-warning */
+  --vidc-component-colors-components-icons-featured-icons-dark-featured-icon-dark-fg-warning: #FEDF89;
+  /* Component colors/Components/Icons/Featured icons/Dark/featured-icon-dark-fg-success */
+  --vidc-component-colors-components-icons-featured-icons-dark-featured-icon-dark-fg-success: #ABEFC6;
+  /* Component colors/Components/Application navigation/nav-item-icon-fg */
+  --vidc-component-colors-components-application-navigation-nav-item-icon-fg: #98A2B3;
+  /* Component colors/Components/Application navigation/nav-item-icon-fg_active */
+  --vidc-component-colors-components-application-navigation-nav-item-icon-fg-active: #EAECF0;
+  /* Component colors/Components/Application navigation/nav-item-button-icon-fg */
+  --vidc-component-colors-components-application-navigation-nav-item-button-icon-fg: #98A2B3;
+  /* Component colors/Components/Application navigation/nav-item-button-icon-fg_active */
+  --vidc-component-colors-components-application-navigation-nav-item-button-icon-fg-active: #EAECF0;
+  /* Colors/Background/bg-overlay */
+  --vidc-colors-background-bg-overlay: #1E2329;
+  /* Component colors/Utility/Brand/utility-brand-50_alt */
+  --vidc-component-colors-utility-brand-utility-brand-50-alt: #141820;
+  /* Component colors/Utility/Brand/utility-brand-100_alt */
+  --vidc-component-colors-utility-brand-utility-brand-100-alt: #1E2329;
+  /* Component colors/Utility/Brand/utility-brand-200_alt */
+  --vidc-component-colors-utility-brand-utility-brand-200-alt: #242B34;
+  /* Component colors/Utility/Brand/utility-brand-400_alt */
+  --vidc-component-colors-utility-brand-utility-brand-400-alt: #667085;
+  /* Component colors/Utility/Brand/utility-brand-500_alt */
+  --vidc-component-colors-utility-brand-utility-brand-500-alt: #98A2B3;
+  /* Component colors/Utility/Brand/utility-brand-600_alt */
+  --vidc-component-colors-utility-brand-utility-brand-600-alt: #98A2B3;
+  /* Component colors/Utility/Brand/utility-brand-700_alt */
+  --vidc-component-colors-utility-brand-utility-brand-700-alt: #D0D5DD;
+  /* Component colors/Components/Sliders/slider-handle-border */
+  --vidc-component-colors-components-sliders-slider-handle-border: #141820;
+  /* Component colors/Components/Sliders/slider-handle-bg */
+  --vidc-component-colors-components-sliders-slider-handle-bg: #FF6482;
+  /* Component colors/Utility/Brand/utility-brand-300 */
+  --vidc-component-colors-utility-brand-utility-brand-300: #BE0029;
+  /* Colors/Background/bg-secondary_subtle */
+  --vidc-colors-background-bg-secondary-subtle: #141820;
+  /* Component colors/Utility/Gray/utility-gray-300 */
+  --vidc-component-colors-utility-gray-utility-gray-300: #242B34;
+  /* Component colors/Alpha/alpha-black-100 */
+  --vidc-component-colors-alpha-alpha-black-100: #FFFFFF;
+  /* Component colors/Alpha/alpha-white-100 */
+  --vidc-component-colors-alpha-alpha-white-100: #0B0E17;
+  /* Component colors/Utility/Brand/utility-brand-900 */
+  --vidc-component-colors-utility-brand-utility-brand-900: #FFE4EA;
+  /* Component colors/Utility/Gray/utility-gray-900 */
+  --vidc-component-colors-utility-gray-utility-gray-900: #F2F4F7;
+  /* Component colors/Components/Header sections/header-abstract-50-bg */
+  --vidc-component-colors-components-header-sections-header-abstract-50-bg: #141820;
+  /* Component colors/Components/Header sections/header-abstract-100-bg */
+  --vidc-component-colors-components-header-sections-header-abstract-100-bg: #1E2329;
+  /* Component colors/Components/Header sections/header-abstract-200-bg */
+  --vidc-component-colors-components-header-sections-header-abstract-200-bg: #242B34;
+  /* Component colors/Components/Header sections/header-abstract-300-bg */
+  --vidc-component-colors-components-header-sections-header-abstract-300-bg: #667085;
+  /* Component colors/Utility/Brand/utility-brand-800 */
+  --vidc-component-colors-utility-brand-utility-brand-800: #FFC9D5;
+  /* Component colors/Utility/Gray/utility-gray-800 */
+  --vidc-component-colors-utility-gray-utility-gray-800: #EAECF0;
+  /* Colors/Border/border-tertiary */
+  --vidc-colors-border-border-tertiary: #37404C;
+  /* Component colors/Components/Mockups/screen-mockup-border */
+  --vidc-component-colors-components-mockups-screen-mockup-border: #242B34;
+  /* Colors/Text/text-brand-primary (900) */
+  --vidc-colors-text-text-brand-primary-900: #FF6482;
+  /* Colors/Background/bg-brand-section */
+  --vidc-colors-background-bg-brand-section: #1E2329;
+  /* Colors/Text/text-primary_on-brand */
+  --vidc-colors-text-text-primary-on-brand: #F9FAFB;
+  /* Colors/Text/text-secondary_on-brand */
+  --vidc-colors-text-text-secondary-on-brand: #D0D5DD;
+  /* Colors/Text/text-tertiary_on-brand */
+  --vidc-colors-text-text-tertiary-on-brand: #98A2B3;
+  /* Component colors/Components/Icons/Icons/icon-fg-brand */
+  --vidc-component-colors-components-icons-icons-icon-fg-brand: #98A2B3;
+  /* Component colors/Components/Icons/Icons/icon-fg-brand_on-brand */
+  --vidc-component-colors-components-icons-icons-icon-fg-brand-on-brand: #98A2B3;
+  /* Colors/Background/bg-brand-section_subtle */
+  --vidc-colors-background-bg-brand-section-subtle: #141820;
+  /* Component colors/Components/Footers/footer-button-fg */
+  --vidc-component-colors-components-footers-footer-button-fg: #D0D5DD;
+  /* Component colors/Components/Footers/footer-button-fg_hover */
+  --vidc-component-colors-components-footers-footer-button-fg-hover: #F2F4F7;
+  /* Component colors/Components/App store badges/app-store-badge-border */
+  --vidc-component-colors-components-app-store-badges-app-store-badge-border: #FFFFFF;
+  /* Colors/Text/text-quaternary_on-brand */
+  --vidc-colors-text-text-quaternary-on-brand: #98A2B3;
+  /* Component colors/Components/Footers/footer-badge-fg */
+  --vidc-component-colors-components-footers-footer-badge-fg: #FFFFFF;
+  /* Component colors/Components/Footers/footer-badge-border */
+  --vidc-component-colors-components-footers-footer-badge-border: #FFFFFF4D;
+  /* Component colors/Components/Footers/footer-badge-bg */
+  --vidc-component-colors-components-footers-footer-badge-bg: #FFFFFF1A;
+  /* Component colors/Components/Icons/Social icons/social-icon-fg-x */
+  --vidc-component-colors-components-icons-social-icons-social-icon-fg-x: #FFFFFF;
+  /* Component colors/Components/Icons/Social icons/social-icon-fg-apple */
+  --vidc-component-colors-components-icons-social-icons-social-icon-fg-apple: #FFFFFF;
+  /* Component colors/Components/Icons/Social icons/social-icon-fg-github */
+  --vidc-component-colors-components-icons-social-icons-social-icon-fg-github: #FFFFFF;
+  /* Component colors/Components/Icons/Social icons/social-icon-fg-angellist */
+  --vidc-component-colors-components-icons-social-icons-social-icon-fg-angellist: #FFFFFF;
+  /* Component colors/Components/Icons/Social icons/social-icon-fg-tumblr */
+  --vidc-component-colors-components-icons-social-icons-social-icon-fg-tumblr: #FFFFFF;
+  /* Component colors/Components/Icons/Social icons/social-icon-fg-instagram */
+  --vidc-component-colors-components-icons-social-icons-social-icon-fg-instagram: #FFFFFF;
+  /* Colors/Text/text-brand-tertiary_alt */
+  --vidc-colors-text-text-brand-tertiary-alt: #F9FAFB;
+  /* Colors/Background/bg-primary-solid */
+  --vidc-colors-background-bg-primary-solid: #1E2329;
+  /* Component colors/Components/Thumbnail/thumbnail-badge-brand-fg */
+  --vidc-component-colors-components-thumbnail-thumbnail-badge-brand-fg: #D0D5DD;
+  /* Component colors/Components/Thumbnail/thumbnail-badge-success-fg */
+  --vidc-component-colors-components-thumbnail-thumbnail-badge-success-fg: #D0D5DD;
+  /* Component colors/Components/Toggles/toggle-button-fg_disabled */
+  --vidc-component-colors-components-toggles-toggle-button-fg-disabled: #667085;
+  /* Component colors/Utility/Brand/utility-brand-300_alt */
+  --vidc-component-colors-utility-brand-utility-brand-300-alt: #242B34;
+  /* Component colors/Utility/Brand/utility-brand-800_alt */
+  --vidc-component-colors-utility-brand-utility-brand-800-alt: #EAECF0;
+  /* Component colors/Utility/Brand/utility-brand-900_alt */
+  --vidc-component-colors-utility-brand-utility-brand-900-alt: #F2F4F7;
+  /* Component colors/Utility/Error/utility-error-300 */
+  --vidc-component-colors-utility-error-utility-error-300: #B42318;
+  /* Component colors/Utility/Warning/utility-warning-300 */
+  --vidc-component-colors-utility-warning-utility-warning-300: #B54708;
+  /* Component colors/Utility/Success/utility-success-300 */
+  --vidc-component-colors-utility-success-utility-success-300: #067647;
+  /* Component colors/Utility/Gray blue/utility-gray-blue-300 */
+  --vidc-component-colors-utility-gray-blue-utility-gray-blue-300: #363F72;
+  /* Component colors/Utility/Blue light/utility-blue-light-300 */
+  --vidc-component-colors-utility-blue-light-utility-blue-light-300: #026AA2;
+  /* Component colors/Utility/Blue/utility-blue-300 */
+  --vidc-component-colors-utility-blue-utility-blue-300: #175CD3;
+  /* Component colors/Utility/Blue dark/utility-blue-dark-300 */
+  --vidc-component-colors-utility-blue-dark-utility-blue-dark-300: #004EEB;
+  /* Component colors/Utility/Indigo/utility-indigo-300 */
+  --vidc-component-colors-utility-indigo-utility-indigo-300: #3538CD;
+  /* Component colors/Utility/Purple/utility-purple-300 */
+  --vidc-component-colors-utility-purple-utility-purple-300: #5925DC;
+  /* Component colors/Utility/Fuchsia/utility-fuchsia-300 */
+  --vidc-component-colors-utility-fuchsia-utility-fuchsia-300: #9F1AB1;
+  /* Component colors/Utility/Pink/utility-pink-300 */
+  --vidc-component-colors-utility-pink-utility-pink-300: #C11574;
+  /* Component colors/Utility/Orange dark/utility-orange-dark-300 */
+  --vidc-component-colors-utility-orange-dark-utility-orange-dark-300: #BC1B06;
+  /* Component colors/Utility/Orange/utility-orange-300 */
+  --vidc-component-colors-utility-orange-utility-orange-300: #B93815;
+  /* Colors/Effects/Shadows/shadow-xs */
+  --vidc-colors-effects-shadows-shadow-xs: #FFFFFF00;
+  /* Colors/Effects/Shadows/shadow-sm_02 */
+  --vidc-colors-effects-shadows-shadow-sm-02: #FFFFFF00;
+  /* Colors/Effects/Shadows/shadow-lg_01 */
+  --vidc-colors-effects-shadows-shadow-lg-01: #FFFFFF00;
+  /* Colors/Effects/Shadows/shadow-lg_02 */
+  --vidc-colors-effects-shadows-shadow-lg-02: #FFFFFF00;
+  /* Colors/Effects/Shadows/shadow-sm_01 */
+  --vidc-colors-effects-shadows-shadow-sm-01: #FFFFFF00;
+  /* Colors/Effects/Shadows/shadow-3xl */
+  --vidc-colors-effects-shadows-shadow-3xl: #FFFFFF00;
+  /* Colors/Effects/Shadows/shadow-2xl */
+  --vidc-colors-effects-shadows-shadow-2xl: #FFFFFF00;
+  /* Colors/Effects/Shadows/shadow-md_01 */
+  --vidc-colors-effects-shadows-shadow-md-01: #FFFFFF00;
+  /* Colors/Effects/Shadows/shadow-md_02 */
+  --vidc-colors-effects-shadows-shadow-md-02: #FFFFFF00;
+  /* Colors/Effects/Shadows/shadow-xl_01 */
+  --vidc-colors-effects-shadows-shadow-xl-01: #FFFFFF00;
+  /* Colors/Effects/Shadows/shadow-xl_02 */
+  --vidc-colors-effects-shadows-shadow-xl-02: #FFFFFF00;
+  /* Colors/Effects/Portfolio mockups/shadow-main-centre-md */
+  --vidc-colors-effects-portfolio-mockups-shadow-main-centre-md: #FFFFFF00;
+  /* Colors/Effects/Portfolio mockups/shadow-main-centre-lg */
+  --vidc-colors-effects-portfolio-mockups-shadow-main-centre-lg: #FFFFFF00;
+  /* Colors/Effects/Portfolio mockups/shadow-overlay-lg */
+  --vidc-colors-effects-portfolio-mockups-shadow-overlay-lg: #FFFFFF00;
+  /* Colors/Effects/Portfolio mockups/shadow-grid-md */
+  --vidc-colors-effects-portfolio-mockups-shadow-grid-md: #FFFFFF00;
+  /* Colors/Effects/Shadows/shadow-skeumorphic-inner */
+  --vidc-colors-effects-shadows-shadow-skeumorphic-inner: #0C111D0D;
+  /* Colors/Effects/Shadows/shadow-skeumorphic-inner-border */
+  --vidc-colors-effects-shadows-shadow-skeumorphic-inner-border: #0C111D2E;
+  /* Colors/Border/border-brand_alt */
+  --vidc-colors-border-border-brand-alt: #242B34;
+  /* VIDC/Text/Primary */
+  --vidc-vidc-text-primary: #F9FAFB;
+  /* VIDC/Text/Secondary */
+  --vidc-vidc-text-secondary: #D0D5DD;
+  /* VIDC/Text/Muted */
+  --vidc-vidc-text-muted: #98A2B3;
+  /* VIDC/Text/Tertiary */
+  --vidc-vidc-text-tertiary: #98A2B3;
+  /* VIDC/Text/Brand */
+  --vidc-vidc-text-brand: #FF6482;
+  /* VIDC/Surface/Canvas */
+  --vidc-vidc-surface-canvas: #0B0E17;
+  /* VIDC/Surface/Default */
+  --vidc-vidc-surface-default: #141820;
+  /* VIDC/Surface/Elevated */
+  --vidc-vidc-surface-elevated: #1E2329;
+  /* VIDC/Surface/Subtle */
+  --vidc-vidc-surface-subtle: #242B34;
+  /* VIDC/Border/Default */
+  --vidc-vidc-border-default: #37404C;
+  /* VIDC/Border/Strong */
+  --vidc-vidc-border-strong: #475467;
+  /* VIDC/Border/Brand */
+  --vidc-vidc-border-brand: #FF6482;
+  /* VIDC/Action/Disabled/Background */
+  --vidc-vidc-action-disabled-background: #242B34;
+  /* VIDC/Action/Disabled/Foreground */
+  --vidc-vidc-action-disabled-foreground: #667085;
+  /* VIDC/Action/Disabled/Border */
+  --vidc-vidc-action-disabled-border: #37404C;
+  /* VIDC/Feedback/Success/Text */
+  --vidc-vidc-feedback-success-text: #32D583;
+  /* VIDC/Feedback/Success/Surface */
+  --vidc-vidc-feedback-success-surface: #052E1A;
+  /* VIDC/Feedback/Success/Border */
+  --vidc-vidc-feedback-success-border: #087443;
+  /* VIDC/Feedback/Warning/Text */
+  --vidc-vidc-feedback-warning-text: #FEC84B;
+  /* VIDC/Feedback/Warning/Surface */
+  --vidc-vidc-feedback-warning-surface: #3B2505;
+  /* VIDC/Feedback/Warning/Border */
+  --vidc-vidc-feedback-warning-border: #93370D;
+  /* VIDC/Feedback/Error/Text */
+  --vidc-vidc-feedback-error-text: #FDA29B;
+  /* VIDC/Feedback/Error/Surface */
+  --vidc-vidc-feedback-error-surface: #3B0D0B;
+  /* VIDC/Feedback/Error/Border */
+  --vidc-vidc-feedback-error-border: #912018;
+  /* VIDC/Feedback/Info/Text */
+  --vidc-vidc-feedback-info-text: #84CAFF;
+  /* VIDC/Feedback/Info/Surface */
+  --vidc-vidc-feedback-info-surface: #0B2F4F;
+  /* VIDC/Feedback/Info/Border */
+  --vidc-vidc-feedback-info-border: #175CD3;
+  /* VIDC/Focus/Inner/Color */
+  --vidc-vidc-focus-inner-color: #0B0E17;
+  /* VIDC/Focus/Outer/Color */
+  --vidc-vidc-focus-outer-color: #FF6482;
+  /* VIDC/Action/Neutral/Pressed/Surface */
+  --vidc-vidc-action-neutral-pressed-surface: #37404C;
+  /* VIDC/Action/BrandSubtle/Pressed/Surface */
+  --vidc-vidc-action-brand-subtle-pressed-surface: #242B34;
+  /* VIDC/Action/DestructiveSubtle/Pressed/Surface */
+  --vidc-vidc-action-destructive-subtle-pressed-surface: #242B34;
+  /* VIDC/Action/Destructive/Foreground */
+  --vidc-vidc-action-destructive-foreground: #FEC84B;
+  /* VIDC/Action/Destructive/ForegroundHover */
+  --vidc-vidc-action-destructive-foreground-hover: #FEC84B;
+  /* VIDC/Action/Destructive/SubtleHover */
+  --vidc-vidc-action-destructive-subtle-hover: #4E1D09;
+  /* VIDC/Action/Destructive/SubtlePressed */
+  --vidc-vidc-action-destructive-subtle-pressed: #7A2E0E;
+  /* VIDC/Action/Destructive/Border */
+  --vidc-vidc-action-destructive-border: #FEC84B;
+  /* VIDC/Focus/Warning/Color */
+  --vidc-vidc-focus-warning-color: #FEC84B;
+  /* VIDC/Border/Control */
+  --vidc-vidc-border-control: #98A2B3;
+  /* VIDC/Feedback/Warning/Indicator */
+  --vidc-vidc-feedback-warning-indicator: #FEC84B;
+  /* VIDC/Feedback/Error/Indicator */
+  --vidc-vidc-feedback-error-indicator: #FDA29B;
+  /* VIDC/Feedback/Success/Indicator */
+  --vidc-vidc-feedback-success-indicator: #32D583;
+  /* VIDC/Feedback/Info/Indicator */
+  --vidc-vidc-feedback-info-indicator: #84CAFF;
+}
+
+@media (max-width: 767px) {
+  :root, [data-theme="light"], [data-theme="dark"] {
+  /* Font size/display-xs */
+  --vidc-font-size-display-xs: 22px;
+  /* Font size/display-md */
+  --vidc-font-size-display-md: 30px;
+  /* Font size/display-lg */
+  --vidc-font-size-display-lg: 36px;
+  /* Line height/display-xs */
+  --vidc-line-height-display-xs: 30px;
+  /* Line height/display-md */
+  --vidc-line-height-display-md: 38px;
+  /* Line height/display-lg */
+  --vidc-line-height-display-lg: 44px;
+  /* VIDC/Display/MD/FontSize */
+  --vidc-vidc-display-md-font-size: 40px;
+  /* VIDC/Display/MD/LineHeight */
+  --vidc-vidc-display-md-line-height: 48px;
+  /* VIDC/Heading/H1/FontSize */
+  --vidc-vidc-heading-h1-font-size: 36px;
+  /* VIDC/Heading/H1/LineHeight */
+  --vidc-vidc-heading-h1-line-height: 44px;
+  /* VIDC/Heading/H2/FontSize */
+  --vidc-vidc-heading-h2-font-size: 30px;
+  /* VIDC/Heading/H2/LineHeight */
+  --vidc-vidc-heading-h2-line-height: 38px;
+  /* VIDC/Heading/H3/FontSize */
+  --vidc-vidc-heading-h3-font-size: 22px;
+  /* VIDC/Heading/H3/LineHeight */
+  --vidc-vidc-heading-h3-line-height: 30px;
+  }
+}
+
+/* VIDC Figma WEB Code Syntax compatibility aliases.
+ * Generated from the EXACT uploaded raw.json+CSS export (2026-11-07 06:59:11 UTC).
+ * The Figma WEB code syntax and CSS export slug strategy are different.
+ * Do not edit these mappings manually; regenerate after any Figma export.
+ * Aliases point to theme-aware variables; Light/Dark and responsive updates are inherited.
+ */
+:root {
+  --vidc-a11y-contrast-largetext: var(--vidc-vidc-a11y-contrast-large-text);
+  --vidc-a11y-contrast-normaltext: var(--vidc-vidc-a11y-contrast-normal-text);
+  --vidc-a11y-contrast-ui: var(--vidc-vidc-a11y-contrast-ui);
+  --vidc-a11y-focus-innerwidth: var(--vidc-vidc-a11y-focus-inner-width);
+  --vidc-a11y-focus-outerwidth: var(--vidc-vidc-a11y-focus-outer-width);
+  --vidc-a11y-touch-minimum: var(--vidc-vidc-a11y-touch-minimum);
+  --vidc-a11y-touch-preferred: var(--vidc-vidc-a11y-touch-preferred);
+  --vidc-action-brandsubtle-pressed-surface: var(--vidc-vidc-action-brand-subtle-pressed-surface);
+  --vidc-action-destructive-active: var(--vidc-vidc-action-destructive-active);
+  --vidc-action-destructive-border: var(--vidc-vidc-action-destructive-border);
+  --vidc-action-destructive-default: var(--vidc-vidc-action-destructive-default);
+  --vidc-action-destructive-foreground: var(--vidc-vidc-action-destructive-foreground);
+  --vidc-action-destructive-foreground-hover: var(--vidc-vidc-action-destructive-foreground-hover);
+  --vidc-action-destructive-hover: var(--vidc-vidc-action-destructive-hover);
+  --vidc-action-destructive-subtle-hover: var(--vidc-vidc-action-destructive-subtle-hover);
+  --vidc-action-destructive-subtle-pressed: var(--vidc-vidc-action-destructive-subtle-pressed);
+  --vidc-action-destructivesubtle-pressed-surface: var(--vidc-vidc-action-destructive-subtle-pressed-surface);
+  --vidc-action-neutral-pressed-surface: var(--vidc-vidc-action-neutral-pressed-surface);
+  --vidc-action-warning-default: var(--vidc-vidc-action-warning-default);
+  --vidc-action-warning-hover: var(--vidc-vidc-action-warning-hover);
+  --vidc-action-warning-on-bright: var(--vidc-vidc-action-warning-on-bright);
+  --vidc-action-warning-pressed: var(--vidc-vidc-action-warning-pressed);
+  --vidc-breakpoint-2xl: var(--vidc-vidc-breakpoint-2-xl);
+  --vidc-breakpoint-lg: var(--vidc-vidc-breakpoint-lg);
+  --vidc-breakpoint-md: var(--vidc-vidc-breakpoint-md);
+  --vidc-breakpoint-sm: var(--vidc-vidc-breakpoint-sm);
+  --vidc-breakpoint-xl: var(--vidc-vidc-breakpoint-xl);
+  --vidc-breakpoint-xs: var(--vidc-vidc-breakpoint-xs);
+  --vidc-container-article: var(--vidc-vidc-container-article);
+  --vidc-container-max: var(--vidc-vidc-container-max);
+  --vidc-container-reading: var(--vidc-vidc-container-reading);
+  --vidc-density-comfortable-control-height: var(--vidc-vidc-density-comfortable-control-height);
+  --vidc-density-compact-control-height: var(--vidc-vidc-density-compact-control-height);
+  --vidc-density-default-control-height: var(--vidc-vidc-density-default-control-height);
+  --vidc-focus-warning-color: var(--vidc-vidc-focus-warning-color);
+  --vidc-grid-desktop-columns: var(--vidc-vidc-grid-desktop-columns);
+  --vidc-grid-desktop-gutter: var(--vidc-vidc-grid-desktop-gutter);
+  --vidc-grid-desktop-margin: var(--vidc-vidc-grid-desktop-margin);
+  --vidc-grid-mobile-columns: var(--vidc-vidc-grid-mobile-columns);
+  --vidc-grid-mobile-gutter: var(--vidc-vidc-grid-mobile-gutter);
+  --vidc-grid-mobile-margin: var(--vidc-vidc-grid-mobile-margin);
+  --vidc-grid-tablet-columns: var(--vidc-vidc-grid-tablet-columns);
+  --vidc-grid-tablet-gutter: var(--vidc-vidc-grid-tablet-gutter);
+  --vidc-grid-tablet-margin: var(--vidc-vidc-grid-tablet-margin);
+  --vidc-layer-base: var(--vidc-vidc-layer-base);
+  --vidc-layer-dropdown: var(--vidc-vidc-layer-dropdown);
+  --vidc-layer-modal: var(--vidc-vidc-layer-modal);
+  --vidc-layer-overlay: var(--vidc-vidc-layer-overlay);
+  --vidc-layer-popover: var(--vidc-vidc-layer-popover);
+  --vidc-layer-raised: var(--vidc-vidc-layer-raised);
+  --vidc-layer-sticky: var(--vidc-vidc-layer-sticky);
+  --vidc-layer-toast: var(--vidc-vidc-layer-toast);
+  --vidc-layer-tooltip: var(--vidc-vidc-layer-tooltip);
+  --vidc-motion-accordion-duration: var(--vidc-vidc-motion-accordion-duration);
+  --vidc-motion-button-duration: var(--vidc-vidc-motion-button-duration);
+  --vidc-motion-drawer-close-duration: var(--vidc-vidc-motion-drawer-close-duration);
+  --vidc-motion-drawer-open-duration: var(--vidc-vidc-motion-drawer-open-duration);
+  --vidc-motion-dropdown-duration: var(--vidc-vidc-motion-dropdown-duration);
+  --vidc-motion-duration-ambient: var(--vidc-vidc-motion-duration-ambient);
+  --vidc-motion-duration-default: var(--vidc-vidc-motion-duration-default);
+  --vidc-motion-duration-deliberate: var(--vidc-vidc-motion-duration-deliberate);
+  --vidc-motion-duration-fast: var(--vidc-vidc-motion-duration-fast);
+  --vidc-motion-duration-instant: var(--vidc-vidc-motion-duration-instant);
+  --vidc-motion-duration-slow: var(--vidc-vidc-motion-duration-slow);
+  --vidc-motion-modal-duration: var(--vidc-vidc-motion-modal-duration);
+  --vidc-motion-spinner-duration: var(--vidc-vidc-motion-spinner-duration);
+  --vidc-radius-2xl: var(--vidc-vidc-radius-2-xl);
+  --vidc-radius-button-bottom-left: var(--vidc-vidc-radius-button-bottom-left);
+  --vidc-radius-button-outer-10: var(--vidc-vidc-radius-button-outer-10);
+  --vidc-radius-button-outer-14: var(--vidc-vidc-radius-button-outer-14);
+  --vidc-radius-button-outer-6: var(--vidc-vidc-radius-button-outer-6);
+  --vidc-radius-button-outer-7: var(--vidc-vidc-radius-button-outer-7);
+  --vidc-radius-button-outer-8: var(--vidc-vidc-radius-button-outer-8);
+  --vidc-radius-button-outer-8-75: var(--vidc-vidc-radius-button-outer-8-75);
+  --vidc-radius-button-outer-9: var(--vidc-vidc-radius-button-outer-9);
+  --vidc-radius-button-outer-9-25: var(--vidc-vidc-radius-button-outer-9-25);
+  --vidc-radius-card: var(--vidc-vidc-radius-card);
+  --vidc-radius-checkbox: var(--vidc-vidc-radius-checkbox);
+  --vidc-radius-compact-control: var(--vidc-vidc-radius-compact-control);
+  --vidc-radius-control: var(--vidc-vidc-radius-control);
+  --vidc-radius-dialog: var(--vidc-vidc-radius-dialog);
+  --vidc-radius-feature-card: var(--vidc-vidc-radius-feature-card);
+  --vidc-radius-full: var(--vidc-vidc-radius-full);
+  --vidc-radius-input: var(--vidc-vidc-radius-input);
+  --vidc-radius-large-dialog: var(--vidc-vidc-radius-large-dialog);
+  --vidc-radius-lg: var(--vidc-vidc-radius-lg);
+  --vidc-radius-md: var(--vidc-vidc-radius-md);
+  --vidc-radius-pill: var(--vidc-vidc-radius-pill);
+  --vidc-radius-primitive-button-10: var(--vidc-radius-button-10);
+  --vidc-radius-primitive-button-14: var(--vidc-radius-button-14);
+  --vidc-radius-primitive-button-7: var(--vidc-radius-button-7);
+  --vidc-radius-primitive-button-8-75: var(--vidc-radius-button-8-75);
+  --vidc-radius-primitive-button-9: var(--vidc-radius-button-9);
+  --vidc-radius-primitive-button-9-25: var(--vidc-radius-button-9-25);
+  --vidc-radius-sm: var(--vidc-vidc-radius-sm);
+  --vidc-radius-xl: var(--vidc-vidc-radius-xl);
+  --vidc-radius-xs: var(--vidc-vidc-radius-xs);
+  --vidc-ref-border-dark-default: var(--vidc-vidc-border-dark-default);
+  --vidc-ref-border-dark-strong: var(--vidc-vidc-border-dark-strong);
+  --vidc-ref-brand-action-primary-aa: var(--vidc-vidc-reference-brand-action-primary-aa);
+  --vidc-ref-brand-contrast-text-dark: var(--vidc-vidc-brand-contrast-text-dark);
+  --vidc-ref-brand-contrast-text-light: var(--vidc-vidc-brand-contrast-text-light);
+  --vidc-ref-feedback-error-border-dark: var(--vidc-vidc-reference-feedback-error-border-dark);
+  --vidc-ref-feedback-error-border-light: var(--vidc-vidc-reference-feedback-error-border-light);
+  --vidc-ref-feedback-error-surface-dark: var(--vidc-vidc-reference-feedback-error-surface-dark);
+  --vidc-ref-feedback-error-surface-light: var(--vidc-vidc-reference-feedback-error-surface-light);
+  --vidc-ref-feedback-error-text-dark: var(--vidc-vidc-reference-feedback-error-text-dark);
+  --vidc-ref-feedback-error-text-light: var(--vidc-vidc-reference-feedback-error-text-light);
+  --vidc-ref-feedback-info-border-dark: var(--vidc-vidc-reference-feedback-info-border-dark);
+  --vidc-ref-feedback-info-border-light: var(--vidc-vidc-reference-feedback-info-border-light);
+  --vidc-ref-feedback-info-surface-dark: var(--vidc-vidc-reference-feedback-info-surface-dark);
+  --vidc-ref-feedback-info-surface-light: var(--vidc-vidc-reference-feedback-info-surface-light);
+  --vidc-ref-feedback-info-text-dark: var(--vidc-vidc-reference-feedback-info-text-dark);
+  --vidc-ref-feedback-info-text-light: var(--vidc-vidc-reference-feedback-info-text-light);
+  --vidc-ref-feedback-success-border-dark: var(--vidc-vidc-reference-feedback-success-border-dark);
+  --vidc-ref-feedback-success-border-light: var(--vidc-vidc-reference-feedback-success-border-light);
+  --vidc-ref-feedback-success-surface-dark: var(--vidc-vidc-reference-feedback-success-surface-dark);
+  --vidc-ref-feedback-success-surface-light: var(--vidc-vidc-reference-feedback-success-surface-light);
+  --vidc-ref-feedback-success-text-dark: var(--vidc-vidc-reference-feedback-success-text-dark);
+  --vidc-ref-feedback-success-text-light: var(--vidc-vidc-reference-feedback-success-text-light);
+  --vidc-ref-feedback-warning-border-dark: var(--vidc-vidc-reference-feedback-warning-border-dark);
+  --vidc-ref-feedback-warning-border-light: var(--vidc-vidc-reference-feedback-warning-border-light);
+  --vidc-ref-feedback-warning-surface-dark: var(--vidc-vidc-reference-feedback-warning-surface-dark);
+  --vidc-ref-feedback-warning-surface-light: var(--vidc-vidc-reference-feedback-warning-surface-light);
+  --vidc-ref-feedback-warning-text-dark: var(--vidc-vidc-reference-feedback-warning-text-dark);
+  --vidc-ref-feedback-warning-text-light: var(--vidc-vidc-reference-feedback-warning-text-light);
+  --vidc-ref-warning-button-active: var(--vidc-vidc-reference-warning-button-active);
+  --vidc-ref-warning-button-border: var(--vidc-vidc-reference-warning-button-border);
+  --vidc-ref-warning-button-border-dark: var(--vidc-vidc-reference-warning-button-border-dark);
+  --vidc-ref-warning-button-default: var(--vidc-vidc-reference-warning-button-default);
+  --vidc-ref-warning-button-foreground: var(--vidc-vidc-reference-warning-button-foreground);
+  --vidc-ref-warning-button-foreground-dark: var(--vidc-vidc-reference-warning-button-foreground-dark);
+  --vidc-ref-warning-button-hover: var(--vidc-vidc-reference-warning-button-hover);
+  --vidc-ref-warning-button-subtle-hover: var(--vidc-vidc-reference-warning-button-subtle-hover);
+  --vidc-ref-warning-button-subtle-hover-dark: var(--vidc-vidc-reference-warning-button-subtle-hover-dark);
+  --vidc-ref-warning-button-subtle-pressed: var(--vidc-vidc-reference-warning-button-subtle-pressed);
+  --vidc-ref-warning-button-subtle-pressed-dark: var(--vidc-vidc-reference-warning-button-subtle-pressed-dark);
+  --vidc-space-1: var(--vidc-vidc-space-1);
+  --vidc-space-12: var(--vidc-vidc-space-12);
+  --vidc-space-16: var(--vidc-vidc-space-16);
+  --vidc-space-2: var(--vidc-vidc-space-2);
+  --vidc-space-20: var(--vidc-vidc-space-20);
+  --vidc-space-3: var(--vidc-vidc-space-3);
+  --vidc-space-4: var(--vidc-vidc-space-4);
+  --vidc-space-5: var(--vidc-vidc-space-5);
+  --vidc-space-6: var(--vidc-vidc-space-6);
+  --vidc-space-8: var(--vidc-vidc-space-8);
+  --vidc-space-optical-half: var(--vidc-vidc-space-optical-half);
+  --vidc-sys-action-disabled-background: var(--vidc-vidc-action-disabled-background);
+  --vidc-sys-action-disabled-border: var(--vidc-vidc-action-disabled-border);
+  --vidc-sys-action-disabled-foreground: var(--vidc-vidc-action-disabled-foreground);
+  --vidc-sys-action-primary-active: var(--vidc-vidc-action-primary-active);
+  --vidc-sys-action-primary-default: var(--vidc-vidc-action-primary-default);
+  --vidc-sys-action-primary-hover: var(--vidc-vidc-action-primary-hover);
+  --vidc-sys-border-brand: var(--vidc-vidc-border-brand);
+  --vidc-sys-border-control: var(--vidc-vidc-border-control);
+  --vidc-sys-border-default: var(--vidc-vidc-border-default);
+  --vidc-sys-border-strong: var(--vidc-vidc-border-strong);
+  --vidc-sys-feedback-error-border: var(--vidc-vidc-feedback-error-border);
+  --vidc-sys-feedback-error-indicator: var(--vidc-vidc-feedback-error-indicator);
+  --vidc-sys-feedback-error-surface: var(--vidc-vidc-feedback-error-surface);
+  --vidc-sys-feedback-error-text: var(--vidc-vidc-feedback-error-text);
+  --vidc-sys-feedback-info-border: var(--vidc-vidc-feedback-info-border);
+  --vidc-sys-feedback-info-indicator: var(--vidc-vidc-feedback-info-indicator);
+  --vidc-sys-feedback-info-surface: var(--vidc-vidc-feedback-info-surface);
+  --vidc-sys-feedback-info-text: var(--vidc-vidc-feedback-info-text);
+  --vidc-sys-feedback-success-border: var(--vidc-vidc-feedback-success-border);
+  --vidc-sys-feedback-success-indicator: var(--vidc-vidc-feedback-success-indicator);
+  --vidc-sys-feedback-success-surface: var(--vidc-vidc-feedback-success-surface);
+  --vidc-sys-feedback-success-text: var(--vidc-vidc-feedback-success-text);
+  --vidc-sys-feedback-warning-border: var(--vidc-vidc-feedback-warning-border);
+  --vidc-sys-feedback-warning-indicator: var(--vidc-vidc-feedback-warning-indicator);
+  --vidc-sys-feedback-warning-surface: var(--vidc-vidc-feedback-warning-surface);
+  --vidc-sys-feedback-warning-text: var(--vidc-vidc-feedback-warning-text);
+  --vidc-sys-focus-inner-color: var(--vidc-vidc-focus-inner-color);
+  --vidc-sys-focus-outer-color: var(--vidc-vidc-focus-outer-color);
+  --vidc-sys-surface-canvas: var(--vidc-vidc-surface-canvas);
+  --vidc-sys-surface-default: var(--vidc-vidc-surface-default);
+  --vidc-sys-surface-elevated: var(--vidc-vidc-surface-elevated);
+  --vidc-sys-surface-subtle: var(--vidc-vidc-surface-subtle);
+  --vidc-sys-text-brand: var(--vidc-vidc-text-brand);
+  --vidc-sys-text-muted: var(--vidc-vidc-text-muted);
+  --vidc-sys-text-primary: var(--vidc-vidc-text-primary);
+  --vidc-sys-text-secondary: var(--vidc-vidc-text-secondary);
+  --vidc-sys-text-tertiary: var(--vidc-vidc-text-tertiary);
+  --vidc-type-body-lg-font-family: var(--vidc-vidc-body-lg-font-family);
+  --vidc-type-body-lg-font-size: var(--vidc-vidc-body-lg-font-size);
+  --vidc-type-body-lg-font-weight: var(--vidc-vidc-body-lg-font-weight);
+  --vidc-type-body-lg-line-height: var(--vidc-vidc-body-lg-line-height);
+  --vidc-type-body-md-font-family: var(--vidc-vidc-body-md-font-family);
+  --vidc-type-body-md-font-size: var(--vidc-vidc-body-md-font-size);
+  --vidc-type-body-md-font-weight: var(--vidc-vidc-body-md-font-weight);
+  --vidc-type-body-md-line-height: var(--vidc-vidc-body-md-line-height);
+  --vidc-type-body-sm-font-family: var(--vidc-vidc-body-sm-font-family);
+  --vidc-type-body-sm-font-size: var(--vidc-vidc-body-sm-font-size);
+  --vidc-type-body-sm-font-weight: var(--vidc-vidc-body-sm-font-weight);
+  --vidc-type-body-sm-line-height: var(--vidc-vidc-body-sm-line-height);
+  --vidc-type-button-lg-font-family: var(--vidc-vidc-button-lg-font-family);
+  --vidc-type-button-lg-font-size: var(--vidc-vidc-button-lg-font-size);
+  --vidc-type-button-lg-font-weight: var(--vidc-vidc-button-lg-font-weight);
+  --vidc-type-button-lg-line-height: var(--vidc-vidc-button-lg-line-height);
+  --vidc-type-button-md-font-family: var(--vidc-vidc-button-md-font-family);
+  --vidc-type-button-md-font-size: var(--vidc-vidc-button-md-font-size);
+  --vidc-type-button-md-font-weight: var(--vidc-vidc-button-md-font-weight);
+  --vidc-type-button-md-line-height: var(--vidc-vidc-button-md-line-height);
+  --vidc-type-button-sm-font-family: var(--vidc-vidc-button-sm-font-family);
+  --vidc-type-button-sm-font-size: var(--vidc-vidc-button-sm-font-size);
+  --vidc-type-button-sm-font-weight: var(--vidc-vidc-button-sm-font-weight);
+  --vidc-type-button-sm-line-height: var(--vidc-vidc-button-sm-line-height);
+  --vidc-type-caption-font-family: var(--vidc-vidc-caption-font-family);
+  --vidc-type-caption-font-size: var(--vidc-vidc-caption-font-size);
+  --vidc-type-caption-font-weight: var(--vidc-vidc-caption-font-weight);
+  --vidc-type-caption-line-height: var(--vidc-vidc-caption-line-height);
+  --vidc-type-display-md-font-family: var(--vidc-vidc-display-md-font-family);
+  --vidc-type-display-md-font-size: var(--vidc-vidc-display-md-font-size);
+  --vidc-type-display-md-font-weight: var(--vidc-vidc-display-md-font-weight);
+  --vidc-type-display-md-line-height: var(--vidc-vidc-display-md-line-height);
+  --vidc-type-heading-h1-font-family: var(--vidc-vidc-heading-h1-font-family);
+  --vidc-type-heading-h1-font-size: var(--vidc-vidc-heading-h1-font-size);
+  --vidc-type-heading-h1-font-weight: var(--vidc-vidc-heading-h1-font-weight);
+  --vidc-type-heading-h1-line-height: var(--vidc-vidc-heading-h1-line-height);
+  --vidc-type-heading-h2-font-family: var(--vidc-vidc-heading-h2-font-family);
+  --vidc-type-heading-h2-font-size: var(--vidc-vidc-heading-h2-font-size);
+  --vidc-type-heading-h2-font-weight: var(--vidc-vidc-heading-h2-font-weight);
+  --vidc-type-heading-h2-line-height: var(--vidc-vidc-heading-h2-line-height);
+  --vidc-type-heading-h3-font-family: var(--vidc-vidc-heading-h3-font-family);
+  --vidc-type-heading-h3-font-size: var(--vidc-vidc-heading-h3-font-size);
+  --vidc-type-heading-h3-font-weight: var(--vidc-vidc-heading-h3-font-weight);
+  --vidc-type-heading-h3-line-height: var(--vidc-vidc-heading-h3-line-height);
+  --vidc-type-heading-h4-font-family: var(--vidc-vidc-heading-h4-font-family);
+  --vidc-type-heading-h4-font-size: var(--vidc-vidc-heading-h4-font-size);
+  --vidc-type-heading-h4-font-weight: var(--vidc-vidc-heading-h4-font-weight);
+  --vidc-type-heading-h4-line-height: var(--vidc-vidc-heading-h4-line-height);
+  --vidc-type-heading-h5-font-family: var(--vidc-vidc-heading-h5-font-family);
+  --vidc-type-heading-h5-font-size: var(--vidc-vidc-heading-h5-font-size);
+  --vidc-type-heading-h5-font-weight: var(--vidc-vidc-heading-h5-font-weight);
+  --vidc-type-heading-h5-line-height: var(--vidc-vidc-heading-h5-line-height);
+  --vidc-type-overline-font-family: var(--vidc-vidc-overline-font-family);
+  --vidc-type-overline-font-size: var(--vidc-vidc-overline-font-size);
+  --vidc-type-overline-font-weight: var(--vidc-vidc-overline-font-weight);
+  --vidc-type-overline-letter-spacing: var(--vidc-vidc-overline-letter-spacing);
+  --vidc-type-overline-line-height: var(--vidc-vidc-overline-line-height);
+}

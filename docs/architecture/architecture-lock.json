@@ -1,0 +1,61 @@
+{
+  "version": "1.0.0",
+  "freezeDate": "2026-09-23T00:00:00Z",
+  "status": "FROZEN",
+  "program": "VIETTEL_IDC_WEBSITE_2026",
+  "lockedFiles": {
+    "src/config/domainRegistry.ts": {
+      "sha256": "24a7a01214e7738a244aaad3ad0f4dbac0ea0e29c76658f0dbb7fa90f9d26113",
+      "description": "Multi-domain and canonical host routing registry"
+    },
+    "src/config/marketRegistry.ts": {
+      "sha256": "00905f5f1865c6710b3c1cc95a5277bcc8652afa6b8802408f56b7bfa87fbd3c",
+      "description": "Multi-market registry and market policy definitions"
+    },
+    "src/config/localeRegistry.ts": {
+      "sha256": "87017016cb26017c2fcfffd50b25d4ed81245a4913cdaaa24c2942fa526b1f67",
+      "description": "Locale definitions, fallbacks, and dictionary registry"
+    },
+    "src/data/masterRouteManifest.ts": {
+      "sha256": "1c3c2fc61edcd5103c91901c9340aa99639abe1a354c445f3467d3743ffa9361",
+      "description": "Master canonical route registry (59 services, 16 solutions, hubs)"
+    },
+    "src/data/redirectManifest.ts": {
+      "sha256": "c8eaa4a87726a269141452e85389a8de17eb69ec727d327cdccba0a5c6dd0a73",
+      "description": "Deterministic 264 legacy redirect rules and aliases"
+    },
+    "src/data/redirectManifest.json": {
+      "sha256": "b8a876b4b1b0225353c30b836705cc2c4f65c85c487482a601f53a3f78279695",
+      "description": "Deterministic 264 legacy redirect rules data manifest"
+    },
+    "src/config/spokeRegistry.ts": {
+      "sha256": "8d7324fb1d6df88a6446ddd1ff0034d7bdab4b249888584b50f7b9fbf86169ef",
+      "description": "Enterprise spoke topology (auth, console, docs, support, status)"
+    },
+    "src/lib/context/resolveMarketContext.ts": {
+      "sha256": "748f86da80387e4379ee3d962438a837761869f9876d49054ff9b4be70ecca5d",
+      "description": "Server-side request MarketContext resolver"
+    },
+    "src/lib/analytics.ts": {
+      "sha256": "d942f23afa4f30dcae01afd700f78ec5d17a57c315013401ab58c0ebee84464e",
+      "description": "Client analytics dataLayer contract and deduplicated tracker"
+    },
+    "src/lib/seo/structuredData.ts": {
+      "sha256": "df7099692b449217fb25ab2bc1d2dccb329c22e9acb6ffbe52b11825f0c57166",
+      "description": "Schema.org JSON-LD structured data generation engine"
+    },
+    "src/lib/content/contentRepository.ts": {
+      "sha256": "2d9f96dd5ea52025dfabb3fd606e71f958975ae88a1c7cde48dd2e90e3bb87ac",
+      "description": "CMS ContentRepository abstraction and contract boundary"
+    },
+    "src/lib/commercial/marketOffer.ts": {
+      "sha256": "ae66c2dfc5ad224045e70cd967fd67fdb8b14b8b1bda348f35c1f36cc0535a55",
+      "description": "Commercial pricing model, offer contract, and catalog definition"
+    },
+    "next.config.mjs": {
+      "sha256": "7ebec03de6d2226f7fc0d3350d4cf238f444489db75bf026d6e6560b7f81ba68",
+      "description": "Core Next.js build configuration, security headers, and redirects"
+    }
+  },
+  "lastUpdated": "2026-11-09T00:00:00+07:00"
+}

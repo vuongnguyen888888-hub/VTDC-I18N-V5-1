@@ -1,0 +1,32 @@
+name: Source quality and Next.js production build (NOT release UI acceptance)
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  source-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+      - name: Install locked dependencies
+        run: npm ci
+      - name: Architecture, Figma DS V2, import, i18n and TypeScript source contracts
+        run: npm run check
+      - name: Build actual Next.js production output
+        run: npm run build
+      - name: HTTP production route smoke (does not certify fonts)
+        run: npm run smoke:routes
+      - name: Line-by-line Figma DS V2 audit
+        run: python3 scripts/audit-ds-v2-line-by-line.py
+      - name: Show release status explicitly
+        if: always()
+        run: |
+          echo '## Source CI is not the final acceptance gate' >> "$GITHUB_STEP_SUMMARY"
+          echo 'This workflow checks source, Next.js build and SSR routes.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Licensed FS PF BeauSans Pro binaries and the live-browser release are **not certified** by this workflow.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Only the separate **Release UI acceptance** workflow checks the actual fonts and browser screenshots.' >> "$GITHUB_STEP_SUMMARY"

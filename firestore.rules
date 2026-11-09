@@ -1,0 +1,59 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper function to verify authorized Administrators via explicit email allowlist & verified email
+    // No domain-wide wildcards allowed
+    function isAuthorizedAdmin() {
+      return request.auth != null
+        && request.auth.token.email != null
+        && request.auth.token.email_verified == true
+        && request.auth.token.email.lower() in [
+          'vuongnguyen888888@gmail.com',
+          'admin@viettelidc.com.vn'
+        ];
+    }
+
+    // Feedback Collection Security Rules
+    match /feedback/{feedbackId} {
+      // 1. Read / List: Strictly restricted to authorized Administrators only
+      // Anonymous reviewers CANNOT read or list feedbacks
+      allow read, list: if isAuthorizedAdmin();
+      
+      // 2. Create: Authenticated users (including anonymous reviewers) can only CREATE
+      // - reporterUid must strictly equal request.auth.uid
+      // - status must strictly equal 'new'
+      // - message must have non-empty string value
+      // - Client cannot set any other status
+      allow create: if request.auth != null
+        && request.resource.data.reporterUid == request.auth.uid
+        && request.resource.data.status == 'new'
+        && request.resource.data.message is string
+        && request.resource.data.message.size() > 0
+        && request.resource.data.message.size() <= 5000
+        && request.resource.data.keys().hasOnly([
+             'projectId', 'environment',
+             'pageId', 'pageTitle', 'pageUrl', 'pagePath',
+             'sectionId', 'componentId',
+             'category', 'categories', 'rating', 'message',
+             'status', 'priority',
+             'reporterUid', 'reporterName', 'reporterEmail', 'reporterPhotoURL',
+             'deviceType', 'viewportWidth', 'viewportHeight', 'browser', 'userAgent',
+             'createdAt', 'updatedAt', 'attachments'
+           ]);
+                   
+      // 3. Update: Strictly restricted to authorized Administrators only
+      // Anonymous reviewers CANNOT update
+      allow update: if isAuthorizedAdmin();
+
+      // 4. Delete: Strictly forbidden for everyone (including Admin)
+      allow delete: if false;
+    }
+
+    // Default deny all other paths
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
+

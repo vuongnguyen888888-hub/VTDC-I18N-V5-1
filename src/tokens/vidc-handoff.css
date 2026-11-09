@@ -1,0 +1,611 @@
+/* Imported from VIDC DS handoff, 2026-11-08; local font-face paths defined under public/fonts/vidc; 12 user-supplied font binaries are bundled for this website. Existing bespoke layout primitives remain preserved only when no Figma variant exists. */
+
+
+/* ==========================================================================
+   VIDC DESIGN SYSTEM FOUNDATIONS (Version 2026-11-06)
+   Source of Truth: Figma ❖ DS VTIDC-V2
+   Rules:
+   - Primary Button: #EE0033 (Default/Focus/Loading), #D6002E (Hover), #BE0029 (Pressed)
+   - Action AA Alternative: #E80032 (strict WCAG AA 4.690:1 for normal text)
+   - Core Button Dimensions: SM(32px/r6), MD(40px/r8), LG(48px/r12), Weight 600
+   - Typography: Roboto (Body/Control), FS PF BeauSans Pro (Display/Heading)
+   ========================================================================== */
+
+:root, [data-theme="light"] {
+  color-scheme: light;
+
+  /* ========================================================================
+     F01 — COLORS (Light Mode)
+     ======================================================================== */
+  /* Primitive Brand Colors */
+  --vidc-color-brand-primary: #EE0033;
+  --vidc-color-brand-hover: #D6002E;
+  --vidc-color-brand-pressed: #BE0029;
+  --vidc-color-brand-subtle: #FFF1F4;
+  --vidc-color-brand-pink: #FF6482;
+
+  /* Semantic Action Primary Tokens */
+  --vidc-action-primary-default: #EE0033;
+  --vidc-action-primary-focused: #EE0033;
+  --vidc-action-primary-loading: #EE0033;
+  --vidc-action-primary-hover: #D6002E;
+  --vidc-action-primary-pressed: #BE0029;
+  --vidc-action-primary-disabled: #F2F4F7;
+  --vidc-action-primary-on: #FFFFFF;
+  --vidc-action-primary-aa-alternative: #E80032;
+
+  /* Semantic Action Warning Tokens */
+  --vidc-action-warning-default: #FEDF89;
+  --vidc-action-warning-hover: #FEC84B;
+  --vidc-action-warning-pressed: #FDB022;
+  --vidc-action-warning-on: #101828;
+
+  /* Surfaces & Semantic Canvas */
+  --vidc-surface-canvas: #FFFFFF;
+  --vidc-surface-default: #FFFFFF;
+  --vidc-surface-elevated: #F9FAFB;
+  --vidc-surface-subtle: #F2F4F7;
+
+  /* Typography Colors */
+  --vidc-text-primary: #101828;
+  --vidc-text-secondary: #344054;
+  --vidc-text-tertiary: #667085;
+  --vidc-text-muted: #667085;
+  --vidc-text-brand: #C5002A;
+
+  /* Borders & Focus */
+  --vidc-border-default: #EAECF0;
+  --vidc-border-strong: #D0D5DD;
+  --vidc-border-brand: #C5002A;
+  --vidc-focus-outline: #EE0033;
+  --vidc-focus-offset: 2px;
+
+  /* Bidirectional Aliases for Figma-exported double-prefix variables */
+  --vidc-vidc-action-primary-default: var(--vidc-action-primary-default);
+  --vidc-vidc-action-primary-hover: var(--vidc-action-primary-hover);
+  --vidc-vidc-action-primary-active: var(--vidc-action-primary-pressed);
+  --vidc-vidc-surface-canvas: var(--vidc-surface-canvas);
+  --vidc-vidc-surface-default: var(--vidc-surface-default);
+  --vidc-vidc-surface-elevated: var(--vidc-surface-elevated);
+  --vidc-vidc-surface-subtle: var(--vidc-surface-subtle);
+  --vidc-vidc-text-primary: var(--vidc-text-primary);
+  --vidc-vidc-text-secondary: var(--vidc-text-secondary);
+  --vidc-vidc-text-muted: var(--vidc-text-muted);
+  --vidc-vidc-text-brand: var(--vidc-text-brand);
+  --vidc-vidc-border-default: var(--vidc-border-default);
+  --vidc-vidc-border-strong: var(--vidc-border-strong);
+  --vidc-vidc-border-brand: var(--vidc-border-brand);
+
+  /* ========================================================================
+     F02 — TYPOGRAPHY
+     ======================================================================== */
+  --vidc-font-body: var(--font-roboto), "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  --vidc-font-display: "FS PF BeauSans Pro", var(--font-roboto), "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+
+  /* Heading Scale (Desktop default) */
+  --vidc-heading-h1-font-size: 48px;
+  --vidc-heading-h1-line-height: 56px;
+  --vidc-heading-h2-font-size: 36px;
+  --vidc-heading-h2-line-height: 44px;
+  --vidc-heading-h3-font-size: 24px;
+  --vidc-heading-h3-line-height: 32px;
+  --vidc-heading-h4-font-size: 20px;
+  --vidc-heading-h4-line-height: 28px;
+  --vidc-heading-h5-font-size: 16px;
+  --vidc-heading-h5-line-height: 24px;
+  --vidc-display-md-font-size: 48px;
+  --vidc-display-md-line-height: 56px;
+
+  /* Button Typography Dimensions */
+  --vidc-button-sm-height: 32px;
+  --vidc-button-md-height: 40px;
+  --vidc-button-lg-height: 48px;
+  --vidc-button-xl-height: 52px;
+  --vidc-button-2xl-height: 60px;
+  --vidc-button-sm-font-size: 12px;
+  --vidc-button-sm-line-height: 16px;
+  --vidc-button-md-font-size: 14px;
+  --vidc-button-md-line-height: 20px;
+  --vidc-button-lg-font-size: 16px;
+  --vidc-button-lg-line-height: 24px;
+  --vidc-button-xl-font-size: 16px;
+  --vidc-button-xl-line-height: 24px;
+  --vidc-button-2xl-font-size: 18px;
+  --vidc-button-2xl-line-height: 28px;
+  --vidc-button-font-weight: 600;
+  --vidc-input-height: 44px; /* Figma field touch target, formerly fallback-only */
+
+  --vidc-body-font-size: 16px;
+  --vidc-body-line-height: 24px;
+
+  /* ========================================================================
+     F03 — SPACING SCALE
+     ======================================================================== */
+  --vidc-space-0: 0px;
+  --vidc-space-optical-half: 2px;
+  --vidc-space-1: 4px;
+  --vidc-space-2: 8px;
+  --vidc-space-3: 12px;
+  --vidc-space-4: 16px;
+  --vidc-space-5: 20px;
+  --vidc-space-6: 24px;
+  --vidc-space-8: 32px;
+  --vidc-space-10: 40px;
+  --vidc-space-12: 48px;
+  --vidc-space-16: 64px;
+  --vidc-space-20: 80px;
+
+  /* ========================================================================
+     F04 — RADIUS SCALE
+     ======================================================================== */
+  --vidc-radius-none: 0px;
+  --vidc-radius-xxs: 2px;
+  --vidc-radius-xs: 4px;
+  --vidc-radius-sm: 6px;
+  --vidc-radius-md: 8px;
+  --vidc-radius-lg: 12px;
+  --vidc-radius-xl: 20px;
+  --vidc-radius-2xl: 24px;
+  --vidc-radius-full: 9999px;
+
+  --vidc-button-sm-radius: var(--vidc-radius-sm);
+  --vidc-button-md-radius: var(--vidc-radius-md);
+  --vidc-button-lg-radius: var(--vidc-radius-lg);
+
+  /* ========================================================================
+     F05 — EFFECTS & SHADOWS
+     ======================================================================== */
+  --vidc-card-shadow: 0 1px 3px rgba(16, 24, 40, 0.08), 0 1px 2px rgba(16, 24, 40, 0.06);
+  --vidc-shadow-elevated: 0 4px 8px -2px rgba(16, 24, 40, 0.1), 0 2px 4px -2px rgba(16, 24, 40, 0.06);
+
+  /* ========================================================================
+     F06 — MOTION & ACCESSIBILITY
+     ======================================================================== */
+  --vidc-motion-instant: 0ms;
+  --vidc-motion-fast: 120ms;
+  --vidc-motion-default: 200ms;
+  --vidc-motion-slow: 300ms;
+  --vidc-motion-deliberate: 500ms;
+  --vidc-motion-ambient: 800ms;
+  --vidc-motion-ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --vidc-a11y-touch-minimum: 44px;
+  --vidc-a11y-touch-preferred: 48px;
+
+  /* ========================================================================
+     F07 — CONTAINERS & RESPONSIVE
+     ======================================================================== */
+  --vidc-container-max: 1600px;
+  --vidc-page-gutter: 80px;
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  /* F01 Colors (Dark Mode) - FIGMA RESOLVED */
+  --vidc-surface-canvas: #0B0E17;
+  --vidc-surface-default: #141820;
+  --vidc-surface-elevated: #1E2329;
+  --vidc-surface-subtle: #242B34;
+  --vidc-text-primary: #F9FAFB;
+  --vidc-text-secondary: #D0D5DD;
+  --vidc-text-tertiary: #98A2B3;
+  --vidc-text-muted: #98A2B3;
+  --vidc-text-brand: #FF6482;
+  --vidc-border-default: #37404C;
+  --vidc-border-strong: #475467;
+  --vidc-border-brand: #FF6482;
+  --vidc-focus-outline: #FF6482;
+  --vidc-card-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+
+  /* Primary button remains #EE0033 in both Light and Dark */
+  --vidc-action-primary-default: #EE0033;
+  --vidc-action-primary-focused: #EE0033;
+  --vidc-action-primary-loading: #EE0033;
+  --vidc-action-primary-hover: #D6002E;
+  --vidc-action-primary-pressed: #BE0029;
+  --vidc-action-primary-disabled: #242B34;
+  --vidc-action-primary-on: #FFFFFF;
+
+  /* Bidirectional Aliases for Dark Mode */
+  --vidc-vidc-action-primary-default: #EE0033;
+  --vidc-vidc-action-primary-hover: #D6002E;
+  --vidc-vidc-action-primary-active: #BE0029;
+  --vidc-vidc-surface-canvas: #0B0E17;
+  --vidc-vidc-surface-default: #141820;
+  --vidc-vidc-surface-elevated: #1E2329;
+  --vidc-vidc-surface-subtle: #242B34;
+  --vidc-vidc-text-primary: #F9FAFB;
+  --vidc-vidc-text-secondary: #D0D5DD;
+  --vidc-vidc-text-muted: #98A2B3;
+  --vidc-vidc-text-brand: #FF6482;
+  --vidc-vidc-border-default: #37404C;
+  --vidc-vidc-border-strong: #475467;
+  --vidc-vidc-border-brand: #FF6482;
+}
+
+@media (max-width: 1023px) {
+  :root, :root[data-theme] {
+    --vidc-page-gutter: var(--vidc-vidc-grid-tablet-margin, 40px);
+  }
+}
+
+@media (max-width: 767px) {
+  :root, :root[data-theme] {
+    --vidc-page-gutter: var(--vidc-vidc-grid-mobile-margin, 16px);
+    --vidc-heading-h1-font-size: 36px;
+    --vidc-heading-h1-line-height: 44px;
+    --vidc-heading-h2-font-size: 30px;
+    --vidc-heading-h2-line-height: 38px;
+    --vidc-heading-h3-font-size: 22px;
+    --vidc-heading-h3-line-height: 30px;
+    --vidc-display-md-font-size: 40px;
+    --vidc-display-md-line-height: 48px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root, :root[data-theme] {
+    --vidc-motion-instant: 0ms;
+    --vidc-motion-fast: 0ms;
+    --vidc-motion-default: 0ms;
+    --vidc-motion-slow: 0ms;
+    --vidc-motion-deliberate: 0ms;
+    --vidc-motion-ambient: 0ms;
+  }
+}
+
+/* Universal motion suppression is an accessibility setting, not a screen-size setting.
+   It must not silently disable mobile carousels, drawers or state transitions. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ==========================================================================
+   VIDC Shared Components & Primitives
+   ========================================================================== */
+
+/* Container stays owned by the existing responsive site DS. */
+/* Buttons */
+.vidc-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--vidc-space-2);
+  border: 1px solid transparent;
+  font-family: var(--vidc-font-body);
+  font-weight: var(--vidc-button-font-weight);
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+  user-select: none;
+  border-radius: var(--vidc-button-md-radius) var(--vidc-button-md-radius) var(--vidc-button-md-radius) var(--vidc-radius-button-bottom-left, 2px);
+  transition: background var(--vidc-motion-fast) var(--vidc-motion-ease),
+              color var(--vidc-motion-fast) var(--vidc-motion-ease),
+              border-color var(--vidc-motion-fast) var(--vidc-motion-ease),
+              box-shadow var(--vidc-motion-fast) var(--vidc-motion-ease),
+              transform var(--vidc-motion-fast) var(--vidc-motion-ease);
+}
+
+.vidc-btn:focus-visible {
+  outline: 2px solid var(--vidc-focus-outline);
+  outline-offset: 2px;
+}
+
+/* Button Sizes - Figma Master (Top-Left, Top-Right, Bottom-Right, Bottom-Left) */
+.vidc-btn[data-size="sm"] {
+  min-height: var(--vidc-button-sm-height);
+  height: var(--vidc-button-sm-height);
+  border-radius: var(--vidc-radius-button-outer-8, 8px) var(--vidc-radius-button-outer-8, 8px) var(--vidc-radius-button-outer-8, 8px) var(--vidc-radius-button-bottom-left, 2px);
+  padding-inline: 12px;
+  font-size: var(--vidc-button-sm-font-size);
+  line-height: var(--vidc-button-sm-line-height);
+}
+
+.vidc-btn[data-size="md"] {
+  min-height: var(--vidc-button-md-height);
+  height: var(--vidc-button-md-height);
+  border-radius: var(--vidc-radius-button-outer-10, 10px) var(--vidc-radius-button-outer-10, 10px) var(--vidc-radius-button-outer-10, 10px) var(--vidc-radius-button-bottom-left, 2px);
+  padding-inline: 16px;
+  font-size: var(--vidc-button-md-font-size);
+  line-height: var(--vidc-button-md-line-height);
+}
+
+.vidc-btn[data-size="lg"] {
+  min-height: var(--vidc-button-lg-height);
+  height: var(--vidc-button-lg-height);
+  border-radius: var(--vidc-radius-button-outer-14, 14px) var(--vidc-radius-button-outer-14, 14px) var(--vidc-radius-button-outer-14, 14px) var(--vidc-radius-button-bottom-left, 2px);
+  padding-inline: 24px;
+  font-size: var(--vidc-button-lg-font-size);
+  line-height: var(--vidc-button-lg-line-height);
+}
+
+.vidc-btn[data-size="xl"] {
+  min-height: var(--vidc-button-xl-height);
+  height: var(--vidc-button-xl-height);
+  border-radius: var(--vidc-radius-button-outer-10, 10px) var(--vidc-radius-button-outer-10, 10px) var(--vidc-radius-button-outer-10, 10px) var(--vidc-radius-button-bottom-left, 2px);
+  padding-inline: 28px;
+  font-size: var(--vidc-button-xl-font-size);
+  line-height: var(--vidc-button-xl-line-height);
+}
+
+.vidc-btn[data-size="2xl"] {
+  min-height: var(--vidc-button-2xl-height);
+  height: var(--vidc-button-2xl-height);
+  border-radius: var(--vidc-radius-button-outer-14, 14px) var(--vidc-radius-button-outer-14, 14px) var(--vidc-radius-button-outer-14, 14px) var(--vidc-radius-button-bottom-left, 2px);
+  padding-inline: 32px;
+  font-size: var(--vidc-button-2xl-font-size);
+  line-height: var(--vidc-button-2xl-line-height);
+}
+
+/* Button Variants */
+.vidc-btn--primary {
+  background: var(--vidc-action-primary-default);
+  color: var(--vidc-action-primary-on);
+  border-color: transparent;
+  box-shadow: 0 1px 2px rgba(238, 0, 51, 0.2);
+}
+
+.vidc-btn--primary:hover:not(:disabled):not([data-loading="true"]) {
+  background: var(--vidc-action-primary-hover);
+}
+
+.vidc-btn--primary:active:not(:disabled):not([data-loading="true"]) {
+  background: var(--vidc-action-primary-pressed);
+  transform: scale(0.98);
+}
+
+.vidc-btn--primary:disabled,
+.vidc-btn--primary[aria-disabled="true"] {
+  background: var(--vidc-action-primary-disabled);
+  color: #98A2B3;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.vidc-btn--secondary {
+  background: var(--vidc-surface-default);
+  color: var(--vidc-text-primary);
+  border-color: var(--vidc-border-default);
+}
+
+.vidc-btn--secondary:hover:not(:disabled):not([data-loading="true"]) {
+  background: var(--vidc-surface-subtle);
+  border-color: var(--vidc-text-secondary);
+}
+
+.vidc-btn--secondary:active:not(:disabled):not([data-loading="true"]) {
+  transform: scale(0.98);
+}
+
+.vidc-btn--secondary:disabled,
+.vidc-btn--secondary[aria-disabled="true"] {
+  background: var(--vidc-surface-subtle);
+  color: var(--vidc-text-tertiary);
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.vidc-btn--tertiary,
+.vidc-btn--ghost {
+  background: transparent;
+  color: var(--vidc-text-primary);
+  border-color: transparent;
+}
+
+.vidc-btn--tertiary:hover:not(:disabled):not([data-loading="true"]),
+.vidc-btn--ghost:hover:not(:disabled):not([data-loading="true"]) {
+  background: var(--vidc-surface-subtle);
+}
+
+.vidc-btn--tertiary:active:not(:disabled):not([data-loading="true"]),
+.vidc-btn--ghost:active:not(:disabled):not([data-loading="true"]) {
+  transform: scale(0.98);
+}
+
+.vidc-btn--link {
+  background: transparent;
+  color: var(--vidc-text-brand);
+  border-color: transparent;
+  padding-inline: 0;
+  height: auto;
+  min-height: auto;
+}
+
+.vidc-btn--link:hover:not(:disabled) {
+  text-decoration: underline;
+}
+
+.vidc-btn--warning {
+  background: var(--vidc-action-warning-default);
+  color: var(--vidc-action-warning-on);
+  border-color: transparent;
+}
+
+.vidc-btn--warning:hover:not(:disabled):not([data-loading="true"]) {
+  background: var(--vidc-action-warning-hover);
+}
+
+.vidc-btn--warning:active:not(:disabled):not([data-loading="true"]) {
+  background: var(--vidc-action-warning-pressed);
+  transform: scale(0.98);
+}
+
+/* Destructive is mapped to the *actual* Figma-exported action/destructive tokens.
+   Note: the 2026-11-07 source defines an amber, not a generic red, destructive palette. */
+.vidc-btn--destructive {
+  background: var(--vidc-action-destructive-default);
+  color: var(--vidc-action-destructive-foreground);
+  border-color: var(--vidc-action-destructive-border);
+}
+
+.vidc-btn--destructive:hover:not(:disabled):not([data-loading="true"]) {
+  background: var(--vidc-action-destructive-hover);
+  color: var(--vidc-action-destructive-foreground-hover);
+}
+
+.vidc-btn--destructive:active:not(:disabled):not([data-loading="true"]) {
+  background: var(--vidc-action-destructive-active);
+  transform: scale(0.98);
+}
+
+.vidc-btn--warning:disabled,
+.vidc-btn--destructive:disabled {
+  background: var(--vidc-action-primary-disabled);
+  color: var(--vidc-text-muted);
+  border-color: var(--vidc-border-default);
+  box-shadow: none;
+}
+
+.vidc-btn:disabled {
+  cursor: not-allowed;
+}
+
+/* Button Loading & Disabled States */
+.vidc-btn[data-loading="true"],
+.vidc-btn--loading {
+  pointer-events: none;
+  opacity: 0.75;
+  cursor: wait;
+}
+
+/* Card primitives stay owned by the existing website DS. */
+/* Typography Classes */
+.font-display {
+  font-family: var(--vidc-font-display);
+}
+
+.font-body {
+  font-family: var(--vidc-font-body);
+}
+
+/* Typography Scale Utilities (F02) */
+.vidc-display-md {
+  font-family: var(--vidc-font-display);
+  font-weight: 600;
+  font-size: var(--vidc-display-md-font-size);
+  line-height: var(--vidc-display-md-line-height);
+}
+
+.vidc-heading-1, .vidc-h1 {
+  font-family: var(--vidc-font-display);
+  font-weight: 600;
+  font-size: var(--vidc-heading-h1-font-size);
+  line-height: var(--vidc-heading-h1-line-height);
+}
+
+.vidc-heading-2, .vidc-h2 {
+  font-family: var(--vidc-font-display);
+  font-weight: 600;
+  font-size: var(--vidc-heading-h2-font-size);
+  line-height: var(--vidc-heading-h2-line-height);
+}
+
+.vidc-heading-3, .vidc-h3 {
+  font-family: var(--vidc-font-display);
+  font-weight: 600;
+  font-size: var(--vidc-heading-h3-font-size);
+  line-height: var(--vidc-heading-h3-line-height);
+}
+
+.vidc-heading-4, .vidc-h4 {
+  font-family: var(--vidc-font-body);
+  font-weight: 600;
+  font-size: var(--vidc-heading-h4-font-size);
+  line-height: var(--vidc-heading-h4-line-height);
+}
+
+.vidc-heading-5, .vidc-h5 {
+  font-family: var(--vidc-font-body);
+  font-weight: 600;
+  font-size: var(--vidc-heading-h5-font-size);
+  line-height: var(--vidc-heading-h5-line-height);
+}
+
+.vidc-body-lg {
+  font-family: var(--vidc-font-body);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.vidc-body-md {
+  font-family: var(--vidc-font-body);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.vidc-body-sm {
+  font-family: var(--vidc-font-body);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.vidc-caption {
+  font-family: var(--vidc-font-body);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.vidc-overline {
+  font-family: var(--vidc-font-body);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+}
+
+/* Inputs & Form Elements - Symmetrical 8px radius on all 4 corners */
+.vidc-input {
+  background: var(--vidc-surface-default);
+  color: var(--vidc-text-primary);
+  border: 1px solid var(--vidc-border-default);
+  border-radius: var(--vidc-radius-md, 8px);
+  padding: 8px 14px;
+  font-family: var(--vidc-font-body);
+  font-size: var(--vidc-button-md-font-size);
+  min-height: 44px;
+  transition: border-color var(--vidc-motion-fast) var(--vidc-motion-ease),
+              box-shadow var(--vidc-motion-fast) var(--vidc-motion-ease);
+}
+
+.vidc-input:focus,
+.vidc-input:focus-visible {
+  outline: none;
+  border-color: var(--vidc-focus-outline);
+  box-shadow: 0 0 0 2px rgba(238, 0, 51, 0.15);
+}
+
+/* Mega Menu: imported reference structure, target token presentation. */
+.vidc-mega-menu { min-width: 0; color: var(--vidc-text-primary); font-family: var(--vidc-font-body); }
+.vidc-mega-menu .vidc-body-sm { font-weight: inherit; }
+.vidc-mega-menu .font-semibold { font-weight: 600; }
+.vidc-mega-menu a, .vidc-mega-menu button { overflow-wrap: anywhere; }
+.vidc-mega-menu button { min-height: var(--vidc-a11y-touch-minimum); }
+.vidc-mega-menu input { min-height: var(--vidc-input-height, 44px); }
+.vidc-mega-menu a[aria-disabled="true"] { cursor: not-allowed; }
+.vidc-mega-menu :is(a,button,input):focus-visible { outline: 2px solid var(--vidc-focus-outline); outline-offset: 3px; }
+.vidc-mega-menu .custom-scrollbar { scrollbar-width: thin; scrollbar-color: var(--vidc-border-strong) transparent; }
+@media (max-width: 1023px) {
+  .vidc-mega-menu > div { padding: var(--vidc-space-4); padding-top: var(--vidc-space-16); }
+  .vidc-mega-menu .truncate { white-space: normal; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .vidc-mega-menu *, .vidc-mega-menu *::before, .vidc-mega-menu *::after { animation: none !important; transition: none !important; }
+}
+
+.vidc-mega-menu .transition-all, .vidc-mega-menu .transition-colors, .vidc-mega-menu .transition-transform { transition-duration: var(--vidc-vidc-motion-dropdown-duration); transition-timing-function: var(--vidc-motion-ease); }
+@keyframes vidc-menu-gift-shake {
+  0%, 100% { transform: rotate(0deg); }
+  20%, 60% { transform: rotate(-12deg); }
+  40%, 80% { transform: rotate(12deg); }
+}
+.vidc-mega-menu .vidc-gift-shake-icon { animation: vidc-menu-gift-shake 2500ms ease-in-out infinite; }

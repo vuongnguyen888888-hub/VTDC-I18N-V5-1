@@ -1,0 +1,12 @@
+# GitHub CODEOWNERS template — intentionally inactive until an actual GitHub owner/team is set.
+# Replacing @ARCHITECTURE_OWNER with a real account must be done in repo settings.
+# Suggested entries, uncomment after replacing @YOUR_TEAM:
+# * @YOUR_TEAM
+# /src/config/ @YOUR_TEAM
+# /src/lib/ @YOUR_TEAM
+# /src/tokens/ @YOUR_TEAM
+# /design-system/ @YOUR_TEAM
+# /docs/architecture/ @YOUR_TEAM
+# /next.config.mjs @YOUR_TEAM
+# /package.json @YOUR_TEAM
+# /package-lock.json @YOUR_TEAM

@@ -1,0 +1,26 @@
+/* DS control contract: visual styles of bespoke pages remain in their own classes. */
+:where(.vidc-native-control) {
+  transition-duration: var(--vidc-interaction-duration-fast, 120ms);
+  transition-timing-function: var(--vidc-interaction-easing-default, ease);
+}
+:where(.vidc-native-control):disabled,
+:where(.vidc-native-control)[aria-disabled="true"] {
+  cursor: not-allowed;
+}
+.vidc-native-control:focus-visible {
+  outline: 2px solid var(--vidc-focus-outline, #EE0033);
+  outline-offset: var(--vidc-focus-offset, 2px);
+}
+.vidc-native-control[aria-invalid="true"]:focus-visible {
+  outline-color: var(--vidc-colors-error-600, #D92D20);
+}
+@media (prefers-reduced-motion: reduce) {
+  .vidc-native-control {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto;
+  }
+}
+@media (forced-colors: active) {
+  .vidc-native-control:focus-visible { outline-color: Highlight; }
+}

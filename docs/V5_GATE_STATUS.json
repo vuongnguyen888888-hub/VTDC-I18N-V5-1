@@ -1,0 +1,16 @@
+{
+  "release": "V5-source-audit-2026-11-09",
+  "full_release_accepted": false,
+  "architecture_static": "PASS 13/13",
+  "figma_static": "PASS 3/3",
+  "i18n_route_config": "PASS 11 locales, 264 redirects",
+  "i18n_editorial_copy": "PARTIAL",
+  "font_sha_in_private_audit_workspace": "PASS 12/12",
+  "font_binary_in_downloadable_zip": false,
+  "nextjs_typecheck": "BLOCKED npm deps unavailable locally",
+  "nextjs_production_build": "BLOCKED npm DNS unavailable locally",
+  "real_nextjs_browser": "NOT EXECUTED",
+  "aistudio_preview": "NOT EXECUTED",
+  "source_only_ci": "configured; not yet run on GitHub",
+  "release_ui_ci": "configured strict manually; not run"
+}

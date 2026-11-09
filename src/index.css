@@ -1,0 +1,209 @@
+@import "tailwindcss";
+@import "./tokens/figma-source.css";
+@import "./tokens/vidc-tailwind-figma-palette.css";
+@import "./tokens/vidc-local-fonts.css";
+@import "./tokens/viettel-idc.tokens.css";
+@import "./tokens/viettel-idc.tokens.v8.css";
+@import "./tokens/viettel-idc.motion.tokens.v8.css";
+@import "./tokens/keyframes.css";
+@import "./tokens/component-motion.css";
+@import "./tokens/vidc-handoff.css";
+@import "./tokens/vidc-legacy-palette.css";
+@import "./tokens/vidc-semantic-bridge.css";
+@import "./tokens/vidc-controls.css";
+
+@theme {
+  --font-sans: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+  --font-mono: 'Roboto Mono', monospace;
+
+  /* Viettel IDC Motion System V8 Tailwind Theme Mappings */
+  --ease-vidc: var(--vidc-interaction-easing-default);
+  --ease-enter: var(--vidc-interaction-easing-enter);
+  --ease-exit: var(--vidc-interaction-easing-exit);
+  --ease-emphasized: var(--vidc-interaction-easing-emphasized);
+
+  --duration-fast: var(--vidc-interaction-duration-fast);
+  --duration-default: var(--vidc-interaction-duration-default);
+  --duration-slow: var(--vidc-interaction-duration-slow);
+  --duration-deliberate: var(--vidc-interaction-duration-deliberate);
+}
+
+@layer base {
+  /* Figma DS H1-H3 use BeauSans SemiBold. Class-specific bespoke designs may override. */
+  h1, h2, h3 {
+    font-family: var(--vidc-font-display);
+    font-weight: 600;
+    font-synthesis: none;
+  }
+
+  html {
+    font-family: var(--vidc-font-family-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--vidc-font-family-sans);
+    color: var(--vidc-color-text-primary);
+    background-color: var(--vidc-color-background-canvas);
+    overflow-x: hidden;
+  }
+
+  code, pre, .font-mono {
+    font-family: var(--vidc-font-family-mono);
+  }
+
+  /* Viettel IDC DS V8 Motion Defaults for Interactive Elements */
+  *, *::before, *::after {
+    transition-timing-function: var(--vidc-motion-easing-standard, cubic-bezier(0.2, 0, 0, 1));
+  }
+
+  button, [role="button"], .vidc-button, .vidc-icon-button {
+    transition-duration: var(--vidc-motion-button-duration, 120ms);
+    transition-timing-function: var(--vidc-motion-button-easing, cubic-bezier(0.2, 0, 0, 1));
+  }
+
+  button:active:not(:disabled), [role="button"]:active:not(:disabled) {
+    transform: scale(var(--vidc-motion-button-pressed-scale, 0.98));
+  }
+}
+
+/* Custom subtle scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--vidc-color-background-muted);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--vidc-color-border-strong);
+  border-radius: var(--vidc-radius-full, 9999px);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--vidc-color-text-muted);
+}
+
+/* Hide scrollbars utility */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Accessibility: do not globally erase keyboard focus indicators. */
+:where(input, textarea, select):focus-visible {
+  outline: 2px solid var(--vidc-focus-outline, #EE0033);
+  outline-offset: 2px;
+}
+
+/* Custom subtle light scrollbar for horizontal containers */
+.custom-scrollbar-subtle::-webkit-scrollbar {
+  height: 4px;
+  width: 4px;
+}
+
+.custom-scrollbar-subtle::-webkit-scrollbar-track {
+  background: #f1f5f9; /* Nền thanh xám siêu nhạt tinh tế */
+  border-radius: var(--vidc-radius-full, 9999px);
+}
+
+.custom-scrollbar-subtle::-webkit-scrollbar-thumb {
+  background: #cbd5e1; /* Màu xám nhạt nhẹ nhàng ở trạng thái chờ */
+  border-radius: var(--vidc-radius-full, 9999px);
+  transition: background var(--vidc-interaction-duration-default, 200ms) ease;
+}
+
+.custom-scrollbar-subtle::-webkit-scrollbar-thumb:hover,
+.custom-scrollbar-subtle::-webkit-scrollbar-thumb:active {
+  background: #475569; /* Đổi sang màu xám đậm nổi bật khi tương tác, giữ hoặc cầm kéo */
+}
+
+/* Smooth Marquee Animation */
+@keyframes marquee-scroll {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+@keyframes marquee-scroll-reverse {
+  0% {
+    transform: translate3d(-50%, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.animate-marquee-smooth {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  width: max-content !important;
+  will-change: transform;
+  animation: marquee-scroll 28s linear infinite !important;
+}
+
+.animate-marquee-smooth:hover {
+  animation-play-state: paused !important;
+}
+
+.animate-marquee-smooth-reverse {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  width: max-content !important;
+  will-change: transform;
+  animation: marquee-scroll-reverse 60s linear infinite !important;
+}
+
+.animate-marquee-smooth-reverse:hover {
+  animation-play-state: paused !important;
+}
+
+.glass-panel-dark {
+  background: rgba(22, 27, 34, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-light {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--vidc-color-border-default);
+}
+
+
+
+/* VIDC V2 typography contract: Figma raw text styles are canonical on rendered headings.
+ * This unlayered rule takes priority over historical Tailwind font-* utilities.
+ * The real Next.js layout wraps page content in <main id="main-content">;
+ * #root only existed in the retired Vite shell and had NO EFFECT in production.
+ * Page H1/H2/H3 = FS PF BeauSans Pro SemiBold; H4/H5 = Roboto SemiBold.
+ * Header/footer and bespoke non-page widgets remain exceptions until mapped.
+ */
+main#main-content h1, main#main-content h2, main#main-content h3 {
+  font-family: var(--vidc-font-display) !important;
+  font-weight: 600 !important;
+  font-synthesis: none;
+}
+main#main-content h1 { font-size: var(--vidc-heading-h1-font-size) !important; line-height: var(--vidc-heading-h1-line-height) !important; }
+main#main-content h2 { font-size: var(--vidc-heading-h2-font-size) !important; line-height: var(--vidc-heading-h2-line-height) !important; }
+main#main-content h3 { font-size: var(--vidc-heading-h3-font-size) !important; line-height: var(--vidc-heading-h3-line-height) !important; }
+main#main-content h4, main#main-content h5 {
+  font-family: var(--vidc-font-body) !important;
+  font-weight: 600 !important;
+  font-synthesis: none;
+}
+main#main-content h4 { font-size: var(--vidc-heading-h4-font-size) !important; line-height: var(--vidc-heading-h4-line-height) !important; }
+main#main-content h5 { font-size: var(--vidc-heading-h5-font-size) !important; line-height: var(--vidc-heading-h5-line-height) !important; }

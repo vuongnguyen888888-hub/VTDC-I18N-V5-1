@@ -1,0 +1,35 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    
+    // Helper function to check if user is admin matching firestore.rules
+    function isAuthorizedAdmin() {
+      return request.auth != null
+        && request.auth.token.email != null
+        && request.auth.token.email_verified == true
+        && request.auth.token.email.lower() in [
+          'vuongnguyen888888@gmail.com',
+          'admin@viettelidc.com.vn'
+        ];
+    }
+
+    match /feedback/{uid}/{feedbackId}/{fileId} {
+      // 1. Read: Admins can read anything. A user can read their own files.
+      allow read: if isAuthorizedAdmin() || (request.auth != null && request.auth.uid == uid);
+
+      // 2. Create:
+      // - Must be signed in matching the path {uid}
+      // - Size must be <= 5MB (5 * 1024 * 1024 = 5242880 bytes)
+      // - MIME type must be image/jpeg, image/png, or image/webp
+      // - Immutability: Prevent overwrites (resource == null)
+      allow create: if request.auth != null 
+        && request.auth.uid == uid
+        && request.resource.size <= 5242880
+        && request.resource.contentType.matches('image/(jpeg|png|webp)')
+        && resource == null;
+
+      // Update and delete is restricted to admins only to ensure immutability for reviewers
+      allow update, delete: if isAuthorizedAdmin();
+    }
+  }
+}

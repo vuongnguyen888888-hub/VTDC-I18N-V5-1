@@ -1,0 +1,53 @@
+{
+  "name": "viettel-idc-website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "packageManager": "npm@10.8.2",
+  "scripts": {
+    "dev": "node scripts/run-next.mjs dev",
+    "check:architecture": "node scripts/verify-architecture-lock.mjs",
+    "build": "npm run check:architecture && npm run check:ds && npm run check:i18n && node scripts/run-next.mjs build",
+    "start": "node scripts/run-next.mjs start",
+    "clean": "rm -rf .next dist",
+    "typecheck": "tsc --noEmit",
+    "lint": "npm run typecheck",
+    "check:handoff": "node scripts/verify-handoff.mjs",
+    "check:routes": "node scripts/verify-routes.mjs",
+    "check": "npm run check:static && npm run typecheck",
+    "check:ds": "node scripts/verify-ds-coverage.cjs && node scripts/verify-font-contract.cjs && node scripts/verify-ds-runtime-contract.cjs",
+    "check:i18n": "node scripts/verify-i18n-contract.cjs && node scripts/verify-critical-copy.cjs",
+    "audit:i18n": "node scripts/audit-i18n-copy.cjs",
+    "smoke": "node scripts/smoke-next-runtime.mjs",
+    "smoke:browser": "python3 scripts/verify-live-ui.py",
+    "audit:ds-lines": "python3 scripts/audit-ds-v2-line-by-line.py",
+    "fonts:install": "node scripts/install-beausans-fonts.cjs",
+    "fonts:verify": "node scripts/verify-font-contract.cjs --assets",
+    "check:release": "node scripts/verify-release-structure.cjs && node scripts/verify-import-contract.cjs",
+    "smoke:routes": "node scripts/smoke-next-runtime.mjs --routes-only",
+    "verify:release": "npm run check && npm run fonts:verify && npm run build && npm run smoke && npm run smoke:browser",
+    "fonts:stage": "node scripts/stage-owner-fonts.cjs",
+    "check:static": "npm run check:architecture && npm run check:handoff && npm run check:routes && npm run check:ds && npm run check:i18n && npm run check:release"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.0.9",
+    "dotenv": "^16.4.7",
+    "exceljs": "^4.4.0",
+    "firebase": "^11.4.0",
+    "lucide-react": "^0.469.0",
+    "motion": "^12.4.7",
+    "next": "15.5.25",
+    "postcss": "^8.5.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "autoprefixer": "^10.4.20",
+    "esbuild": "^0.25.0",
+    "tailwindcss": "^4.0.9",
+    "typescript": "^5.7.3"
+  }
+}

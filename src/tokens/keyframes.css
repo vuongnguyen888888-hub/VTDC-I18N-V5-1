@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+/* Viettel IDC Motion System V8 — canonical keyframes. */
+
+@keyframes vidc-fade-in {
+  from { opacity: var(--vidc-motion-opacity-hidden); }
+  to { opacity: var(--vidc-motion-opacity-visible); }
+}
+
+@keyframes vidc-fade-out {
+  from { opacity: var(--vidc-motion-opacity-visible); }
+  to { opacity: var(--vidc-motion-opacity-hidden); }
+}
+
+@keyframes vidc-scale-in {
+  from { opacity: 0; transform: scale(var(--vidc-motion-modal-start-scale)); }
+  to { opacity: 1; transform: scale(var(--vidc-motion-scale-normal)); }
+}
+
+@keyframes vidc-scale-out {
+  from { opacity: 1; transform: scale(var(--vidc-motion-scale-normal)); }
+  to { opacity: 0; transform: scale(var(--vidc-motion-modal-start-scale)); }
+}
+
+@keyframes vidc-slide-in-block-start {
+  from { opacity: 0; transform: translateY(calc(-1 * var(--vidc-motion-distance-overlay))); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes vidc-slide-in-block-end {
+  from { opacity: 0; transform: translateY(var(--vidc-motion-distance-overlay)); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes vidc-slide-out-block-start {
+  from { opacity: 1; transform: translateY(0); }
+  to { opacity: 0; transform: translateY(calc(-1 * var(--vidc-motion-distance-overlay))); }
+}
+
+@keyframes vidc-slide-out-block-end {
+  from { opacity: 1; transform: translateY(0); }
+  to { opacity: 0; transform: translateY(var(--vidc-motion-distance-overlay)); }
+}
+
+@keyframes vidc-drawer-in-inline-end {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+@keyframes vidc-drawer-out-inline-end {
+  from { transform: translateX(0); }
+  to { transform: translateX(100%); }
+}
+
+@keyframes vidc-drawer-in-inline-start {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+
+@keyframes vidc-drawer-out-inline-start {
+  from { transform: translateX(0); }
+  to { transform: translateX(-100%); }
+}
+
+@keyframes vidc-toast-in {
+  from { opacity: 0; transform: translateY(var(--vidc-motion-toast-distance)); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes vidc-toast-out {
+  from { opacity: 1; transform: translateY(0); }
+  to { opacity: 0; transform: translateY(var(--vidc-motion-toast-distance)); }
+}
+
+@keyframes vidc-spinner {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes vidc-skeleton-shimmer {
+  from { background-position: 200% 0; }
+  to { background-position: -200% 0; }
+}
+
+@keyframes vidc-progress-indeterminate {
+  0% { transform: translateX(-100%) scaleX(0.35); }
+  50% { transform: translateX(30%) scaleX(0.55); }
+  100% { transform: translateX(200%) scaleX(0.35); }
+}
+
+@keyframes vidc-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: var(--vidc-motion-opacity-soft); }
+}
+
+@keyframes vidc-marquee-inline {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@keyframes vidc-promotion-wiggle {
+  0%, 72%, 100% { transform: rotate(0deg); }
+  78% { transform: rotate(-12deg); }
+  84% { transform: rotate(12deg); }
+  90% { transform: rotate(-12deg); }
+  96% { transform: rotate(12deg); }
+}

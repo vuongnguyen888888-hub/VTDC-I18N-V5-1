@@ -1,0 +1,15 @@
+node_modules/
+.next/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+tsconfig.tsbuildinfo
+
+# Generated previews and local AI Studio scratch state
+.aistudio/artifacts/
+*.tsbuildinfo
+.env.local

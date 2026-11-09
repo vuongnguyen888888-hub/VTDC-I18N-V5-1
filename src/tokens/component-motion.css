@@ -1,0 +1,243 @@
+@charset "UTF-8";
+
+/* Viettel IDC Motion System V8 — component and pattern contracts. */
+
+.vidc-motion-fade-in {
+  animation: vidc-fade-in var(--vidc-motion-duration-enter) var(--vidc-motion-easing-enter) both;
+}
+
+.vidc-motion-fade-out {
+  animation: vidc-fade-out var(--vidc-motion-duration-exit) var(--vidc-motion-easing-exit) both;
+}
+
+.vidc-button,
+.vidc-icon-button {
+  transition:
+    background-color var(--vidc-motion-button-duration) var(--vidc-motion-button-easing),
+    border-color var(--vidc-motion-button-duration) var(--vidc-motion-button-easing),
+    color var(--vidc-motion-button-duration) var(--vidc-motion-button-easing),
+    box-shadow var(--vidc-motion-button-duration) var(--vidc-motion-button-easing),
+    transform var(--vidc-motion-button-duration) var(--vidc-motion-button-easing);
+}
+
+.vidc-button:active:not(:disabled),
+.vidc-icon-button:active:not(:disabled) {
+  transform: scale(var(--vidc-motion-button-pressed-scale));
+}
+
+.vidc-scrim[data-state="open"] {
+  animation: vidc-fade-in var(--vidc-motion-modal-enter-duration) var(--vidc-motion-modal-enter-easing) both;
+}
+
+.vidc-scrim[data-state="closed"] {
+  animation: vidc-fade-out var(--vidc-motion-modal-exit-duration) var(--vidc-motion-modal-exit-easing) both;
+}
+
+.vidc-dialog[data-state="open"],
+.vidc-modal[data-state="open"] {
+  animation: vidc-scale-in var(--vidc-motion-modal-enter-duration) var(--vidc-motion-modal-enter-easing) both;
+  transform-origin: center;
+}
+
+.vidc-dialog[data-state="closed"],
+.vidc-modal[data-state="closed"] {
+  animation: vidc-scale-out var(--vidc-motion-modal-exit-duration) var(--vidc-motion-modal-exit-easing) both;
+  pointer-events: none;
+}
+
+.vidc-drawer[data-side="inline-end"][data-state="open"] {
+  animation: vidc-drawer-in-inline-end var(--vidc-motion-drawer-enter-duration) var(--vidc-motion-drawer-enter-easing) both;
+}
+
+.vidc-drawer[data-side="inline-end"][data-state="closed"] {
+  animation: vidc-drawer-out-inline-end var(--vidc-motion-drawer-exit-duration) var(--vidc-motion-drawer-exit-easing) both;
+  pointer-events: none;
+}
+
+.vidc-drawer[data-side="inline-start"][data-state="open"] {
+  animation: vidc-drawer-in-inline-start var(--vidc-motion-drawer-enter-duration) var(--vidc-motion-drawer-enter-easing) both;
+}
+
+.vidc-drawer[data-side="inline-start"][data-state="closed"] {
+  animation: vidc-drawer-out-inline-start var(--vidc-motion-drawer-exit-duration) var(--vidc-motion-drawer-exit-easing) both;
+  pointer-events: none;
+}
+
+.vidc-dropdown[data-state="open"],
+.vidc-popover[data-state="open"] {
+  animation: vidc-slide-in-block-start var(--vidc-motion-dropdown-enter-duration) var(--vidc-motion-easing-enter) both;
+  transform-origin: top center;
+}
+
+.vidc-dropdown[data-state="closed"],
+.vidc-popover[data-state="closed"] {
+  animation: vidc-slide-out-block-start var(--vidc-motion-dropdown-exit-duration) var(--vidc-motion-easing-exit) both;
+  pointer-events: none;
+}
+
+.vidc-tooltip[data-state="open"] {
+  animation: vidc-slide-in-block-end var(--vidc-motion-tooltip-enter-duration) var(--vidc-motion-easing-enter) both;
+  animation-delay: var(--vidc-motion-tooltip-delay);
+}
+
+.vidc-tooltip[data-state="closed"] {
+  animation: vidc-fade-out var(--vidc-motion-tooltip-exit-duration) var(--vidc-motion-easing-exit) both;
+  pointer-events: none;
+}
+
+.vidc-toast[data-state="open"] {
+  animation: vidc-toast-in var(--vidc-motion-toast-enter-duration) var(--vidc-motion-easing-enter) both;
+}
+
+.vidc-toast[data-state="closed"] {
+  animation: vidc-toast-out var(--vidc-motion-toast-exit-duration) var(--vidc-motion-easing-exit) both;
+  pointer-events: none;
+}
+
+/* Accordion uses the grid-row technique so content height stays intrinsic. */
+.vidc-accordion-panel {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  transition:
+    grid-template-rows var(--vidc-motion-accordion-duration) var(--vidc-motion-accordion-easing),
+    opacity var(--vidc-motion-duration-exit) var(--vidc-motion-easing-exit);
+}
+
+.vidc-accordion-panel > .vidc-accordion-panel__inner {
+  min-height: 0;
+  overflow: hidden;
+}
+
+.vidc-accordion-panel[data-state="open"] {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+
+.vidc-tabs-indicator {
+  transition:
+    transform var(--vidc-motion-tabs-duration) var(--vidc-motion-tabs-easing),
+    inline-size var(--vidc-motion-tabs-duration) var(--vidc-motion-tabs-easing);
+}
+
+.vidc-carousel-track {
+  scroll-behavior: smooth;
+  scroll-snap-type: inline mandatory;
+}
+
+.vidc-page[data-state="entering"] {
+  animation: vidc-slide-in-block-end var(--vidc-motion-page-enter-duration) var(--vidc-motion-easing-enter) both;
+}
+
+.vidc-page[data-state="exiting"] {
+  animation: vidc-fade-out var(--vidc-motion-page-exit-duration) var(--vidc-motion-easing-exit) both;
+}
+
+.vidc-spinner {
+  inline-size: 1em;
+  block-size: 1em;
+  border: 2px solid currentColor;
+  border-inline-end-color: transparent;
+  border-radius: 50%;
+  animation: vidc-spinner var(--vidc-motion-spinner-duration) linear infinite;
+}
+
+.vidc-skeleton {
+  background-image: linear-gradient(
+    90deg,
+    var(--vidc-color-background-muted) 25%,
+    var(--vidc-color-background-elevated) 50%,
+    var(--vidc-color-background-muted) 75%
+  );
+  background-size: 200% 100%;
+  animation: vidc-skeleton-shimmer var(--vidc-motion-skeleton-duration) linear infinite;
+}
+
+.vidc-progress--indeterminate {
+  position: relative;
+  overflow: hidden;
+}
+
+.vidc-progress--indeterminate::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform-origin: left center;
+  background: currentColor;
+  animation: vidc-progress-indeterminate var(--vidc-motion-progress-duration) var(--vidc-motion-easing-standard) infinite;
+}
+
+.vidc-status-pulse {
+  animation: vidc-pulse var(--vidc-motion-pulse-duration) ease-in-out infinite;
+}
+
+.vidc-marquee-track {
+  display: flex;
+  inline-size: max-content;
+  animation: vidc-marquee-inline var(--vidc-motion-marquee-duration) linear infinite;
+}
+
+.vidc-marquee:hover .vidc-marquee-track,
+.vidc-marquee:focus-within .vidc-marquee-track {
+  animation-play-state: paused;
+}
+
+.vidc-promotion-icon {
+  animation: vidc-promotion-wiggle var(--vidc-navigation-promotion-cycle) var(--vidc-motion-easing-standard) infinite;
+  transform-origin: center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --vidc-motion-duration-state-change: 0ms;
+    --vidc-motion-duration-enter: 0ms;
+    --vidc-motion-duration-exit: 0ms;
+    --vidc-motion-duration-surface: 0ms;
+    --vidc-motion-duration-complex: 0ms;
+  }
+
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-delay: 0ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    transition-delay: 0ms !important;
+  }
+
+  .vidc-button:active:not(:disabled),
+  .vidc-icon-button:active:not(:disabled),
+  .vidc-dialog,
+  .vidc-modal,
+  .vidc-drawer,
+  .vidc-dropdown,
+  .vidc-popover,
+  .vidc-tooltip,
+  .vidc-toast,
+  .vidc-page {
+    transform: none !important;
+  }
+
+  .vidc-skeleton {
+    background-image: none;
+  }
+
+  .vidc-spinner {
+    border-inline-end-color: currentColor;
+  }
+
+  .vidc-progress--indeterminate::before {
+    transform: none;
+    inline-size: 50%;
+  }
+
+  .vidc-marquee-track {
+    animation: none !important;
+    transform: none !important;
+  }
+}
+
+@media (forced-colors: active) {
+  .vidc-spinner { border-color: CanvasText; border-inline-end-color: transparent; }
+  .vidc-progress--indeterminate::before { background: Highlight; }
+}

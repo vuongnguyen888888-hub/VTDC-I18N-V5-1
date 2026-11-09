@@ -1,0 +1,197 @@
+{
+  "kind": "Independent CSS+HTML DS fixture; NOT actual Next website",
+  "results": {
+    "375": {
+      "font": "\"FS PF BeauSans Pro\", Roboto, Roboto, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Arial, sans-serif",
+      "weight": "600",
+      "size": "36px",
+      "faceLoaded": true,
+      "scrollWidth": 375,
+      "buttons": [
+        {
+          "s": "sm",
+          "radius": "8px 8px 8px 2px",
+          "bg": "rgb(238, 0, 51)"
+        },
+        {
+          "s": "md",
+          "radius": "10px 10px 10px 2px",
+          "bg": "rgb(238, 0, 51)"
+        },
+        {
+          "s": "lg",
+          "radius": "14px 14px 14px 2px",
+          "bg": "rgb(238, 0, 51)"
+        },
+        {
+          "s": "xl",
+          "radius": "10px 10px 10px 2px",
+          "bg": "rgb(238, 0, 51)"
+        },
+        {
+          "s": "2xl",
+          "radius": "14px 14px 14px 2px",
+          "bg": "rgb(238, 0, 51)"
+        },
+        {
+          "s": "md",
+          "radius": "10px 10px 10px 2px",
+          "bg": "rgb(255, 255, 255)"
+        },
+        {
+          "s": "md",
+          "radius": "10px 10px 10px 2px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "s": "md",
+          "radius": "10px 10px 10px 2px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "s": "md",
+          "radius": "10px 10px 10px 2px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "s": "md",
+          "radius": "10px 10px 10px 2px",
+          "bg": "rgb(254, 223, 137)"
+        },
+        {
+          "s": "md",
+          "radius": "10px 10px 10px 2px",
+          "bg": "rgb(254, 223, 137)"
+        }
+      ]
+    },
+    "768": {
+      "font": "\"FS PF BeauSans Pro\", Roboto, Roboto, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Arial, sans-serif",
+      "weight": "600",
+      "size": "48px",
+      "faceLoaded": true,
+      "scrollWidth": 768,
+      "buttons": [
+        {
+          "s": "sm",
+          "radius": "8px 8px 8px 2px",
+          "bg": "rgb(238, 0, 51)"
+        },
+        {
+          "s": "md",
+          "radius": "10px 10px 10px 2px",
+          "bg": "rgb(238, 0, 51)"
+        },
+        {
+          "s": "lg",
+          "radius": "14px 14px 14px 2px",
+          "bg": "rgb(238, 0, 51)"
+        },
+        {
+          "s": "xl",
+          "radius": "10px 10px 10px 2px",
+          "bg": "rgb(238, 0, 51)"
+        },
+        {
+          "s": "2xl",
+          "radius": "14px 14px 14px 2px",
+          "bg": "rgb(238, 0, 51)"
+        },
+        {
+          "s": "md",
+          "radius": "10px 10px 10px 2px",
+          "bg": "rgb(255, 255, 255)"
+        },
+        {
+          "s": "md",
+          "radius": "10px 10px 10px 2px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "s": "md",
+          "radius": "10px 10px 10px 2px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "s": "md",
+          "radius": "10px 10px 10px 2px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "s": "md",
+          "radius": "10px 10px 10px 2px",
+          "bg": "rgb(254, 223, 137)"
+        },
+        {
+          "s": "md",
+          "radius": "10px 10px 10px 2px",
+          "bg": "rgb(254, 223, 137)"
+        }
+      ]
+    },
+    "1440": {
+      "font": "\"FS PF BeauSans Pro\", Roboto, Roboto, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Arial, sans-serif",
+      "weight": "600",
+      "size": "48px",
+      "faceLoaded": true,
+      "scrollWidth": 1440,
+      "buttons": [
+        {
+          "s": "sm",
+          "radius": "8px 8px 8px 2px",
+          "bg": "rgb(238, 0, 51)"
+        },
+        {
+          "s": "md",
+          "radius": "10px 10px 10px 2px",
+          "bg": "rgb(238, 0, 51)"
+        },
+        {
+          "s": "lg",
+          "radius": "14px 14px 14px 2px",
+          "bg": "rgb(238, 0, 51)"
+        },
+        {
+          "s": "xl",
+          "radius": "10px 10px 10px 2px",
+          "bg": "rgb(238, 0, 51)"
+        },
+        {
+          "s": "2xl",
+          "radius": "14px 14px 14px 2px",
+          "bg": "rgb(238, 0, 51)"
+        },
+        {
+          "s": "md",
+          "radius": "10px 10px 10px 2px",
+          "bg": "rgb(255, 255, 255)"
+        },
+        {
+          "s": "md",
+          "radius": "10px 10px 10px 2px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "s": "md",
+          "radius": "10px 10px 10px 2px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "s": "md",
+          "radius": "10px 10px 10px 2px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "s": "md",
+          "radius": "10px 10px 10px 2px",
+          "bg": "rgb(254, 223, 137)"
+        },
+        {
+          "s": "md",
+          "radius": "10px 10px 10px 2px",
+          "bg": "rgb(254, 223, 137)"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,62 @@
+/* SINGLE SEMANTIC AUTHORITY
+ * Figma primitives -> handoff semantic values -> prior V8 compatibility names.
+ * This file is applied last; never hardcode a new color in bespoke component CSS.
+ * Only existing aliases are remapped here. Figma raw/resolved files stay immutable.
+ */
+:root, [data-theme="light"], [data-theme="dark"] {
+  /* Resolve the handoff font variable even without a Next/font-generated variable. */
+  --font-roboto: "Roboto";
+  --vidc-color-brand-red: var(--vidc-action-primary-default);
+  --vidc-color-brand-red-hover: var(--vidc-action-primary-hover);
+  --vidc-color-brand-red-active: var(--vidc-action-primary-pressed);
+  --vidc-color-brand-red-accessible: var(--vidc-text-brand);
+  --vidc-button-primary-background-default: var(--vidc-action-primary-default);
+  --vidc-button-primary-background-hover: var(--vidc-action-primary-hover);
+  --vidc-button-primary-background-active: var(--vidc-action-primary-pressed);
+  --vidc-color-brand-pink: var(--vidc-colors-brand-400);
+  --vidc-color-brand-pink-subtle: var(--vidc-colors-brand-50);
+
+  --vidc-color-text-primary: var(--vidc-text-primary);
+  --vidc-color-text-secondary: var(--vidc-text-secondary);
+  --vidc-color-text-tertiary: var(--vidc-text-tertiary);
+  --vidc-color-text-muted: var(--vidc-text-muted);
+  --vidc-color-text-brand: var(--vidc-text-brand);
+  --vidc-color-text-inverse: var(--vidc-colors-base-white);
+
+  --vidc-color-background-canvas: var(--vidc-surface-canvas);
+  --vidc-color-background-surface: var(--vidc-surface-default);
+  --vidc-color-background-elevated: var(--vidc-surface-elevated);
+  --vidc-color-background-subtle: var(--vidc-surface-subtle);
+  --vidc-color-background-muted: var(--vidc-surface-subtle);
+  --vidc-color-background-brand-subtle: var(--vidc-colors-brand-50);
+  --vidc-color-background-brand-strong: var(--vidc-action-primary-default);
+  --vidc-color-background-brand-hover: var(--vidc-action-primary-hover);
+
+  --vidc-color-border-default: var(--vidc-border-default);
+  --vidc-color-border-strong: var(--vidc-border-strong);
+  --vidc-color-border-brand-subtle: var(--vidc-colors-brand-100);
+
+  --vidc-navigation-sticky-border: var(--vidc-border-default);
+  --vidc-navigation-sticky-background: var(--vidc-surface-default);
+}
+@theme inline {
+  --color-vidc-primary: var(--vidc-action-primary-default);
+  --color-vidc-primary-hover: var(--vidc-action-primary-hover);
+  --color-vidc-primary-pressed: var(--vidc-action-primary-pressed);
+  --color-vidc-canvas: var(--vidc-surface-canvas);
+  --color-vidc-surface: var(--vidc-surface-default);
+  --color-vidc-surface-raised: var(--vidc-surface-elevated);
+  --color-vidc-text: var(--vidc-text-primary);
+  --color-vidc-text-muted: var(--vidc-text-muted);
+  --color-vidc-border: var(--vidc-border-default);
+}
+
+/* Keep inverse and tinted brand surfaces correct when a supported dark theme is enabled. */
+[data-theme="dark"] {
+  --vidc-color-text-inverse: var(--vidc-colors-gray-light-mode-900);
+  --vidc-color-background-brand-subtle: var(--vidc-colors-brand-950);
+  --vidc-color-border-brand-subtle: var(--vidc-colors-brand-800);
+}
+html:lang(lo) body { font-family: var(--vidc-font-family-sans-lo, "Noto Sans Lao", sans-serif); }
+html:lang(my) body { font-family: var(--vidc-font-family-sans-mm, "Noto Sans Myanmar", sans-serif); }
+html:lang(km) body { font-family: "Noto Sans Khmer", var(--vidc-font-family-sans, sans-serif); }

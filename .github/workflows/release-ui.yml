@@ -1,0 +1,43 @@
+name: Release UI acceptance — BeauSans + real Next.js browser (strict)
+on:
+  workflow_dispatch:
+jobs:
+  licensed-assets-and-live-ui:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+      - name: Install locked dependencies
+        run: npm ci
+      - name: Strict font verification — 12 original owner-supplied TTF files
+        run: npm run fonts:verify
+      - name: Verify source and compile Next.js
+        run: npm run check && npm run build
+      - name: Production HTTP and font smoke
+        run: npm run smoke
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Playwright Chromium
+        run: |
+          python -m pip install playwright==1.56.0
+          python -m playwright install --with-deps chromium
+      - name: Test real Next.js production UI at 375 / 768 / 1440 pixels
+        run: npm run smoke:browser
+      - name: Upload real UI screenshots and evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: real-nextjs-ui-beausans-release-evidence
+          path: browser-acceptance/
+          if-no-files-found: ignore
+      - name: Preserve release gate truth
+        if: always()
+        run: |
+          echo '## Release UI acceptance' >> "$GITHUB_STEP_SUMMARY"
+          echo 'A green workflow is only valid if all checks above, including 12 licensed font hashes and real Chromium screenshots, succeeded.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'If any font is missing, this workflow intentionally fails closed. It must NEVER use fallback font to pass.' >> "$GITHUB_STEP_SUMMARY"

@@ -1,0 +1,38 @@
+{
+  "authority": "Figma 2026-11-09 + VIDC DS V2",
+  "audit": "line-by-line static source, not website rendering",
+  "figmaCounts": {
+    "collections": 8,
+    "variables": 1069,
+    "textStyles": 25,
+    "paintStyles": 977,
+    "effectStyles": 24,
+    "gridStyles": 8
+  },
+  "figmaSnapshotSHA256": {
+    "vidc.figma.raw.json": "4912b997d0b6d14a1f0d51bbe253a2172015b552478f1969ee56158e4895639b",
+    "vidc.figma.resolved.json": "a27855ba880d2e48281e01851e705ef5ed94a4f1b1ff6583dd97e0f6500fb16d",
+    "vidc.figma.ready.css": "d2f4e55c2d9ca0b21909f61b93c37618ce449d69859101b286ec6b4d1a4ebc6a"
+  },
+  "sourceFileExtensions": {
+    ".tsx": 554,
+    ".css": 14,
+    ".ts": 49
+  },
+  "sourceCounts": {
+    "source_lines": 130953,
+    "application_source_lines": 124761,
+    "source_files": 617,
+    "tailwind_v2_palette_remapped": 11085,
+    "heading_nonsemantic_weight_classes": 1178,
+    "css_var_references": 6754,
+    "legacy_color_references": 1729,
+    "inline_style_review": 4
+  },
+  "cssVariableDeclarations": 2063,
+  "referencedDistinctCSSVariables": 861,
+  "cssVariableFatalIssues": [],
+  "nonfatalExceptionOccurrences": 1729,
+  "status": "PASS_STATIC_WITH_DOCUMENTED_EXCEPTIONS",
+  "meaning": "legacy and bespoke Tailwind palettes remain only as preserved exceptions; this scan does not prove their Figma component equivalence or real browser behavior"
+}

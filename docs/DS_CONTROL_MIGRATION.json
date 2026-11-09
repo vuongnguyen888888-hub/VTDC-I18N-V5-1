@@ -1,0 +1,13 @@
+{
+  "release": "2026-11-09",
+  "countBasis": "JSX opening/self-closing instances after migration; no closing-tag double count",
+  "button": 981,
+  "input": 254,
+  "textarea": 41,
+  "select": 70,
+  "anchor": 383,
+  "interactiveControlTotal": 1346,
+  "anchorTotal": 383,
+  "staticGate": "scripts/verify-ds-coverage.cjs",
+  "status": "PASS: zero remaining native JSX elements outside DS primitives"
+}

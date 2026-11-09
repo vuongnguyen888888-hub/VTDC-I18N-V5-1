@@ -1,0 +1,1066 @@
+{
+  "source": "Figma JSON source CSS 2026-11-09",
+  "strategy": "alias old Tailwind palette class names to Figma primitive CSS via Tailwind v4 @theme inline",
+  "mappingCount": 264,
+  "legacyTailwindPaletteUses": 11769,
+  "figmaCoveredUses": 11769,
+  "legacyPreservedDueToMissingFigmaShade": {},
+  "mapping": {
+    "slate-25": {
+      "figmaToken": "--vidc-colors-gray-light-mode-25",
+      "figmaValue": "#F9FAFB"
+    },
+    "slate-50": {
+      "figmaToken": "--vidc-colors-gray-light-mode-50",
+      "figmaValue": "#F2F4F7"
+    },
+    "slate-100": {
+      "figmaToken": "--vidc-colors-gray-light-mode-100",
+      "figmaValue": "#F2F4F7"
+    },
+    "slate-200": {
+      "figmaToken": "--vidc-colors-gray-light-mode-200",
+      "figmaValue": "#EAECF0"
+    },
+    "slate-300": {
+      "figmaToken": "--vidc-colors-gray-light-mode-300",
+      "figmaValue": "#D0D5DD"
+    },
+    "slate-400": {
+      "figmaToken": "--vidc-colors-gray-light-mode-400",
+      "figmaValue": "#98A2B3"
+    },
+    "slate-500": {
+      "figmaToken": "--vidc-colors-gray-light-mode-500",
+      "figmaValue": "#667085"
+    },
+    "slate-600": {
+      "figmaToken": "--vidc-colors-gray-light-mode-600",
+      "figmaValue": "#475467"
+    },
+    "slate-700": {
+      "figmaToken": "--vidc-colors-gray-light-mode-700",
+      "figmaValue": "#344054"
+    },
+    "slate-800": {
+      "figmaToken": "--vidc-colors-gray-light-mode-800",
+      "figmaValue": "#1D2939"
+    },
+    "slate-900": {
+      "figmaToken": "--vidc-colors-gray-light-mode-900",
+      "figmaValue": "#101828"
+    },
+    "slate-950": {
+      "figmaToken": "--vidc-colors-gray-light-mode-950",
+      "figmaValue": "#0B0E17"
+    },
+    "gray-25": {
+      "figmaToken": "--vidc-colors-gray-neutral-25",
+      "figmaValue": "#FCFCFD"
+    },
+    "gray-50": {
+      "figmaToken": "--vidc-colors-gray-neutral-50",
+      "figmaValue": "#F9FAFB"
+    },
+    "gray-100": {
+      "figmaToken": "--vidc-colors-gray-neutral-100",
+      "figmaValue": "#F3F4F6"
+    },
+    "gray-200": {
+      "figmaToken": "--vidc-colors-gray-neutral-200",
+      "figmaValue": "#E5E7EB"
+    },
+    "gray-300": {
+      "figmaToken": "--vidc-colors-gray-neutral-300",
+      "figmaValue": "#D2D6DB"
+    },
+    "gray-400": {
+      "figmaToken": "--vidc-colors-gray-neutral-400",
+      "figmaValue": "#9DA4AE"
+    },
+    "gray-500": {
+      "figmaToken": "--vidc-colors-gray-neutral-500",
+      "figmaValue": "#6C737F"
+    },
+    "gray-600": {
+      "figmaToken": "--vidc-colors-gray-neutral-600",
+      "figmaValue": "#4D5761"
+    },
+    "gray-700": {
+      "figmaToken": "--vidc-colors-gray-neutral-700",
+      "figmaValue": "#384250"
+    },
+    "gray-800": {
+      "figmaToken": "--vidc-colors-gray-neutral-800",
+      "figmaValue": "#1F2A37"
+    },
+    "gray-900": {
+      "figmaToken": "--vidc-colors-gray-neutral-900",
+      "figmaValue": "#111927"
+    },
+    "gray-950": {
+      "figmaToken": "--vidc-colors-gray-neutral-950",
+      "figmaValue": "#0D121C"
+    },
+    "zinc-25": {
+      "figmaToken": "--vidc-colors-gray-iron-25",
+      "figmaValue": "#FCFCFC"
+    },
+    "zinc-50": {
+      "figmaToken": "--vidc-colors-gray-iron-50",
+      "figmaValue": "#FAFAFA"
+    },
+    "zinc-100": {
+      "figmaToken": "--vidc-colors-gray-iron-100",
+      "figmaValue": "#F4F4F5"
+    },
+    "zinc-200": {
+      "figmaToken": "--vidc-colors-gray-iron-200",
+      "figmaValue": "#E4E4E7"
+    },
+    "zinc-300": {
+      "figmaToken": "--vidc-colors-gray-iron-300",
+      "figmaValue": "#D1D1D6"
+    },
+    "zinc-400": {
+      "figmaToken": "--vidc-colors-gray-iron-400",
+      "figmaValue": "#A0A0AB"
+    },
+    "zinc-500": {
+      "figmaToken": "--vidc-colors-gray-iron-500",
+      "figmaValue": "#70707B"
+    },
+    "zinc-600": {
+      "figmaToken": "--vidc-colors-gray-iron-600",
+      "figmaValue": "#51525C"
+    },
+    "zinc-700": {
+      "figmaToken": "--vidc-colors-gray-iron-700",
+      "figmaValue": "#3F3F46"
+    },
+    "zinc-800": {
+      "figmaToken": "--vidc-colors-gray-iron-800",
+      "figmaValue": "#26272B"
+    },
+    "zinc-900": {
+      "figmaToken": "--vidc-colors-gray-iron-900",
+      "figmaValue": "#1A1A1E"
+    },
+    "zinc-950": {
+      "figmaToken": "--vidc-colors-gray-iron-950",
+      "figmaValue": "#131316"
+    },
+    "neutral-25": {
+      "figmaToken": "--vidc-colors-gray-true-25",
+      "figmaValue": "#FCFCFC"
+    },
+    "neutral-50": {
+      "figmaToken": "--vidc-colors-gray-true-50",
+      "figmaValue": "#F7F7F7"
+    },
+    "neutral-100": {
+      "figmaToken": "--vidc-colors-gray-true-100",
+      "figmaValue": "#F5F5F5"
+    },
+    "neutral-200": {
+      "figmaToken": "--vidc-colors-gray-true-200",
+      "figmaValue": "#E5E5E5"
+    },
+    "neutral-300": {
+      "figmaToken": "--vidc-colors-gray-true-300",
+      "figmaValue": "#D6D6D6"
+    },
+    "neutral-400": {
+      "figmaToken": "--vidc-colors-gray-true-400",
+      "figmaValue": "#A3A3A3"
+    },
+    "neutral-500": {
+      "figmaToken": "--vidc-colors-gray-true-500",
+      "figmaValue": "#737373"
+    },
+    "neutral-600": {
+      "figmaToken": "--vidc-colors-gray-true-600",
+      "figmaValue": "#525252"
+    },
+    "neutral-700": {
+      "figmaToken": "--vidc-colors-gray-true-700",
+      "figmaValue": "#424242"
+    },
+    "neutral-800": {
+      "figmaToken": "--vidc-colors-gray-true-800",
+      "figmaValue": "#292929"
+    },
+    "neutral-900": {
+      "figmaToken": "--vidc-colors-gray-true-900",
+      "figmaValue": "#141414"
+    },
+    "neutral-950": {
+      "figmaToken": "--vidc-colors-gray-true-950",
+      "figmaValue": "#0F0F0F"
+    },
+    "stone-25": {
+      "figmaToken": "--vidc-colors-gray-warm-25",
+      "figmaValue": "#FDFDFC"
+    },
+    "stone-50": {
+      "figmaToken": "--vidc-colors-gray-warm-50",
+      "figmaValue": "#FAFAF9"
+    },
+    "stone-100": {
+      "figmaToken": "--vidc-colors-gray-warm-100",
+      "figmaValue": "#F5F5F4"
+    },
+    "stone-200": {
+      "figmaToken": "--vidc-colors-gray-warm-200",
+      "figmaValue": "#E7E5E4"
+    },
+    "stone-300": {
+      "figmaToken": "--vidc-colors-gray-warm-300",
+      "figmaValue": "#D7D3D0"
+    },
+    "stone-400": {
+      "figmaToken": "--vidc-colors-gray-warm-400",
+      "figmaValue": "#A9A29D"
+    },
+    "stone-500": {
+      "figmaToken": "--vidc-colors-gray-warm-500",
+      "figmaValue": "#79716B"
+    },
+    "stone-600": {
+      "figmaToken": "--vidc-colors-gray-warm-600",
+      "figmaValue": "#57534E"
+    },
+    "stone-700": {
+      "figmaToken": "--vidc-colors-gray-warm-700",
+      "figmaValue": "#44403C"
+    },
+    "stone-800": {
+      "figmaToken": "--vidc-colors-gray-warm-800",
+      "figmaValue": "#292524"
+    },
+    "stone-900": {
+      "figmaToken": "--vidc-colors-gray-warm-900",
+      "figmaValue": "#1C1917"
+    },
+    "stone-950": {
+      "figmaToken": "--vidc-colors-gray-warm-950",
+      "figmaValue": "#171412"
+    },
+    "red-25": {
+      "figmaToken": "--vidc-colors-brand-25",
+      "figmaValue": "#FFF9FA"
+    },
+    "red-50": {
+      "figmaToken": "--vidc-colors-brand-50",
+      "figmaValue": "#FFF1F4"
+    },
+    "red-100": {
+      "figmaToken": "--vidc-colors-brand-100",
+      "figmaValue": "#FFE4EA"
+    },
+    "red-200": {
+      "figmaToken": "--vidc-colors-brand-200",
+      "figmaValue": "#FFC9D5"
+    },
+    "red-300": {
+      "figmaToken": "--vidc-colors-brand-300",
+      "figmaValue": "#FF9CB3"
+    },
+    "red-400": {
+      "figmaToken": "--vidc-colors-brand-400",
+      "figmaValue": "#FF6482"
+    },
+    "red-500": {
+      "figmaToken": "--vidc-colors-brand-500",
+      "figmaValue": "#EE0033"
+    },
+    "red-600": {
+      "figmaToken": "--vidc-colors-brand-600",
+      "figmaValue": "#D6002E"
+    },
+    "red-700": {
+      "figmaToken": "--vidc-colors-brand-700",
+      "figmaValue": "#BE0029"
+    },
+    "red-800": {
+      "figmaToken": "--vidc-colors-brand-800",
+      "figmaValue": "#A60023"
+    },
+    "red-900": {
+      "figmaToken": "--vidc-colors-brand-900",
+      "figmaValue": "#80001B"
+    },
+    "red-950": {
+      "figmaToken": "--vidc-colors-brand-950",
+      "figmaValue": "#500011"
+    },
+    "blue-25": {
+      "figmaToken": "--vidc-colors-blue-25",
+      "figmaValue": "#F5FAFF"
+    },
+    "blue-50": {
+      "figmaToken": "--vidc-colors-blue-50",
+      "figmaValue": "#EFF8FF"
+    },
+    "blue-100": {
+      "figmaToken": "--vidc-colors-blue-100",
+      "figmaValue": "#D1E9FF"
+    },
+    "blue-200": {
+      "figmaToken": "--vidc-colors-blue-200",
+      "figmaValue": "#B2DDFF"
+    },
+    "blue-300": {
+      "figmaToken": "--vidc-colors-blue-300",
+      "figmaValue": "#84CAFF"
+    },
+    "blue-400": {
+      "figmaToken": "--vidc-colors-blue-400",
+      "figmaValue": "#53B1FD"
+    },
+    "blue-500": {
+      "figmaToken": "--vidc-colors-blue-500",
+      "figmaValue": "#2E90FA"
+    },
+    "blue-600": {
+      "figmaToken": "--vidc-colors-blue-600",
+      "figmaValue": "#1570EF"
+    },
+    "blue-700": {
+      "figmaToken": "--vidc-colors-blue-700",
+      "figmaValue": "#175CD3"
+    },
+    "blue-800": {
+      "figmaToken": "--vidc-colors-blue-800",
+      "figmaValue": "#1849A9"
+    },
+    "blue-900": {
+      "figmaToken": "--vidc-colors-blue-900",
+      "figmaValue": "#194185"
+    },
+    "blue-950": {
+      "figmaToken": "--vidc-colors-blue-950",
+      "figmaValue": "#102A56"
+    },
+    "sky-25": {
+      "figmaToken": "--vidc-colors-blue-light-25",
+      "figmaValue": "#F5FBFF"
+    },
+    "sky-50": {
+      "figmaToken": "--vidc-colors-blue-light-50",
+      "figmaValue": "#F0F9FF"
+    },
+    "sky-100": {
+      "figmaToken": "--vidc-colors-blue-light-100",
+      "figmaValue": "#E0F2FE"
+    },
+    "sky-200": {
+      "figmaToken": "--vidc-colors-blue-light-200",
+      "figmaValue": "#B9E6FE"
+    },
+    "sky-300": {
+      "figmaToken": "--vidc-colors-blue-light-300",
+      "figmaValue": "#7CD4FD"
+    },
+    "sky-400": {
+      "figmaToken": "--vidc-colors-blue-light-400",
+      "figmaValue": "#36BFFA"
+    },
+    "sky-500": {
+      "figmaToken": "--vidc-colors-blue-light-500",
+      "figmaValue": "#0BA5EC"
+    },
+    "sky-600": {
+      "figmaToken": "--vidc-colors-blue-light-600",
+      "figmaValue": "#0086C9"
+    },
+    "sky-700": {
+      "figmaToken": "--vidc-colors-blue-light-700",
+      "figmaValue": "#026AA2"
+    },
+    "sky-800": {
+      "figmaToken": "--vidc-colors-blue-light-800",
+      "figmaValue": "#065986"
+    },
+    "sky-900": {
+      "figmaToken": "--vidc-colors-blue-light-900",
+      "figmaValue": "#0B4A6F"
+    },
+    "sky-950": {
+      "figmaToken": "--vidc-colors-blue-light-950",
+      "figmaValue": "#062C41"
+    },
+    "green-25": {
+      "figmaToken": "--vidc-colors-success-25",
+      "figmaValue": "#F6FEF9"
+    },
+    "green-50": {
+      "figmaToken": "--vidc-colors-success-50",
+      "figmaValue": "#ECFDF3"
+    },
+    "green-100": {
+      "figmaToken": "--vidc-colors-success-100",
+      "figmaValue": "#DCFAE6"
+    },
+    "green-200": {
+      "figmaToken": "--vidc-colors-success-200",
+      "figmaValue": "#ABEFC6"
+    },
+    "green-300": {
+      "figmaToken": "--vidc-colors-success-300",
+      "figmaValue": "#75E0A7"
+    },
+    "green-400": {
+      "figmaToken": "--vidc-colors-success-400",
+      "figmaValue": "#47CD89"
+    },
+    "green-500": {
+      "figmaToken": "--vidc-colors-success-500",
+      "figmaValue": "#17B26A"
+    },
+    "green-600": {
+      "figmaToken": "--vidc-colors-success-600",
+      "figmaValue": "#079455"
+    },
+    "green-700": {
+      "figmaToken": "--vidc-colors-success-700",
+      "figmaValue": "#067647"
+    },
+    "green-800": {
+      "figmaToken": "--vidc-colors-success-800",
+      "figmaValue": "#085D3A"
+    },
+    "green-900": {
+      "figmaToken": "--vidc-colors-success-900",
+      "figmaValue": "#074D31"
+    },
+    "green-950": {
+      "figmaToken": "--vidc-colors-success-950",
+      "figmaValue": "#053321"
+    },
+    "emerald-25": {
+      "figmaToken": "--vidc-colors-green-25",
+      "figmaValue": "#F6FEF9"
+    },
+    "emerald-50": {
+      "figmaToken": "--vidc-colors-green-50",
+      "figmaValue": "#EDFCF2"
+    },
+    "emerald-100": {
+      "figmaToken": "--vidc-colors-green-100",
+      "figmaValue": "#D3F8DF"
+    },
+    "emerald-200": {
+      "figmaToken": "--vidc-colors-green-200",
+      "figmaValue": "#AAF0C4"
+    },
+    "emerald-300": {
+      "figmaToken": "--vidc-colors-green-300",
+      "figmaValue": "#73E2A3"
+    },
+    "emerald-400": {
+      "figmaToken": "--vidc-colors-green-400",
+      "figmaValue": "#3CCB7F"
+    },
+    "emerald-500": {
+      "figmaToken": "--vidc-colors-green-500",
+      "figmaValue": "#16B364"
+    },
+    "emerald-600": {
+      "figmaToken": "--vidc-colors-green-600",
+      "figmaValue": "#099250"
+    },
+    "emerald-700": {
+      "figmaToken": "--vidc-colors-green-700",
+      "figmaValue": "#087443"
+    },
+    "emerald-800": {
+      "figmaToken": "--vidc-colors-green-800",
+      "figmaValue": "#095C37"
+    },
+    "emerald-900": {
+      "figmaToken": "--vidc-colors-green-900",
+      "figmaValue": "#084C2E"
+    },
+    "emerald-950": {
+      "figmaToken": "--vidc-colors-green-950",
+      "figmaValue": "#052E1C"
+    },
+    "lime-25": {
+      "figmaToken": "--vidc-colors-green-light-25",
+      "figmaValue": "#FAFEF5"
+    },
+    "lime-50": {
+      "figmaToken": "--vidc-colors-green-light-50",
+      "figmaValue": "#F3FEE7"
+    },
+    "lime-100": {
+      "figmaToken": "--vidc-colors-green-light-100",
+      "figmaValue": "#E3FBCC"
+    },
+    "lime-200": {
+      "figmaToken": "--vidc-colors-green-light-200",
+      "figmaValue": "#D0F8AB"
+    },
+    "lime-300": {
+      "figmaToken": "--vidc-colors-green-light-300",
+      "figmaValue": "#A6EF67"
+    },
+    "lime-400": {
+      "figmaToken": "--vidc-colors-green-light-400",
+      "figmaValue": "#85E13A"
+    },
+    "lime-500": {
+      "figmaToken": "--vidc-colors-green-light-500",
+      "figmaValue": "#66C61C"
+    },
+    "lime-600": {
+      "figmaToken": "--vidc-colors-green-light-600",
+      "figmaValue": "#4CA30D"
+    },
+    "lime-700": {
+      "figmaToken": "--vidc-colors-green-light-700",
+      "figmaValue": "#3B7C0F"
+    },
+    "lime-800": {
+      "figmaToken": "--vidc-colors-green-light-800",
+      "figmaValue": "#326212"
+    },
+    "lime-900": {
+      "figmaToken": "--vidc-colors-green-light-900",
+      "figmaValue": "#2B5314"
+    },
+    "lime-950": {
+      "figmaToken": "--vidc-colors-green-light-950",
+      "figmaValue": "#15290A"
+    },
+    "yellow-25": {
+      "figmaToken": "--vidc-colors-warning-25",
+      "figmaValue": "#FFFCF5"
+    },
+    "yellow-50": {
+      "figmaToken": "--vidc-colors-warning-50",
+      "figmaValue": "#FFFAEB"
+    },
+    "yellow-100": {
+      "figmaToken": "--vidc-colors-warning-100",
+      "figmaValue": "#FEF0C7"
+    },
+    "yellow-200": {
+      "figmaToken": "--vidc-colors-warning-200",
+      "figmaValue": "#FEDF89"
+    },
+    "yellow-300": {
+      "figmaToken": "--vidc-colors-warning-300",
+      "figmaValue": "#FEC84B"
+    },
+    "yellow-400": {
+      "figmaToken": "--vidc-colors-warning-400",
+      "figmaValue": "#FDB022"
+    },
+    "yellow-500": {
+      "figmaToken": "--vidc-colors-warning-500",
+      "figmaValue": "#F79009"
+    },
+    "yellow-600": {
+      "figmaToken": "--vidc-colors-warning-600",
+      "figmaValue": "#DC6803"
+    },
+    "yellow-700": {
+      "figmaToken": "--vidc-colors-warning-700",
+      "figmaValue": "#B54708"
+    },
+    "yellow-800": {
+      "figmaToken": "--vidc-colors-warning-800",
+      "figmaValue": "#93370D"
+    },
+    "yellow-900": {
+      "figmaToken": "--vidc-colors-warning-900",
+      "figmaValue": "#7A2E0E"
+    },
+    "yellow-950": {
+      "figmaToken": "--vidc-colors-warning-950",
+      "figmaValue": "#4E1D09"
+    },
+    "amber-25": {
+      "figmaToken": "--vidc-colors-warning-25",
+      "figmaValue": "#FFFCF5"
+    },
+    "amber-50": {
+      "figmaToken": "--vidc-colors-warning-50",
+      "figmaValue": "#FFFAEB"
+    },
+    "amber-100": {
+      "figmaToken": "--vidc-colors-warning-100",
+      "figmaValue": "#FEF0C7"
+    },
+    "amber-200": {
+      "figmaToken": "--vidc-colors-warning-200",
+      "figmaValue": "#FEDF89"
+    },
+    "amber-300": {
+      "figmaToken": "--vidc-colors-warning-300",
+      "figmaValue": "#FEC84B"
+    },
+    "amber-400": {
+      "figmaToken": "--vidc-colors-warning-400",
+      "figmaValue": "#FDB022"
+    },
+    "amber-500": {
+      "figmaToken": "--vidc-colors-warning-500",
+      "figmaValue": "#F79009"
+    },
+    "amber-600": {
+      "figmaToken": "--vidc-colors-warning-600",
+      "figmaValue": "#DC6803"
+    },
+    "amber-700": {
+      "figmaToken": "--vidc-colors-warning-700",
+      "figmaValue": "#B54708"
+    },
+    "amber-800": {
+      "figmaToken": "--vidc-colors-warning-800",
+      "figmaValue": "#93370D"
+    },
+    "amber-900": {
+      "figmaToken": "--vidc-colors-warning-900",
+      "figmaValue": "#7A2E0E"
+    },
+    "amber-950": {
+      "figmaToken": "--vidc-colors-warning-950",
+      "figmaValue": "#4E1D09"
+    },
+    "orange-25": {
+      "figmaToken": "--vidc-colors-orange-25",
+      "figmaValue": "#FEFAF5"
+    },
+    "orange-50": {
+      "figmaToken": "--vidc-colors-orange-50",
+      "figmaValue": "#FEF6EE"
+    },
+    "orange-100": {
+      "figmaToken": "--vidc-colors-orange-100",
+      "figmaValue": "#FDEAD7"
+    },
+    "orange-200": {
+      "figmaToken": "--vidc-colors-orange-200",
+      "figmaValue": "#F9DBAF"
+    },
+    "orange-300": {
+      "figmaToken": "--vidc-colors-orange-300",
+      "figmaValue": "#F7B27A"
+    },
+    "orange-400": {
+      "figmaToken": "--vidc-colors-orange-400",
+      "figmaValue": "#F38744"
+    },
+    "orange-500": {
+      "figmaToken": "--vidc-colors-orange-500",
+      "figmaValue": "#EF6820"
+    },
+    "orange-600": {
+      "figmaToken": "--vidc-colors-orange-600",
+      "figmaValue": "#E04F16"
+    },
+    "orange-700": {
+      "figmaToken": "--vidc-colors-orange-700",
+      "figmaValue": "#B93815"
+    },
+    "orange-800": {
+      "figmaToken": "--vidc-colors-orange-800",
+      "figmaValue": "#932F19"
+    },
+    "orange-900": {
+      "figmaToken": "--vidc-colors-orange-900",
+      "figmaValue": "#772917"
+    },
+    "orange-950": {
+      "figmaToken": "--vidc-colors-orange-950",
+      "figmaValue": "#511C10"
+    },
+    "pink-25": {
+      "figmaToken": "--vidc-colors-pink-25",
+      "figmaValue": "#FEF6FB"
+    },
+    "pink-50": {
+      "figmaToken": "--vidc-colors-pink-50",
+      "figmaValue": "#FDF2FA"
+    },
+    "pink-100": {
+      "figmaToken": "--vidc-colors-pink-100",
+      "figmaValue": "#FCE7F6"
+    },
+    "pink-200": {
+      "figmaToken": "--vidc-colors-pink-200",
+      "figmaValue": "#FCCEEE"
+    },
+    "pink-300": {
+      "figmaToken": "--vidc-colors-pink-300",
+      "figmaValue": "#FAA7E0"
+    },
+    "pink-400": {
+      "figmaToken": "--vidc-colors-pink-400",
+      "figmaValue": "#F670C7"
+    },
+    "pink-500": {
+      "figmaToken": "--vidc-colors-pink-500",
+      "figmaValue": "#EE46BC"
+    },
+    "pink-600": {
+      "figmaToken": "--vidc-colors-pink-600",
+      "figmaValue": "#DD2590"
+    },
+    "pink-700": {
+      "figmaToken": "--vidc-colors-pink-700",
+      "figmaValue": "#C11574"
+    },
+    "pink-800": {
+      "figmaToken": "--vidc-colors-pink-800",
+      "figmaValue": "#9E165F"
+    },
+    "pink-900": {
+      "figmaToken": "--vidc-colors-pink-900",
+      "figmaValue": "#851651"
+    },
+    "pink-950": {
+      "figmaToken": "--vidc-colors-pink-950",
+      "figmaValue": "#4E0D30"
+    },
+    "rose-25": {
+      "figmaToken": "--vidc-colors-rose-25",
+      "figmaValue": "#FFF5F6"
+    },
+    "rose-50": {
+      "figmaToken": "--vidc-colors-rose-50",
+      "figmaValue": "#FFF1F3"
+    },
+    "rose-100": {
+      "figmaToken": "--vidc-colors-rose-100",
+      "figmaValue": "#FFE4E8"
+    },
+    "rose-200": {
+      "figmaToken": "--vidc-colors-rose-200",
+      "figmaValue": "#FECDD6"
+    },
+    "rose-300": {
+      "figmaToken": "--vidc-colors-rose-300",
+      "figmaValue": "#FEA3B4"
+    },
+    "rose-400": {
+      "figmaToken": "--vidc-colors-rose-400",
+      "figmaValue": "#FD6F8E"
+    },
+    "rose-500": {
+      "figmaToken": "--vidc-colors-rose-500",
+      "figmaValue": "#F63D68"
+    },
+    "rose-600": {
+      "figmaToken": "--vidc-colors-rose-600",
+      "figmaValue": "#E31B54"
+    },
+    "rose-700": {
+      "figmaToken": "--vidc-colors-rose-700",
+      "figmaValue": "#C01048"
+    },
+    "rose-800": {
+      "figmaToken": "--vidc-colors-rose-800",
+      "figmaValue": "#A11043"
+    },
+    "rose-900": {
+      "figmaToken": "--vidc-colors-rose-900",
+      "figmaValue": "#89123E"
+    },
+    "rose-950": {
+      "figmaToken": "--vidc-colors-rose-950",
+      "figmaValue": "#510B24"
+    },
+    "purple-25": {
+      "figmaToken": "--vidc-colors-purple-25",
+      "figmaValue": "#FAFAFF"
+    },
+    "purple-50": {
+      "figmaToken": "--vidc-colors-purple-50",
+      "figmaValue": "#F4F3FF"
+    },
+    "purple-100": {
+      "figmaToken": "--vidc-colors-purple-100",
+      "figmaValue": "#EBE9FE"
+    },
+    "purple-200": {
+      "figmaToken": "--vidc-colors-purple-200",
+      "figmaValue": "#D9D6FE"
+    },
+    "purple-300": {
+      "figmaToken": "--vidc-colors-purple-300",
+      "figmaValue": "#BDB4FE"
+    },
+    "purple-400": {
+      "figmaToken": "--vidc-colors-purple-400",
+      "figmaValue": "#9B8AFB"
+    },
+    "purple-500": {
+      "figmaToken": "--vidc-colors-purple-500",
+      "figmaValue": "#7A5AF8"
+    },
+    "purple-600": {
+      "figmaToken": "--vidc-colors-purple-600",
+      "figmaValue": "#6938EF"
+    },
+    "purple-700": {
+      "figmaToken": "--vidc-colors-purple-700",
+      "figmaValue": "#5925DC"
+    },
+    "purple-800": {
+      "figmaToken": "--vidc-colors-purple-800",
+      "figmaValue": "#4A1FB8"
+    },
+    "purple-900": {
+      "figmaToken": "--vidc-colors-purple-900",
+      "figmaValue": "#3E1C96"
+    },
+    "purple-950": {
+      "figmaToken": "--vidc-colors-purple-950",
+      "figmaValue": "#27115F"
+    },
+    "violet-25": {
+      "figmaToken": "--vidc-colors-violet-25",
+      "figmaValue": "#FBFAFF"
+    },
+    "violet-50": {
+      "figmaToken": "--vidc-colors-violet-50",
+      "figmaValue": "#F5F3FF"
+    },
+    "violet-100": {
+      "figmaToken": "--vidc-colors-violet-100",
+      "figmaValue": "#ECE9FE"
+    },
+    "violet-200": {
+      "figmaToken": "--vidc-colors-violet-200",
+      "figmaValue": "#DDD6FE"
+    },
+    "violet-300": {
+      "figmaToken": "--vidc-colors-violet-300",
+      "figmaValue": "#C3B5FD"
+    },
+    "violet-400": {
+      "figmaToken": "--vidc-colors-violet-400",
+      "figmaValue": "#A48AFB"
+    },
+    "violet-500": {
+      "figmaToken": "--vidc-colors-violet-500",
+      "figmaValue": "#875BF7"
+    },
+    "violet-600": {
+      "figmaToken": "--vidc-colors-violet-600",
+      "figmaValue": "#7839EE"
+    },
+    "violet-700": {
+      "figmaToken": "--vidc-colors-violet-700",
+      "figmaValue": "#6927DA"
+    },
+    "violet-800": {
+      "figmaToken": "--vidc-colors-violet-800",
+      "figmaValue": "#5720B7"
+    },
+    "violet-900": {
+      "figmaToken": "--vidc-colors-violet-900",
+      "figmaValue": "#491C96"
+    },
+    "violet-950": {
+      "figmaToken": "--vidc-colors-violet-950",
+      "figmaValue": "#2E125E"
+    },
+    "indigo-25": {
+      "figmaToken": "--vidc-colors-indigo-25",
+      "figmaValue": "#F5F8FF"
+    },
+    "indigo-50": {
+      "figmaToken": "--vidc-colors-indigo-50",
+      "figmaValue": "#EEF4FF"
+    },
+    "indigo-100": {
+      "figmaToken": "--vidc-colors-indigo-100",
+      "figmaValue": "#E0EAFF"
+    },
+    "indigo-200": {
+      "figmaToken": "--vidc-colors-indigo-200",
+      "figmaValue": "#C7D7FE"
+    },
+    "indigo-300": {
+      "figmaToken": "--vidc-colors-indigo-300",
+      "figmaValue": "#A4BCFD"
+    },
+    "indigo-400": {
+      "figmaToken": "--vidc-colors-indigo-400",
+      "figmaValue": "#8098F9"
+    },
+    "indigo-500": {
+      "figmaToken": "--vidc-colors-indigo-500",
+      "figmaValue": "#6172F3"
+    },
+    "indigo-600": {
+      "figmaToken": "--vidc-colors-indigo-600",
+      "figmaValue": "#444CE7"
+    },
+    "indigo-700": {
+      "figmaToken": "--vidc-colors-indigo-700",
+      "figmaValue": "#3538CD"
+    },
+    "indigo-800": {
+      "figmaToken": "--vidc-colors-indigo-800",
+      "figmaValue": "#2D31A6"
+    },
+    "indigo-900": {
+      "figmaToken": "--vidc-colors-indigo-900",
+      "figmaValue": "#2D3282"
+    },
+    "indigo-950": {
+      "figmaToken": "--vidc-colors-indigo-950",
+      "figmaValue": "#1F235B"
+    },
+    "cyan-25": {
+      "figmaToken": "--vidc-colors-cyan-25",
+      "figmaValue": "#F5FEFF"
+    },
+    "cyan-50": {
+      "figmaToken": "--vidc-colors-cyan-50",
+      "figmaValue": "#ECFDFF"
+    },
+    "cyan-100": {
+      "figmaToken": "--vidc-colors-cyan-100",
+      "figmaValue": "#CFF9FE"
+    },
+    "cyan-200": {
+      "figmaToken": "--vidc-colors-cyan-200",
+      "figmaValue": "#A5F0FC"
+    },
+    "cyan-300": {
+      "figmaToken": "--vidc-colors-cyan-300",
+      "figmaValue": "#67E3F9"
+    },
+    "cyan-400": {
+      "figmaToken": "--vidc-colors-cyan-400",
+      "figmaValue": "#22CCEE"
+    },
+    "cyan-500": {
+      "figmaToken": "--vidc-colors-cyan-500",
+      "figmaValue": "#06AED4"
+    },
+    "cyan-600": {
+      "figmaToken": "--vidc-colors-cyan-600",
+      "figmaValue": "#088AB2"
+    },
+    "cyan-700": {
+      "figmaToken": "--vidc-colors-cyan-700",
+      "figmaValue": "#0E7090"
+    },
+    "cyan-800": {
+      "figmaToken": "--vidc-colors-cyan-800",
+      "figmaValue": "#155B75"
+    },
+    "cyan-900": {
+      "figmaToken": "--vidc-colors-cyan-900",
+      "figmaValue": "#164C63"
+    },
+    "cyan-950": {
+      "figmaToken": "--vidc-colors-cyan-950",
+      "figmaValue": "#0D2D3A"
+    },
+    "teal-25": {
+      "figmaToken": "--vidc-colors-teal-25",
+      "figmaValue": "#F6FEFC"
+    },
+    "teal-50": {
+      "figmaToken": "--vidc-colors-teal-50",
+      "figmaValue": "#F0FDF9"
+    },
+    "teal-100": {
+      "figmaToken": "--vidc-colors-teal-100",
+      "figmaValue": "#CCFBEF"
+    },
+    "teal-200": {
+      "figmaToken": "--vidc-colors-teal-200",
+      "figmaValue": "#99F6E0"
+    },
+    "teal-300": {
+      "figmaToken": "--vidc-colors-teal-300",
+      "figmaValue": "#5FE9D0"
+    },
+    "teal-400": {
+      "figmaToken": "--vidc-colors-teal-400",
+      "figmaValue": "#2ED3B7"
+    },
+    "teal-500": {
+      "figmaToken": "--vidc-colors-teal-500",
+      "figmaValue": "#15B79E"
+    },
+    "teal-600": {
+      "figmaToken": "--vidc-colors-teal-600",
+      "figmaValue": "#0E9384"
+    },
+    "teal-700": {
+      "figmaToken": "--vidc-colors-teal-700",
+      "figmaValue": "#107569"
+    },
+    "teal-800": {
+      "figmaToken": "--vidc-colors-teal-800",
+      "figmaValue": "#125D56"
+    },
+    "teal-900": {
+      "figmaToken": "--vidc-colors-teal-900",
+      "figmaValue": "#134E48"
+    },
+    "teal-950": {
+      "figmaToken": "--vidc-colors-teal-950",
+      "figmaValue": "#0A2926"
+    },
+    "fuchsia-25": {
+      "figmaToken": "--vidc-colors-fuchsia-25",
+      "figmaValue": "#FEFAFF"
+    },
+    "fuchsia-50": {
+      "figmaToken": "--vidc-colors-fuchsia-50",
+      "figmaValue": "#FDF4FF"
+    },
+    "fuchsia-100": {
+      "figmaToken": "--vidc-colors-fuchsia-100",
+      "figmaValue": "#FBE8FF"
+    },
+    "fuchsia-200": {
+      "figmaToken": "--vidc-colors-fuchsia-200",
+      "figmaValue": "#F6D0FE"
+    },
+    "fuchsia-300": {
+      "figmaToken": "--vidc-colors-fuchsia-300",
+      "figmaValue": "#EEAAFD"
+    },
+    "fuchsia-400": {
+      "figmaToken": "--vidc-colors-fuchsia-400",
+      "figmaValue": "#E478FA"
+    },
+    "fuchsia-500": {
+      "figmaToken": "--vidc-colors-fuchsia-500",
+      "figmaValue": "#D444F1"
+    },
+    "fuchsia-600": {
+      "figmaToken": "--vidc-colors-fuchsia-600",
+      "figmaValue": "#BA24D5"
+    },
+    "fuchsia-700": {
+      "figmaToken": "--vidc-colors-fuchsia-700",
+      "figmaValue": "#9F1AB1"
+    },
+    "fuchsia-800": {
+      "figmaToken": "--vidc-colors-fuchsia-800",
+      "figmaValue": "#821890"
+    },
+    "fuchsia-900": {
+      "figmaToken": "--vidc-colors-fuchsia-900",
+      "figmaValue": "#6F1877"
+    },
+    "fuchsia-950": {
+      "figmaToken": "--vidc-colors-fuchsia-950",
+      "figmaValue": "#47104C"
+    }
+  }
+}

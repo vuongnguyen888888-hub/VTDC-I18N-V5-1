@@ -1,0 +1,24 @@
+{
+  "release": "2026-11-09",
+  "auditKind": "static AST and CSS scan; NOT a browser/production build",
+  "sourceFilesChecked": 602,
+  "dsComponentOccurrences": {
+    "VIDCAnchor": 383,
+    "VIDCNativeButton": 981,
+    "VIDCNativeInput": 254,
+    "VIDCNativeSelect": 70,
+    "VIDCNativeTextarea": 41
+  },
+  "nativeInteractiveElementsOutsidePrimitive": 0,
+  "tailwindHexUtilityOccurrences": 0,
+  "tailwindHexUtilitiesMigrated": 1993,
+  "distinctLegacyColorAliases": 72,
+  "syntaxDiagnostics": [],
+  "relativeImportsMissing": [],
+  "missingLegacyTokenDeclarations": [],
+  "notes": [
+    "A VIDCNative* adapter ensures consistent a11y and transition policy while preserving bespoke styling; it does not visually replace the UI with fully Figma-native components.",
+    "A total of 72 legacy color aliases preserve bespoke visual colors pending design-owner review; these are not equivalent to approved semantic tokens.",
+    "The original Figma handoff does not include complete native Figma components/variants for every bespoke page."
+  ]
+}

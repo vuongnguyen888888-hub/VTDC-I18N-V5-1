@@ -1,0 +1,6 @@
+{
+  "name": "Viettel IDC Website",
+  "description": "Viettel IDC Portal - Data Center & Cloud Services in Vietnam and Southeast Asia",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

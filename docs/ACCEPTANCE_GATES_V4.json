@@ -1,0 +1,18 @@
+{
+  "release": "2026-11-09-DSV2-V4-source-audited",
+  "full_release_accepted": false,
+  "figma_source_integrity": "PASS",
+  "css_ds_contract": "PASS STATIC",
+  "source_lines_scanned": 130953,
+  "figma_mapped_tailwind_color_uses": 11769,
+  "legacy_component_palette_exceptions": 1729,
+  "beausans_font_assets_in_local_validation": "12 of 12 SHA matches",
+  "beausans_font_assets_in_chat_zip": "NOT DISTRIBUTED",
+  "ds_chromium_fixture": "PASS 375/768/1440; NOT actual Next UI",
+  "next_build": "BLOCKED; next executable absent, npm registry DNS inaccessible",
+  "next_chromium_website": "BLOCKED; no Next build output",
+  "google_ai_studio_preview": "NOT TESTED",
+  "i18n_routing": "PASS STRUCTURE: 11 locales 264 redirects",
+  "i18n_full_content": "INCOMPLETE",
+  "ci_browser_gate": "CONFIGURED, NOT EXECUTED"
+}

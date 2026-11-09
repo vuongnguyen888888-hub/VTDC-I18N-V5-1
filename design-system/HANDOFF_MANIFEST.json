@@ -1,0 +1,184 @@
+{
+  "bundle": "VIDC DS Tokens + Buttons Handoff",
+  "created": "2026-11-08",
+  "source_archive": "Viettelidc.com-HUB-mcp-main.zip",
+  "figma_file_key": "pHobosL59UrMRnh20n4ETY",
+  "figma_buttons_page": "1:1183",
+  "figma_buttons_frame": "3287:427074",
+  "raw_figma_metadata": {
+    "source": "Figma Plugin API",
+    "exportedAt": "2026-11-09T01:09:36.705Z",
+    "format": "VIDC Figma raw token export",
+    "version": "1.0",
+    "note": "All original aliases and mode values retained"
+  },
+  "scope": "source-based handoff; not a native Figma full-file export",
+  "files": [
+    {
+      "path": "AI_STUDIO_INSTALL_PROMPT.txt",
+      "bytes": 887,
+      "sha256": "4f0d872f1b4d60faf59dfafa12612e001f753687dde7f40618229ec8c799710d"
+    },
+    {
+      "path": "BUTTONS_GUIDE.md",
+      "bytes": 2228,
+      "sha256": "13cd996d450b3bdea495997da63e32d822de8b396a6b705453eb6009f56193d0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2333,
+      "sha256": "0b3555d15f8a41934490108303b196b689813cf8c6d2127efd39fd3db4bf4558"
+    },
+    {
+      "path": "implementation/app/globals.css",
+      "bytes": 21033,
+      "sha256": "aba33276c451a2f10e6ced65b7dc8cd9a9f4521ca90b7d30949d03e39ea95d85"
+    },
+    {
+      "path": "implementation/components/ui/InputField.tsx",
+      "bytes": 10201,
+      "sha256": "0464bcc5c8a0c0e604f7ea17619f823ab077124a0e4749b6b7d13871c35ed2d3"
+    },
+    {
+      "path": "implementation/components/ui/OtpInput.tsx",
+      "bytes": 5637,
+      "sha256": "ee7167b3e32a2e26c9ce8f069d17c3937fb9ffbd2383b76660dfd1a017ee6f04"
+    },
+    {
+      "path": "implementation/components/ui/TextareaField.tsx",
+      "bytes": 6849,
+      "sha256": "6f452e976f86f6b320ee30e1a7c9c9a13493875f0aa2b9a040c3d26dd67159cd"
+    },
+    {
+      "path": "implementation/components/ui/_MegaInputBase.tsx",
+      "bytes": 2874,
+      "sha256": "27d684423581163e602642fe81d25bce5eca7274d9a3dd625904294c3c2fe977"
+    },
+    {
+      "path": "implementation/lib/tokens.test.ts",
+      "bytes": 7166,
+      "sha256": "ad1bce864f91f582aec1b34d71008d21ae2c87b61085a353e13b4574d20cfaf6"
+    },
+    {
+      "path": "implementation/lib/tokens.ts",
+      "bytes": 5447,
+      "sha256": "0b15d080b8bcb02f8df8b1b335c735a433cceaef84f59f3442ccd6d79c9e9ace"
+    },
+    {
+      "path": "source/VIDC-AIStudio-Token-Kit/README.md",
+      "bytes": 2846,
+      "sha256": "dde3247713592232f24ad695e686fa30f85585547f7783870d121ea568d24201"
+    },
+    {
+      "path": "source/VIDC-AIStudio-Token-Kit/docs/AI_STUDIO_PROMPT.txt",
+      "bytes": 2255,
+      "sha256": "890c05665d8e2c2332976780025f07f2fa547d8b85ab288434cc16fe0a4e6418"
+    },
+    {
+      "path": "source/VIDC-AIStudio-Token-Kit/figma-exporter/code.js",
+      "bytes": 9073,
+      "sha256": "3613335e9484837c3ebddfe6281031fb0123572ee97b02cc5452b7ac846c003c"
+    },
+    {
+      "path": "source/VIDC-AIStudio-Token-Kit/figma-exporter/manifest.json",
+      "bytes": 168,
+      "sha256": "12c4cf4ba22989895083f0b135265c5e1c29051645f51dae152ec5bbee2be3d3"
+    },
+    {
+      "path": "source/VIDC-AIStudio-Token-Kit/figma-exporter/ui.html",
+      "bytes": 3041,
+      "sha256": "f895bd6c8ad13a02ee3d5afab6d5375c02b4c7e5bb2418066eef14f700ae39ff"
+    },
+    {
+      "path": "source/VIDC-AIStudio-Token-Kit/preview/index.html",
+      "bytes": 2311,
+      "sha256": "e486c0eb5c272db4486d920418299f3dcb7880f42ef4f1297ee0501173f4f1c1"
+    },
+    {
+      "path": "source/VIDC-AIStudio-Token-Kit/tokens/vidc-aistudio.bootstrap.css",
+      "bytes": 5783,
+      "sha256": "aed58dc9b78aed5ae833b5ddcd97880e2d5390a1d2707be98bbd4b246200e2a2"
+    },
+    {
+      "path": "source/VIDC-AIStudio-Token-Kit/tokens/vidc.verified-subset.json",
+      "bytes": 3512,
+      "sha256": "5320c54f391d5549dc0e4af3794ab4382ee509eb00515d98fbd75af43f368de8"
+    },
+    {
+      "path": "source/backup-tokens/vidc.figma.raw.json",
+      "bytes": 1890988,
+      "sha256": "9e1ce268586a965884d37372d5f10432327cdd58d81b95d34d695f174e75d6fe"
+    },
+    {
+      "path": "source/backup-tokens/vidc.figma.resolved.json",
+      "bytes": 489656,
+      "sha256": "616ec6746b55fc69f45d33dada23349bcc65ded9827eab25eacbac93dab0944f"
+    },
+    {
+      "path": "source/backup-tokens/vidc.figma.variables.css",
+      "bytes": 147922,
+      "sha256": "efb217363131d6c1b7eefad291e69661f9a4d8b84a23db1ba796f5423cb3cf32"
+    },
+    {
+      "path": "source/design-system/audits/VIDC-DS-MASTER-AUDIT-2026-11-07.md",
+      "bytes": 22669,
+      "sha256": "16d8c0a84aabde97d4f737972db24e270a1062a1c7d0f09efb57f02380d79c29"
+    },
+    {
+      "path": "source/design-system/audits/VIDC-TYPOGRAPHY-SYSTEM-WIDE-AUDIT-2026-11-07.md",
+      "bytes": 10727,
+      "sha256": "bbc2cde77034737d0b719f31187b99b361788744081feb15abde46ab75484ca1"
+    },
+    {
+      "path": "source/design-system/checkpoints/VIDC-DS-BUTTONS-SYNC-2026-11-07.md",
+      "bytes": 5185,
+      "sha256": "71d609fd0452c6abc571d06345ef227284f74e6d38ff31e4d30a561b2e6a9892"
+    },
+    {
+      "path": "source/design-system/checkpoints/VIDC-DS-INPUTS-SYNC-2026-11-07.md",
+      "bytes": 3364,
+      "sha256": "12778e383bdb38e9e6efe0ff530cccdc722f370275cca4efad3858a05c2ad441"
+    },
+    {
+      "path": "source/design-system/checkpoints/VIDC-DS-TOKENS-INTEGRATED-2026-11-07.md",
+      "bytes": 3755,
+      "sha256": "1b799a793754e990ea577634ef6dc6f634e9083b10b0612644dda03833b0c9f8"
+    },
+    {
+      "path": "source/design-system/ecosystem-audit.md",
+      "bytes": 8392,
+      "sha256": "da69e679540cec07ab485c4b365b27a51119216f4a11c17b84f08fcefc4c9571"
+    },
+    {
+      "path": "source/design-system/figma/vidc.figma.raw.json",
+      "bytes": 1837815,
+      "sha256": "4912b997d0b6d14a1f0d51bbe253a2172015b552478f1969ee56158e4895639b"
+    },
+    {
+      "path": "source/design-system/figma/vidc.figma.ready.css",
+      "bytes": 159015,
+      "sha256": "d2f4e55c2d9ca0b21909f61b93c37618ce449d69859101b286ec6b4d1a4ebc6a"
+    },
+    {
+      "path": "source/design-system/figma/vidc.figma.resolved.json",
+      "bytes": 474660,
+      "sha256": "a27855ba880d2e48281e01851e705ef5ed94a4f1b1ff6583dd97e0f6500fb16d"
+    },
+    {
+      "path": "source/design-system/hero-audit.md",
+      "bytes": 10367,
+      "sha256": "4192d6daf3911ffedd022c40cee417d6ed72c484c454755c39f2c4a3efaa3a34"
+    },
+    {
+      "path": "source/design-system/mega-menu-audit.md",
+      "bytes": 10592,
+      "sha256": "a42ef1cd7776906259f7761ebb630ada2431af39bb1e8f47c1812a585dbbf6dc"
+    },
+    {
+      "path": "source/design-system/trust-bar-audit.md",
+      "bytes": 6438,
+      "sha256": "6a85b78c42b05b66c898d2fd56aad107e1d8a6bcc8a332277aca7bf2d952c51a"
+    }
+  ],
+  "refreshed_source": "User-provided Figma raw/resolved export, 2026-11-09; data values identical to 2026-11-07 except metadata exportedAt"
+}

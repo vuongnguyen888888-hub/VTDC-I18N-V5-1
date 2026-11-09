@@ -1,0 +1,100 @@
+import React from 'react';
+import { Database, Shield, Layers, ArrowUpRight } from 'lucide-react';
+import { SEAMarket } from '../../layout/UtilityBar';
+import { VIDCAnchor } from '@/components/ui/VIDCAnchor';
+
+
+interface CloudGPURelatedProductsProps {
+  currentMarket?: SEAMarket;
+}
+
+export const CloudGPURelatedProducts: React.FC<CloudGPURelatedProductsProps> = ({ currentMarket }) => {
+  const isLaos = currentMarket?.code === 'la';
+
+  const t = {
+    eyebrow: isLaos ? 'INTEGRATED ECOSYSTEM' : 'HỆ SINH THÁI TÍCH HỢP',
+    headline: isLaos ? 'Complementary Solutions for Viettel Cloud GPU' : 'Giải pháp bổ trợ cho Viettel Cloud GPU',
+    learnMore: isLaos ? 'Learn more' : 'Tìm hiểu thêm',
+  };
+
+  const products = [
+    {
+      title: 'Viettel File & Object Storage',
+      desc: isLaos 
+        ? 'Massive scalable storage with high transfer throughput for ingesting large AI datasets (Big Datasets) into GPU clusters.'
+        : 'Kho lưu trữ mở rộng quy mô lớn, tốc độ truyền tải cao giúp nạp nhanh các tập dữ liệu lớn (Big Datasets) vào cụm GPU.',
+      icon: Database,
+    },
+    {
+      title: 'Viettel Virtual Private Cloud (vVPC)',
+      desc: isLaos 
+        ? 'Secure virtual data center networking to operate enterprise backend applications connected to Cloud GPU instances.'
+        : 'Thiết lập môi trường trung tâm dữ liệu ảo bảo mật để vận hành các cụm máy chủ ứng dụng kết nối với máy chủ GPU.',
+      icon: Shield,
+    },
+    {
+      title: 'Viettel Hybrid Connect L3',
+      desc: isLaos 
+        ? 'Dedicated high-speed fiber link (up to 10 Gbps) connecting on-premise AI labs directly into Viettel Cloud GPU infrastructure.'
+        : 'Kênh truyền cáp quang riêng tốc độ cao (lên tới 10 Gbps) kết nối trực tiếp phòng Lab/hạ tầng On-premises vào cụm GPU.',
+      icon: Layers,
+    },
+  ];
+
+  return (
+    <section 
+      id="related-products" 
+      className="py-16 md:py-20 bg-white text-[var(--vidc-legacy-hex-222225)]"
+    >
+      <div className="vidc-container mx-auto px-4 sm:px-6 lg:px-10">
+        
+        {/* Section Header */}
+        <div className="max-w-3xl mx-auto text-center mb-12">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-extrabold bg-red-50 text-[var(--vidc-color-brand-red)] mb-3">
+            {t.eyebrow}
+          </div>
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[var(--vidc-legacy-hex-222225)] tracking-tight leading-tight">
+            {t.headline}
+          </h2>
+        </div>
+
+        {/* Grid 3 Card Sản Phẩm Liên Quan */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {products.map((item, idx) => {
+            const IconComp = item.icon;
+            return (
+              <div 
+                key={idx}
+                className="p-6 rounded-2xl bg-slate-50 border border-slate-200/80 hover:bg-white hover:border-[var(--vidc-color-brand-red)] hover:shadow-lg transition-all duration-300 flex flex-col justify-between space-y-6 group"
+              >
+                <div className="space-y-4">
+                  <div className="w-11 h-11 rounded-xl bg-red-50 text-[var(--vidc-color-brand-red)] flex items-center justify-center group-hover:bg-[var(--vidc-color-brand-red)] group-hover:text-white transition-colors">
+                    <IconComp className="w-5 h-5" />
+                  </div>
+                  <h3 className="text-lg font-extrabold text-[var(--vidc-legacy-hex-222225)] group-hover:text-[var(--vidc-color-brand-red)] transition-colors">
+                    {item.title}
+                  </h3>
+                  <p className="text-xs text-slate-600 leading-relaxed">
+                    {item.desc}
+                  </p>
+                </div>
+
+                <div className="pt-4 border-t border-slate-100">
+                  <VIDCAnchor
+                    href="#pricing"
+                    className="inline-flex items-center gap-1.5 text-xs font-bold text-[var(--vidc-color-brand-red)] hover:underline group-hover:translate-x-1 transition-transform"
+                  >
+                    <span>{t.learnMore}</span>
+                    <ArrowUpRight className="w-4 h-4" />
+                  </VIDCAnchor>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+      </div>
+    </section>
+  );
+};
+

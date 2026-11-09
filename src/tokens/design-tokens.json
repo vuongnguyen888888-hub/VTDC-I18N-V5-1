@@ -1,0 +1,154 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "name": "Viettel IDC Design System Tokens",
+  "version": "1.0.0",
+  "tokens": {
+    "color": {
+      "brand": {
+        "red": {
+          "value": "#C5002A",
+          "type": "color",
+          "description": "Primary Viettel IDC Red Brand Color"
+        },
+        "redHover": {
+          "value": "#8F0027",
+          "type": "color"
+        },
+        "redActive": {
+          "value": "#510016",
+          "type": "color"
+        },
+        "pink": {
+          "value": "#FF6482",
+          "type": "color"
+        },
+        "pinkSubtle": {
+          "value": "#FFF1F4",
+          "type": "color"
+        }
+      },
+      "text": {
+        "primary": {
+          "value": "#101828",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "#344054",
+          "type": "color"
+        },
+        "muted": {
+          "value": "#94A3B8",
+          "type": "color"
+        },
+        "brand": {
+          "value": "#C5002A",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "#FFFFFF",
+          "type": "color"
+        }
+      },
+      "background": {
+        "canvas": {
+          "value": "#FFFFFF",
+          "type": "color"
+        },
+        "elevated": {
+          "value": "#F8FAFC",
+          "type": "color"
+        },
+        "subtle": {
+          "value": "#F2F4F7",
+          "type": "color"
+        },
+        "muted": {
+          "value": "#F1F5F9",
+          "type": "color"
+        },
+        "brandSubtle": {
+          "value": "#FFF1F4",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "#0B0E17",
+          "type": "color"
+        }
+      },
+      "border": {
+        "default": {
+          "value": "#E2E8F0",
+          "type": "color"
+        },
+        "strong": {
+          "value": "#CBD5E1",
+          "type": "color"
+        },
+        "brand": {
+          "value": "#C5002A",
+          "type": "color"
+        },
+        "brandSubtle": {
+          "value": "#FEE2E2",
+          "type": "color"
+        }
+      }
+    },
+    "typography": {
+      "fontFamily": {
+        "sans": {
+          "value": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif",
+          "type": "fontFamily"
+        },
+        "mono": {
+          "value": "'Roboto Mono', monospace",
+          "type": "fontFamily"
+        }
+      },
+      "fontSize": {
+        "xs": { "value": "12px", "type": "dimension" },
+        "sm": { "value": "14px", "type": "dimension" },
+        "md": { "value": "16px", "type": "dimension" },
+        "lg": { "value": "18px", "type": "dimension" },
+        "xl": { "value": "20px", "type": "dimension" },
+        "2xl": { "value": "24px", "type": "dimension" }
+      }
+    },
+    "space": {
+      "0": { "value": "0px", "type": "dimension" },
+      "1": { "value": "4px", "type": "dimension" },
+      "2": { "value": "8px", "type": "dimension" },
+      "3": { "value": "12px", "type": "dimension" },
+      "4": { "value": "16px", "type": "dimension" },
+      "5": { "value": "20px", "type": "dimension" },
+      "6": { "value": "24px", "type": "dimension" },
+      "8": { "value": "32px", "type": "dimension" },
+      "10": { "value": "40px", "type": "dimension" },
+      "12": { "value": "48px", "type": "dimension" },
+      "16": { "value": "64px", "type": "dimension" },
+      "20": { "value": "80px", "type": "dimension" }
+    },
+    "radius": {
+      "xs": { "value": "4px", "type": "dimension" },
+      "sm": { "value": "6px", "type": "dimension" },
+      "md": { "value": "8px", "type": "dimension" },
+      "lg": { "value": "12px", "type": "dimension" },
+      "xl": { "value": "16px", "type": "dimension" },
+      "2xl": { "value": "20px", "type": "dimension" },
+      "full": { "value": "9999px", "type": "dimension" }
+    },
+    "shadow": {
+      "xs": { "value": "0 1px 2px rgba(16, 24, 40, 0.05)", "type": "shadow" },
+      "sm": { "value": "0 1px 3px rgba(16, 24, 40, 0.1)", "type": "shadow" },
+      "md": { "value": "0 4px 6px -1px rgba(16, 24, 40, 0.1)", "type": "shadow" },
+      "lg": { "value": "0 12px 20px -4px rgba(197, 0, 42, 0.15), 0 4px 6px -2px rgba(16, 24, 40, 0.05)", "type": "shadow" },
+      "2xl": { "value": "0 25px 50px -12px rgba(16, 24, 40, 0.25)", "type": "shadow" }
+    },
+    "layout": {
+      "containerMax": { "value": "1600px", "type": "dimension" },
+      "gutterDesktop": { "value": "80px", "type": "dimension" },
+      "gutterTablet": { "value": "40px", "type": "dimension" },
+      "gutterMobile": { "value": "16px", "type": "dimension" }
+    }
+  }
+}

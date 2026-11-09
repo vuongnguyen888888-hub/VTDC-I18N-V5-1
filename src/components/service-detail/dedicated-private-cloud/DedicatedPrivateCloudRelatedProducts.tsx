@@ -1,0 +1,103 @@
+import React from 'react';
+import { Database, Shield, Server, ArrowUpRight } from 'lucide-react';
+import { SEAMarket } from '../../layout/UtilityBar';
+import { VIDCAnchor } from '@/components/ui/VIDCAnchor';
+
+
+interface DedicatedPrivateCloudRelatedProductsProps {
+  currentMarket?: SEAMarket;
+  onOpenQuote?: () => void;
+}
+
+export const DedicatedPrivateCloudRelatedProducts: React.FC<DedicatedPrivateCloudRelatedProductsProps> = ({ currentMarket }) => {
+  const isLaos = currentMarket?.code === 'la';
+
+  const t = {
+    eyebrow: isLaos ? 'INTEGRATED ECOSYSTEM' : 'HỆ SINH THÁI TÍCH HỢP',
+    headline: isLaos ? 'Complementary Solutions for Dedicated Private Cloud' : 'Giải pháp bổ trợ cho Viettel Dedicated Private Cloud',
+    learnMore: isLaos ? 'Learn more' : 'Tìm hiểu thêm',
+  };
+
+  const products = [
+    {
+      title: 'Viettel Cloud Server',
+      desc: isLaos 
+        ? 'High-flexibility public cloud virtual server with fast provisioning and hourly billing.'
+        : 'Máy chủ ảo thế hệ mới với hiệu năng vượt trội, khởi tạo tức thì và tối ưu chi phí theo giờ/tháng.',
+      icon: Server,
+      link: '/services/compute/cloud-server/',
+    },
+    {
+      title: 'Viettel Cloud Backup (BaaS)',
+      desc: isLaos 
+        ? 'Enterprise-grade backup and disaster recovery for private cloud workloads with ransomware protection.'
+        : 'Dịch vụ sao lưu và khôi phục dữ liệu tự động cho máy chủ, bảo vệ an toàn trước sự cố và Ransomware.',
+      icon: Database,
+      link: '/services/storage/cloud-backup/',
+    },
+    {
+      title: 'Viettel Cloud Firewall & DDoS',
+      desc: isLaos 
+        ? 'Layer 3-7 threat mitigation and next-gen firewalls safeguarding dedicated bare-metal infrastructure.'
+        : 'Tường lửa thế hệ mới trên đám mây và hệ thống chống DDoS đa lớp bảo vệ toàn diện hạ tầng máy chủ.',
+      icon: Shield,
+      link: '/services/security/cloud-firewall/',
+    },
+  ];
+
+  return (
+    <section 
+      id="related-products" 
+      className="py-16 md:py-20 bg-white text-[var(--vidc-legacy-hex-222225)]"
+    >
+      <div className="vidc-container mx-auto px-4 sm:px-6 lg:px-10">
+        
+        {/* Section Header */}
+        <div className="max-w-3xl mx-auto text-center mb-12">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-extrabold bg-red-50 text-[var(--vidc-color-brand-red)] mb-3">
+            {t.eyebrow}
+          </div>
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[var(--vidc-legacy-hex-222225)] tracking-tight leading-tight">
+            {t.headline}
+          </h2>
+        </div>
+
+        {/* Grid 3 Card Sản Phẩm Liên Quan */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {products.map((item, idx) => {
+            const IconComp = item.icon;
+            return (
+              <div 
+                key={idx}
+                className="p-6 rounded-2xl bg-slate-50 border border-slate-200/80 hover:bg-white hover:border-[var(--vidc-color-brand-red)] hover:shadow-lg transition-all duration-300 flex flex-col justify-between space-y-6 group"
+              >
+                <div className="space-y-4">
+                  <div className="w-11 h-11 rounded-xl bg-red-50 text-[var(--vidc-color-brand-red)] flex items-center justify-center group-hover:bg-[var(--vidc-color-brand-red)] group-hover:text-white transition-colors">
+                    <IconComp className="w-5 h-5" />
+                  </div>
+                  <h3 className="text-lg font-extrabold text-[var(--vidc-legacy-hex-222225)] group-hover:text-[var(--vidc-color-brand-red)] transition-colors">
+                    {item.title}
+                  </h3>
+                  <p className="text-xs text-slate-600 leading-relaxed">
+                    {item.desc}
+                  </p>
+                </div>
+
+                <div className="pt-4 border-t border-slate-100">
+                  <VIDCAnchor
+                    href={item.link}
+                    className="inline-flex items-center gap-1.5 text-xs font-bold text-[var(--vidc-color-brand-red)] hover:underline group-hover:translate-x-1 transition-transform"
+                  >
+                    <span>{t.learnMore}</span>
+                    <ArrowUpRight className="w-4 h-4" />
+                  </VIDCAnchor>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+      </div>
+    </section>
+  );
+};

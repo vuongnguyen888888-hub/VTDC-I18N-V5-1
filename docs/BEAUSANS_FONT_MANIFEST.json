@@ -1,0 +1,105 @@
+{
+  "family": "FS PF BeauSans Pro",
+  "license_note": "The user supplied these 12 font files for inclusion in this website project. Do not distribute these font assets as a standalone package; confirm that deployment complies with the owner’s font licence.",
+  "source_variants": [
+    {
+      "source_filename": "FS PFBEAUSANSPRO-THINITALIC.TTF",
+      "target_filename": "FS-PFBEAUSANSPRO-THINITALIC.ttf",
+      "weight": 200,
+      "style": "italic",
+      "sha256": "f6890f59f19e440f58710cdc112bc5b5dfe8dd022b5e266f8f9e768fae88f8f9",
+      "bytes": 611328
+    },
+    {
+      "source_filename": "FS PFBEAUSANSPRO-THIN.TTF",
+      "target_filename": "FS-PFBEAUSANSPRO-THIN.ttf",
+      "weight": 200,
+      "style": "normal",
+      "sha256": "2ba4c891559584fd79b17539dfe64d90c2286bef48d192e1a634cfc4b2b6508a",
+      "bytes": 618536
+    },
+    {
+      "source_filename": "FS PFBEAUSANSPRO-LIGHTITALIC.TTF",
+      "target_filename": "FS-PFBEAUSANSPRO-LIGHTITALIC.ttf",
+      "weight": 300,
+      "style": "italic",
+      "sha256": "995ad461f81527e4d7901f1674f9559f3b3bfe0058e7309dd270ab5775c54186",
+      "bytes": 548272
+    },
+    {
+      "source_filename": "FS PFBEAUSANSPRO-LIGHT.TTF",
+      "target_filename": "FS-PFBEAUSANSPRO-LIGHT.ttf",
+      "weight": 300,
+      "style": "normal",
+      "sha256": "7ad599b7216447860780225ab826e2fa44d3102d22cd3326445c4f472a377bed",
+      "bytes": 560208
+    },
+    {
+      "source_filename": "FS PFBEAUSANSPRO-ITALIC.TTF",
+      "target_filename": "FS-PFBEAUSANSPRO-ITALIC.ttf",
+      "weight": 400,
+      "style": "italic",
+      "sha256": "2b6359999ace7aeba9fc71ba0e0ecae6651e496c39f918a73180ccbb831e5e55",
+      "bytes": 540228
+    },
+    {
+      "source_filename": "FS PFBEAUSANSPRO-REGULAR.TTF",
+      "target_filename": "FS-PFBEAUSANSPRO-REGULAR.ttf",
+      "weight": 400,
+      "style": "normal",
+      "sha256": "b943f507d4fc294c4de50dc23cf9b9641ea0445b2609683bbe5900bfa9099051",
+      "bytes": 538384
+    },
+    {
+      "source_filename": "FS PFBEAUSANSPRO-SEMIBOLDITALIC.TTF",
+      "target_filename": "FS-PFBEAUSANSPRO-SEMIBOLDITALIC.ttf",
+      "weight": 600,
+      "style": "italic",
+      "sha256": "840b06a7d8d0940ae55f2c207f028cd52b00ede356c1da6b52dd9787800bc1a0",
+      "bytes": 496496
+    },
+    {
+      "source_filename": "FS PFBEAUSANSPRO-SEMIBOLD.TTF",
+      "target_filename": "FS-PFBEAUSANSPRO-SEMIBOLD.ttf",
+      "weight": 600,
+      "style": "normal",
+      "sha256": "130a2ef2144933b0d7de1c23487393d8c3a17a029b74fcd2847936d3036cd21f",
+      "bytes": 506584
+    },
+    {
+      "source_filename": "FS PFBEAUSANSPRO-BOLDITALIC.TTF",
+      "target_filename": "FS-PFBEAUSANSPRO-BOLDITALIC.ttf",
+      "weight": 700,
+      "style": "italic",
+      "sha256": "b35aa28c283288d56242f95f8a7c0d25be0e7f130aeacea05fddeaabe73e585f",
+      "bytes": 486788
+    },
+    {
+      "source_filename": "FS PFBEAUSANSPRO-BOLD.TTF",
+      "target_filename": "FS-PFBEAUSANSPRO-BOLD.ttf",
+      "weight": 700,
+      "style": "normal",
+      "sha256": "c8a16bb4e1b27a34801e3d647e54cc406dca1e8893799304994e2fef00cfc680",
+      "bytes": 496036
+    },
+    {
+      "source_filename": "FS PFBEAUSANSPRO-BLACKITALIC.TTF",
+      "target_filename": "FS-PFBEAUSANSPRO-BLACKITALIC.ttf",
+      "weight": 900,
+      "style": "italic",
+      "sha256": "82978f5a851c2e09f1a4626dd9214cb9b49d6ffd025f5cbc38ba060052d786e9",
+      "bytes": 475452
+    },
+    {
+      "source_filename": "FS PFBEAUSANSPRO-BLACK.TTF",
+      "target_filename": "FS-PFBEAUSANSPRO-BLACK.ttf",
+      "weight": 900,
+      "style": "normal",
+      "sha256": "44e88074f4859937dbf0920c5f0f0f3c77afae73ac5139366a622355a59bac25",
+      "bytes": 483876
+    }
+  ],
+  "delivery": "owner-installed-for-production",
+  "source_archive": "12 user-supplied TTF attachments; hashes only in this distributable source ZIP",
+  "binary_assets_in_source_archive": false
+}

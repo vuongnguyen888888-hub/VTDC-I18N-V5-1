@@ -1,0 +1,47 @@
+{
+  "entities": {
+    "Feedback": {
+      "title": "Feedback",
+      "description": "User feedback and reports on website performance and content",
+      "type": "object",
+      "properties": {
+        "projectId": { "type": "string" },
+        "environment": { "type": "string" },
+        "pageId": { "type": "string" },
+        "pageTitle": { "type": "string" },
+        "pageUrl": { "type": "string" },
+        "pagePath": { "type": "string" },
+        "sectionId": { "type": "string" },
+        "componentId": { "type": "string" },
+        "category": { "type": "string" },
+        "categories": { "type": "array" },
+        "rating": { "type": "integer" },
+        "message": { "type": "string", "maxLength": 5000 },
+        "status": { "type": "string", "enum": ["new", "reviewed", "assigned", "in_progress", "resolved", "verified", "rejected", "duplicate", "wont_fix"] },
+        "priority": { "type": "string", "enum": ["low", "normal", "high", "critical"] },
+        "reporterUid": { "type": "string" },
+        "reporterName": { "type": "string" },
+        "reporterEmail": { "type": "string" },
+        "reporterPhotoURL": { "type": "string" },
+        "deviceType": { "type": "string", "enum": ["desktop", "tablet", "mobile"] },
+        "viewportWidth": { "type": "integer" },
+        "viewportHeight": { "type": "integer" },
+        "browser": { "type": "string" },
+        "userAgent": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" },
+        "attachments": {
+          "type": "array",
+          "description": "Optional list of attached images uploaded to Firebase Storage"
+        }
+      },
+      "required": ["projectId", "environment", "categories", "message", "status", "priority", "reporterUid"]
+    }
+  },
+  "firestore": {
+    "/feedback/{feedbackId}": {
+      "schema": "Feedback",
+      "description": "Public feedback and review forms"
+    }
+  }
+}

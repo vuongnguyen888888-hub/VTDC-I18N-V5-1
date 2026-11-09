@@ -1,0 +1,89 @@
+{
+  "filesScanned": 599,
+  "occurrences": 6305,
+  "uniqueStrings": 4978,
+  "filesWithCandidateCopy": 345,
+  "topFiles": [
+    [
+      "data/standardServicesData.ts",
+      435
+    ],
+    [
+      "data/standardServicesDataPart5.ts",
+      289
+    ],
+    [
+      "data/standardServicesDataPart3.ts",
+      211
+    ],
+    [
+      "data/standardServicesDataPart2.ts",
+      203
+    ],
+    [
+      "data/standardServicesDataPart4.ts",
+      203
+    ],
+    [
+      "data/standardServicesDataPart2B.ts",
+      199
+    ],
+    [
+      "data/sitemapData.ts",
+      193
+    ],
+    [
+      "components/admin/AdminFeedbackDashboard.tsx",
+      136
+    ],
+    [
+      "components/partners/QualcommPartnerPage.tsx",
+      129
+    ],
+    [
+      "components/service-detail/cloud-object-storage/CloudObjectStoragePricing.tsx",
+      114
+    ],
+    [
+      "components/about/AboutOverviewPage.tsx",
+      113
+    ],
+    [
+      "components/partners/PartnersPage.tsx",
+      110
+    ],
+    [
+      "data/resourcesData.ts",
+      106
+    ],
+    [
+      "components/partners/ResellerPartnerPage.tsx",
+      100
+    ],
+    [
+      "components/service-detail/cloud-file-storage/CloudFileStoragePricing.tsx",
+      100
+    ],
+    [
+      "components/pricing/pricingServicesData.ts",
+      88
+    ],
+    [
+      "components/service-detail/vmware/CloudServerVMwareEstimator.tsx",
+      77
+    ],
+    [
+      "data/aboutData.ts",
+      75
+    ],
+    [
+      "components/partners/AffiliatePartnerPage.tsx",
+      74
+    ],
+    [
+      "components/admin/AdminFeedbackDetailDrawer.tsx",
+      69
+    ]
+  ],
+  "note": "These are candidate source strings, NOT a verified count of untranslated content. Known VI/EN/SEA dictionaries are excluded. Conditional/dynamic/CMS copy needs separate linguistic QA."
+}
